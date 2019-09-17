@@ -151,7 +151,7 @@ but additional providers could be enabled.  We will be using Bing Maps. 
     expand **Navigation**. Click on **Settings.**  From the menu that
     appears, select **Administration**.   
 
-3.  Select **Schedule Parameters**. 
+3.  Select **Scheduling Parameters**. 
 
 4.  Locate the **Connect to Maps** field and set it to **Yes**. 
 
@@ -167,7 +167,7 @@ include defining Skills & Certifications, Territories, Resources, and more.
 Task 1 - Define Territories
 ---------------------------
 
-1.  Click the **Site Map** icon in the bottom left corner to expand
+1.  Switch applications from Resource Scheduling to **Field Service.** Click the **Site Map** icon in the bottom left corner to expand
     **Navigation.** Click on **Settings.**
 
 2.  In the left column, click **Territories.**
@@ -189,8 +189,7 @@ Exercise 5 - Create Service Based product, and Add to Price List
 Task 1 - Add Printer Products
 ----------------------------
 
-1.  Using the **Sitemap**, select **Products** under **Inventory and
-    Purchasing** settings.
+1.  Using the **Sitemap**, select **Products** under **General.**
 
 2.  Click the **Add Product** to create a Product
 
@@ -258,8 +257,7 @@ Task 1 - Add Printer Products
 Task 2 - Add Printer Products to a Price List
 ---------------------------------------------
 
-1.  Using the **Sitemap**, select **Price Lists** under **Inventory and
-    Purchasing** settings.
+1.  Using the **Sitemap**, select **Price Lists** under **General.**
 
 2.  Open the **Default Price List**
 
@@ -274,7 +272,7 @@ Task 2 - Add Printer Products to a Price List
 
     3.  **Pricing Method:** Currency Amount
 
-    4.  **Amount:** \$1000.00
+    4.  **Amount:** $1000.00
 
 5.  In the **Price List Items**, click the **+ Add** button to add a Price List
     Line Item
@@ -287,7 +285,7 @@ Task 2 - Add Printer Products to a Price List
 
     3.  **Pricing Method:** Currency Amount
 
-    4.  **Amount:** \$750.00
+    4.  **Amount:** $750.00
 
 7.  Click **Save and Close**
 
@@ -300,9 +298,9 @@ Task 2 - Add Printer Products to a Price List
 
     2.  **Unit:** Primary Unit
 
-    3.  **Pricing Method:** Fixed Amount
+    3.  **Pricing Method:** Currency Amount
 
-    4.  **Amount:** \$150.00
+    4.  **Amount:** $150.00
 
 10. Click **Save and Close**
 
