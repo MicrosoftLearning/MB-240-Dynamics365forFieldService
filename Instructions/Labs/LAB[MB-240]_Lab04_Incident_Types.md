@@ -1,5 +1,12 @@
-Practice Lab 4 - Incident Types
-========================
+---
+lab:
+    title: 'Lab: Incident types'
+    module: 'Module 4: Configure Incidents'
+---
+
+Module 4 - Configure Incidents
+====================
+## Practice Lab 4 - Incident types
 
 ## Scenario
 
