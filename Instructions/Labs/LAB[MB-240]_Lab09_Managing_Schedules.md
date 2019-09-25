@@ -1,5 +1,12 @@
-Practice Lab 9 - Managing Schedules
-==============================
+---
+lab:
+    title: 'Lab: Managing schedules'
+    module: 'Module 10: Managing Scheduling Options'
+---
+
+Module 10 - Managing Scheduling Options
+=====================
+## Practice Lab 9 - Managing schedules
 
 ## Scenario
 Worldwide Industries (WWI) provides IT and networking services to their
