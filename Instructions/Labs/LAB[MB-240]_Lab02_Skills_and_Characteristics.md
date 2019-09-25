@@ -1,5 +1,12 @@
-Practice Lab 2 - Skills and Characteristics 
+---
+lab:
+    title: 'Lab: Skills and characteristics'
+    module: 'Module 2: Resource Scheduling Configuration'
+---
+
+Module 2 - Resource Scheduling Configuration
 ====================
+## Practice Lab 2 - Skills and characteristics 
 
 ## Scenario
 
