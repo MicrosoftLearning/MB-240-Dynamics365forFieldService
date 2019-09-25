@@ -1,7 +1,14 @@
-Practice Lab 3 - Resource Configuration
-====================
+---
+lab:
+    title: 'Lab: Resource configuration'
+    module: 'Module 3: Defining and Configuring Bookable Resources'
+---
 
-##Scenario
+Module 3 - Defining and Configuring Bookable Resources
+====================
+## Practice Lab 3 - Resource configuration
+
+## Scenario
 
 Worldwide Industries (WWI) provides IT and networking services to their
 customers. Their services range from phone system and network installations to
