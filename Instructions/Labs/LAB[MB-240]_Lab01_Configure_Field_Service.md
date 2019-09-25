@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Configure Dynamics 365 Field Service'
+    module: 'Module 1: Configure Field Service'
+---
+
 Practice Lab 1 - Configure Dynamics 365 Field Service
 =====
 
