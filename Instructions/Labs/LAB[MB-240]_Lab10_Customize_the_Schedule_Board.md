@@ -1,5 +1,12 @@
-Practice Lab 10 - Customize the Schedule Board
-======================================
+---
+lab:
+    title: 'Lab: Customize the Schedule Board'
+    module: 'Module 11: Customizing the Schedule Board'
+---
+
+Module 11 -Customizing the Schedule Board
+=====================
+## Practice Lab 10 - Customize the Schedule Board
 
 ## Scenario
 
