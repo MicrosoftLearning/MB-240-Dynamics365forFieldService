@@ -1,5 +1,12 @@
-Practice Lab 7 - Mobile
-========================
+---
+lab:
+    title: 'Lab: Configure mobile'
+    module: 'Module 8: Field Service Mobile'
+---
+
+Module 8 - Field Service Mobile
+=====================
+## Practice Lab 7 - Configure mobile
 
 ## Scenario
 
