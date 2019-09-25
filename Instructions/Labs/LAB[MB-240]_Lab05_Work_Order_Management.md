@@ -1,5 +1,12 @@
-Practice Lab 5 - Work Order Management
-========================
+---
+lab:
+    title: 'Lab: Work order management'
+    module: 'Module 5: Inventory and Work Order Management'
+---
+
+Module 5 - Inventory and Work Order Management
+====================
+## Practice Lab 5 - Work order management
 
 ## Scenario
 
