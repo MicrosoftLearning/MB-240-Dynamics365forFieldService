@@ -1,5 +1,12 @@
-Practice Lab 6 - Agreements
-========================
+---
+lab:
+    title: 'Lab: Agreements'
+    module: 'Module 6: Field Service Agreements'
+---
+
+Module 6 - Field Service Agreements
+=====================
+## Practice Lab 6 - Agreements
 
 ## Scenario
 Worldwide Industries (WWI) provides IT and networking services to their
