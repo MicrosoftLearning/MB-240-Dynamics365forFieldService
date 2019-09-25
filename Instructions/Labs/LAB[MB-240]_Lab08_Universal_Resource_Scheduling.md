@@ -1,5 +1,12 @@
-Practice Lab 8 - Configure Universal Resource Scheduling
-=========================================
+---
+lab:
+    title: 'Lab: Configure Universal Resource Scheduling'
+    module: 'Module 9: Universal Resource Scheduling'
+---
+
+Module 9 - Universal Resource Scheduling
+=====================
+## Practice Lab 8 - Universal Resource Scheduling
 
 ## Scenario
 
