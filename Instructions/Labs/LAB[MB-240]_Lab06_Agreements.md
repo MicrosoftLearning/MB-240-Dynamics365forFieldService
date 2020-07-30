@@ -78,9 +78,9 @@ Note: If you have already completed this step in a previous lab, skip to Exercis
 
 3.  Define the Details of the Product as noted below:
 
-	-   **Name:** Remote Printer
+	-   **Name:** [your prefix ex. mollyc]+ Remote Printer
 
-	-   **Product ID:** *Print-Serv-1234*
+	-   **Product ID:** *[your prefix ex. mollyc]+ Print-Serv-1234*
 
 	-   **Unit Group:** *Default Unit*
 
@@ -99,9 +99,9 @@ Note: If you have already completed this step in a previous lab, skip to Exercis
 
 7.  Define the Details of the Product as noted below:
 
-	-   **Name:** Monthly Printer Maintenance
+	-   **Name:** [your prefix ex. mollyc]+ Monthly Printer Maintenance
 
-	-   **Product ID:** *Print-Maint4*
+	-   **Product ID:** *[your prefix ex. mollyc]+ Print-Maint4*
 
 	-   **Unit Group:** *Default Unit*
 
@@ -120,15 +120,15 @@ Note: If you have already completed this step in a previous lab, skip to Exercis
 
 12.  Define the Details of the Product as noted below:
 
-	-   **Name:** Printer Service Fee
+        -   **Name:** [your prefix ex. mollyc]+ Printer Service Fee
 
-	-   **Product ID:** *Print-Service-Fee*
+        -   **Product ID:** *[your prefix ex. mollyc]+ Print-Service-Fee*
 
-	-   **Unit Group:** *Default Unit*
+        -   **Unit Group:** *Default Unit*
 
-	-   **Default Unit:** *Primary Unit*
+        -   **Default Unit:** *Primary Unit*
 
-	-   **Decimals Supported:** *2*
+        -   **Decimals Supported:** *2*
 
 13.  Select the **Field Service** tab, set the Field Service Product Type to
     **Service**
@@ -148,7 +148,7 @@ Note: If you have already completed this step in a previous lab, skip to Exercis
 
 4.  Enter the following information:
 
-    - **Product:** Remote Printer
+    - **Product:** [your prefix ex. mollyc]+ Remote Printer
 
     - **Unit:** Primary Unit
 
@@ -161,7 +161,7 @@ Note: If you have already completed this step in a previous lab, skip to Exercis
 
 6.  Enter the following information:
 
-    - **Product:** Monthly Printer Maintenance
+    - **Product:** [your prefix ex. mollyc]+ Monthly Printer Maintenance
 
     - **Unit:** Primary Unit
 
@@ -176,7 +176,7 @@ Note: If you have already completed this step in a previous lab, skip to Exercis
 
 9.  Enter the following information:
 
-    - **Product:** Printer Service Fee
+    - **Product:** [your prefix ex. mollyc]+ Printer Service Fee
 
     - **Unit:** Primary Unit
 
@@ -204,7 +204,7 @@ be billed at the end of each month with a Monthly Printer Maintenance fee.
 
 3.  Click **New** from the Command Bar.
 
-4.  Select **Coho Winery** for the **Service Account**.
+4.  Select **[your prefix ex. mollyc]+ Account** for the **Service Account**.  If you do not see your Account, create a new Account with name *[your prefix ex. mollyc]+ Account*
 
 5.  Under Details set the fields as follows:
 
@@ -223,7 +223,7 @@ be billed at the end of each month with a Monthly Printer Maintenance fee.
 
 2.  Configure the Agreement Booking as follows:
 
-    - **Name:** Coho Monthly Printer Service
+    - **Name:** [your prefix ex. mollyc]+ Monthly Printer Service
 
     - **Auto Generate Work Order**: Yes
 
@@ -268,7 +268,7 @@ be billed at the end of each month with a Monthly Printer Maintenance fee.
 
 10. Configure the Agreement Booking as follows:
 
-    - **Name:** Quarterly System Check
+    - **Name:** [your prefix ex. mollyc]+ Quarterly System Check
 
     - **Auto Generate Work Order**: Yes
 
@@ -303,14 +303,14 @@ be billed at the end of each month with a Monthly Printer Maintenance fee.
 15. Locate **the Invoice Setups** Sub-grid, and click the **New Agreement Invoice Setup** button to
     create a new Invoice setup
 
-16. Enter Coho Monthly Invoice for the Name, and Click Save
+16. Enter *[your prefix ex. mollyc]+ Monthly Invoice* for the Name, and Click Save
 
 17. If Necessary, expand Invoice Products, click the ellipsis and select **New Agreement Invoice Product** button to add
     Invoice Products
 
 18. Complete the Agreement Invoice Product as follows:
 
-    - **Product:** Monthly Printer Maintenance
+    - **Product:** [your prefix ex. mollyc]+ Monthly Printer Maintenance
 
     - **Unit:** Primary Unit
 
@@ -318,7 +318,7 @@ be billed at the end of each month with a Monthly Printer Maintenance fee.
 
     - Click **Save and Close**
 
-19. Close the Coho Monthly Invoice record
+19. Close the [your prefix ex. mollyc]+ Monthly Invoice record
 
 20. Return to the Agreement. Change the Agreement System Status from Estimate to
     **Active** and **Save**.
