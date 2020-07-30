@@ -195,7 +195,7 @@ Task 2 - Add Printer Products to a Price List
 
 3.  Click **Activate** to activate the **Default Price List** if it is not already active.
 
-4.  In the **Price List Items**, click the **+ New Price List Item** button to add a Price List
+4.  In the **Price List Items** tab, click the **+ New Price List Item** button to add a Price List
     Line Item
 
 5.  Enter the following information:
