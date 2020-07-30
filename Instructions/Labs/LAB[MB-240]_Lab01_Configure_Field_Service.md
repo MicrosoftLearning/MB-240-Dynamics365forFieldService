@@ -98,12 +98,12 @@ Task 1 - Define Territories
 
 3.  Click **New**.
 
-4.  Enter **North** for **Name** and click **Save**. After saving, click **New**
+4.  Enter **[your prefix ex. mollyc]+ North** for **Name** and click **Save**. After saving, click **New**
 
-5.  Enter **South** for **Name** and click **Save.** After saving, click
+5.  Enter **[your prefix ex. mollyc]+ South** for **Name** and click **Save.** After saving, click
     **New**.
 
-6.  Create two more Territories and name them **East** and **West**.
+6.  Create two more Territories and name them **[your prefix ex. mollyc]+ East** and **[your prefix ex. mollyc]+ West**.
 
 7.  You will now have four additional Territories.
 
@@ -119,9 +119,9 @@ Task 1 - Add Printer Products
 
 3.  Define the Details of the Product as noted below:
 
--   **Name:** Remote Printer
+-   **Name:** [your prefix ex. mollyc]+ Remote Printer
 
--   **Product ID:** *Print-Serv-1234*
+-   **Product ID:** *[your prefix ex. mollyc]+ Print-Serv-1234*
 
 -   **Unit Group:** *Default Unit*
 
@@ -142,9 +142,9 @@ Task 1 - Add Printer Products
 
 6.  Define the Details of the Product as noted below:
 
--   **Name:** Monthly Printer Maintenance
+-   **Name:** [your prefix ex. mollyc]+ Monthly Printer Maintenance
 
--   **Product ID:** *Print-Maint4*
+-   **Product ID:** *[your prefix ex. mollyc]+ Print-Maint4*
 
 -   **Unit Group:** *Default Unit*
 
@@ -165,9 +165,9 @@ Task 1 - Add Printer Products
 
 6.  Define the Details of the Product as noted below:
 
--   **Name:** Printer Service Fee
+-   **Name:** [your prefix ex. mollyc]+ Printer Service Fee
 
--   **Product ID:** *Printer-Service-Fee*
+-   **Product ID:** *[your prefix ex. mollyc]+ Printer-Service-Fee*
 
 -   **Unit Group:** *Default Unit*
 
@@ -196,7 +196,7 @@ Task 2 - Add Printer Products to a Price List
 
 5.  Enter the following information:
 
-    1.  **Product:** Remote Printer
+    1.  **Product:** [your prefix ex. mollyc]+ Remote Printer
 
     2.  **Unit:** Primary Unit
     
@@ -213,7 +213,7 @@ Task 2 - Add Printer Products to a Price List
 
 7.  Enter the following information:
 
-    1.  **Product:** Monthly Printer Maintenance
+    1.  **Product:** [your prefix ex. mollyc]+ Monthly Printer Maintenance
 
     2.  **Unit:** Primary Unit
     
@@ -230,7 +230,7 @@ Task 2 - Add Printer Products to a Price List
 
 10. Enter the following information:
 
-    1.  **Product:** Printer Service Fee
+    1.  **Product:** [your prefix ex. mollyc]+ Printer Service Fee
 
     2.  **Unit:** Primary Unit
     
