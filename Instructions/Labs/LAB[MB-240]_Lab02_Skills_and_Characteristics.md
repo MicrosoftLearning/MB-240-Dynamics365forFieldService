@@ -99,7 +99,7 @@ different security clearance levels that can be applied.
 
 4.  From the Command Bar, select the **New** button.
 
-5.  In the **Name** field enter **Security Level**.
+5.  In the **Name** field enter **[your prefix ex. mollyc]+ Security Level**.
 
 6.  Set the **Min Rating Value** to **1**.
 
@@ -109,47 +109,47 @@ different security clearance levels that can be applied.
 
 10. In the **Rating Values** section, select the ellipsis and select **+ New Rating Value** button.
 
-11. In the **Name** field, enter **Level 1 Security**.
+11. In the **Name** field, enter **[your prefix ex. mollyc]+ Level 1 Security**.
 
 12. Set the **Value** field to **1**.
 
-13. Ensure the **Rating Model** is set to **Security Level** and click the
+13. Ensure the **Rating Model** is set to **[your prefix ex. mollyc]+ Security Level** and click the
     **Save and Close** button.
 
 14. Select the **+ New Rating Value** button.
 
-15. In the **Name** field, enter **Level 2 Security**.
+15. In the **Name** field, enter **[your prefix ex. mollyc]+ Level 2 Security**.
 
 16. Set the **Value** field to **2**.
 
-17. Ensure the **Rating Model** is set to **Security Level** and click the
+17. Ensure the **Rating Model** is set to **[your prefix ex. mollyc]+ Security Level** and click the
     **Save and Close** button.
 
 18. Select the **Add New Rating Value** button.
 
-19. In the **Name** field, enter **Level 3 Security**.
+19. In the **Name** field, enter **[your prefix ex. mollyc]+ Level 3 Security**.
 
 20. Set the **Value** field to **3**.
 
-21. Ensure the **Rating Model** is set to **Security Level** and click the
+21. Ensure the **Rating Model** is set to **[your prefix ex. mollyc]+ Security Level** and click the
     **Save and Close** button.
 
 22. Select the **Add New Rating Value** button.
 
-23. In the **Name** field, enter **Level 4 Security**.
+23. In the **Name** field, enter **[your prefix ex. mollyc]+ Level 4 Security**.
 
 24. Set the **Value** field to **4**.
 
-25. Ensure the **Rating Model** is set to **Security Level** and click the
+25. Ensure the **Rating Model** is set to **[your prefix ex. mollyc]+ Security Level** and click the
     **Save and Close** button.
 
 26. Select the **Add New Rating Value** button.
 
-27. In the **Name** field, enter **Level 5 Security**.
+27. In the **Name** field, enter **[your prefix ex. mollyc]+ Level 5 Security**.
 
 28. Set the **Value** field to **5**.
 
-29. Ensure the **Rating Model** is set to **Security Level** and click the
+29. Ensure the **Rating Model** is set to **[your prefix ex. mollyc]+ Security Level** and click the
     **Save and Close** button.
 
 30. Verify that the Security Level Model has 5 Security levels added to it.
@@ -168,7 +168,7 @@ conjunction with the Proficiency Model you defined in the previous task.
 
 4.  Select the **+New** button.
 
-5.  In the **Name** field, enter **Building Security**
+5.  In the **Name** field, enter **[your prefix ex. mollyc]+ Building Security**
 
 6.  Set the **Characteristic Type** field to **Skill** and click the **Save**
     button.
@@ -188,26 +188,26 @@ SEC:** GIAN Security Essentials certifications and resource skills.
 
 4.  Select the **+New** button.
 
-5.  In the **Name** field, enter **CISM**
+5.  In the **Name** field, enter **[your prefix ex. mollyc]+ CISM**
 
 6.  Set the **Characteristic Type** field to **Certification** and click the
     **Save** button.
 
 7.  Select the **+New** button again.
 
-8.  In the **Name** field, enter **CISSP**
+8.  In the **Name** field, enter **[your prefix ex. mollyc]+ CISSP**
 
 9.  Set the **Characteristic Type** field to **Certification** and click the
     **Save** button.
 
 10. Select the **New** button one last time.
 
-11. In the **Name** field, enter **G SEC**
+11. In the **Name** field, enter **[your prefix ex. mollyc]+ G SEC**
 
 12. Set the **Characteristic Type** field to **Certification** and click the
     **Save** button.
 
-13. Verify that **CISM**, **CISSP**, and **G SEC** have all been added as
+13. Verify that **[your prefix ex. mollyc]+ CISM**, **[your prefix ex. mollyc]+ CISSP**, and **[your prefix ex. mollyc]+ G SEC** have all been added as
     Characteristics.
 
 ## Task 4 - Define Resource Categories
@@ -224,24 +224,24 @@ and Security Analyst resource roles.
 
 4.  Select **+New**
 
-5.  In the **Name** field, enter **Installation Specialist.**
+5.  In the **Name** field, enter **[your prefix ex. mollyc]+ Installation Specialist.**
 
-6.  Enter **Installation Specialist** in the **Description** field as well and
+6.  Enter **[your prefix ex. mollyc]+ Installation Specialist** in the **Description** field as well and
     click the **Save** button.
 
 7.  Click **+New** button again.
 
-8.  In the **Name** field, enter **Site Inspector.**
+8.  In the **Name** field, enter **[your prefix ex. mollyc]+ Site Inspector.**
 
-9.  Enter **Site Inspector** in the **Description** field as well and click the
+9.  Enter **[your prefix ex. mollyc]+ Site Inspector** in the **Description** field as well and click the
     **Save** button.
 
 10.  Click **New** button one last time.
 
-11.  In the **Name** field, enter **Security Analyst.**
+11.  In the **Name** field, enter **[your prefix ex. mollyc]+ Security Analyst.**
 
-12. Enter **Security Analyst** in the **Description** field as well and click
+12. Enter **[your prefix ex. mollyc]+ Security Analyst** in the **Description** field as well and click
     the **Save** button.
 
-13. Verify that the Security Analyst, Installation Specialist, and Site
+13. Verify that the [your prefix ex. mollyc]+ Security Analyst, [your prefix ex. mollyc]+ Installation Specialist, and [your prefix ex. mollyc]+ Site
     Inspector roles have been added.
