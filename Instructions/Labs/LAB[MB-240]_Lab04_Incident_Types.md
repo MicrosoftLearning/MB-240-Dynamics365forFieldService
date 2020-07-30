@@ -192,7 +192,7 @@ Exercise 3 – Test your Configuration Settings
 
 4.  Configure the New Work Order as follows:
 
-    -   **Service Account:** *A. Datum*
+    -   **Service Account:** Click +New Account: enter [your prefix ex. mollyc]+ Account for the name
     
     -   **Work Order Type** *[your prefix ex. mollyc]+ Service Call*
     
