@@ -68,7 +68,7 @@ Exercise 2 – Create an Incident Type called Printer Installation
 
 2.  Select  **Service Task Types** under **Work Order** settings
 
-3.  Click the **+New** button and enter **Clean Printer Assembly** for the Name.
+3.  Click the **+New** button and enter **[your prefix ex. mollyc]+ Clean Printer Assembly** for the Name.
 
 4.  Select **30 Minutes** for the **Estimated Duration.**
 
@@ -76,15 +76,15 @@ Exercise 2 – Create an Incident Type called Printer Installation
 
 6.  Repeat Steps 2 – 4 to add each of the following:
 
-    1.  **Replace Toner:** *Duration 15 Minutes*
+    1.  **[your prefix ex. mollyc]+ Replace Toner:** *Duration 15 Minutes*
 
-    2.  **Finial Test:** *Duration 15 Minutes*
+    2.  **[your prefix ex. mollyc]+ Finial Test:** *Duration 15 Minutes*
     
 ### Task 2 - Create a Service Call Work Order Type
 
 1. Using the **Sitemap**, select **Work Order Types**
 
-2. Click the **+New** button and enter **Service Call** for the Name.
+2. Click the **+New** button and enter **[your prefix ex. mollyc]+ Service Call** for the Name.
 
 3. Set **Incident Required** and **Taxable** to **No**
 
@@ -95,19 +95,19 @@ Exercise 2 – Create an Incident Type called Printer Installation
 1.  Using the **Sitemap**, select **Incident Types** under **Work Order**
     settings.
 
-2.  Click the **New** button and enter **Service Printer** for the Name.
+2.  Click the **New** button and enter **[your prefix ex. mollyc]+ Service Printer** for the Name.
 
 3.  Select the Details tab, and configure as follows:
 
 -   **Copy Incident Items to Agreement:** *Yes*
 
--   Click **Default Work Order Type** and select  *Service Call*.
+-   Click **Default Work Order Type** and select  *[your prefix ex. mollyc]+ Service Call*.
 
 1.  Click **Save** to save the Incident type and leave it open.
 
-2.  Select the **Service Task** Tab, click the ellipsis and select **+New Incident Type Service Tasks** button. (If pop ups aare blocked, you may need to unblock them)
+2.  Select the **Service Task** Tab, click the ellipsis and select **+New Incident Type Service Tasks** button. (If pop ups are blocked, you may need to unblock them)
 
-3.  Enter **Clean Printer Assembly** for the **Name**, select **Clean Printer
+3.  Enter **[your prefix ex. mollyc]+ Clean Printer Assembly** for the **Name**, select **[your prefix ex. mollyc]+ Clean Printer
     Assembly** as the task type, ensure 30 minutes is set for **Estimated
     Duration**.
 
@@ -115,14 +115,14 @@ Exercise 2 – Create an Incident Type called Printer Installation
 
 5.  Click the **+New Incident Type Service Tasks** button again.
 
-6.  Enter **Replace Toner** for the **Name**, select **Replace Toner** as the
+6.  Enter **[your prefix ex. mollyc]+ Replace Toner** for the **Name**, select **[your prefix ex. mollyc]+ Replace Toner** as the
     task type, ensure 15 minutes is set for **Estimated Duration**.
 
 7.  Click **Save and Close.**
 
 8.  Click the **Add Incident Type Service Tasks** button one last time.
 
-9.  Enter **Finial Test** for the **Name**, select **Finial Test** as the task
+9.  Enter **[your prefix ex. mollyc]+ Finial Test** for the **Name**, select **[your prefix ex. mollyc]+ Finial Test** as the task
     type, ensure 15 minutes is set for **Estimated Duration**.
 
 10. Click **Save and Close.**
@@ -133,13 +133,13 @@ Exercise 2 – Create an Incident Type called Printer Installation
 
 13. Configure the Incident Type Product as follows:
 
-    -   **Name:** *Remote Printer*
+    -   **Name:** *[your prefix ex. mollyc]+ Remote Printer*
 
     -   **Unit:** *Primary Unit*
 
     -   **Quantity:** *1*
 
-    -   **Product:** *Remote Printer*
+    -   **Product:** *[your prefix ex. mollyc]+ Remote Printer*
 
 14. Click the **Save and Close** button
 
@@ -149,11 +149,11 @@ Exercise 2 – Create an Incident Type called Printer Installation
 
 17. Configure the new Incident Type Service as follows:
 
-    -   **Name:** *Printer Service Fee*
+    -   **Name:** *[your prefix ex. mollyc]+ Printer Service Fee*
 
     -   **Unit:** *Primary Unit*
 
-    -   **Service** *Printer Service Fee*
+    -   **Service** *[your prefix ex. mollyc]+ Printer Service Fee*
 
 18. Click the **Save and Close** Button
 
@@ -163,7 +163,7 @@ Exercise 2 – Create an Incident Type called Printer Installation
 
 21. Configure the Incident Type Characteristic as follows:
 
-    -   **Characteristic:** *CISM*
+    -   **Characteristic:** *[your prefix ex. mollyc]+ CISM*
 
     -   **Rating Value:** *Familiar*
 
@@ -173,9 +173,9 @@ Exercise 2 – Create an Incident Type called Printer Installation
 
 24. Configure the Incident Type Characteristic as follows:
 
-    -   **Characteristic:** *Building Security*
+    -   **Characteristic:** *[your prefix ex. mollyc]+ Building Security*
 
-    -   **Rating Value:** *Level 2 Security*
+    -   **Rating Value:** *[your prefix ex. mollyc]+ Level 2 Security*
 
 25. Click the Save and Close Button
 
@@ -194,25 +194,25 @@ Exercise 3 – Test your Configuration Settings
 
     -   **Service Account:** *A. Datum*
     
-    -   **Work Order Type** *Service Call*
+    -   **Work Order Type** *[your prefix ex. mollyc]+ Service Call*
     
     -   **Price List** *Default Price List*
     
     -   **Taxable** *No*
 
-    -   **Primary Incident Type:** *Service Printer*
+    -   **Primary Incident Type:** *[your prefix ex. mollyc]+ Service Printer*
 
 5.  Click the **Save and Close** button
 
 6.  Wait about 30 seconds to a minute and open the work order you just created.
 
-7.  Select the **Products** tab and verify that the **Remote Printer Product**
+7.  Select the **Products** tab and verify that the **[your prefix ex. mollyc]+ Remote Printer Product**
     was added.
 
-8.  Select the **Services** tab and verify that the **Printer Service Fee** was
+8.  Select the **Services** tab and verify that the **[your prefix ex. mollyc]+ Printer Service Fee** was
     added.
 
-9.  Select the **Service Tasks** tab and verify that the three tasks we added.
+9.  Select the **[your prefix ex. mollyc]+ Service Tasks** tab and verify that the three tasks we added.
 
 10. Click the **Related** tab and select **Characteristics**.
 
