@@ -40,32 +40,23 @@ Exercise 1 - Acquire Tenant Information and Connect
 
 ## Task 1 – Connect to the Power platform administration portal
 
-1.  On Virtual machine MIA-BI (unless otherwise specified by your lab hoster),
-    sign in as Student with the password Pa55w.rd.
+1.  Sign into the Virtual Machine using the lab instructions provided by the lab hoster (if using).
 
-2.  Outside the VM (in the online lab interface), click Files and choose D365
-    Credentials. This will allocate a Dynamics 365 tenant for you to use in
-    these labs. It will display the admin email and password for your tenant.
-    You should copy this information to notepad or similar for your reference.
+2.  Outside the VM in the online lab interface click Files and choose D365
+    Credentials. This will allocate a Dynamics 365 365 tenant for you to use in these
+    labs.  It will display the user email and password for your tenant. 
 
-3.  Navigate in the browser to the Power platform admin portal at
-    <https://admin.powerplatform.microsoft.com>. Use the D365 Credentials you
-    just acquired in the previous step to login.
+3.  Launch Microsoft Edge from the taskbar. 
 
-4.  Go into the left-hand column and expand Admin Centers and click on Dynamics
-    365.
+4.  Navigate in the browser to the Power Platform admin portal at https://admin.Powerplatform.microsoft.com.
 
-5.  If prompted to select a trial, select the far-right option to install all
-    applications.
+5. Sign in using the provided credentials. Record the characters before the "@" symbol in your email address - it should be a first name and a last initial. These characters will become your "alias" throughout the course. Write them down somewhere you'll be able to access throughout the course.
 
-    - **Note:** If you have already selected your trial in a previous lab
-        exercise, you will be taken to the D365 Administration Center. If so,
-        select the **Open** circled arrow button beside “Contoso Production.”
+**Important:** Please be aware that this tenant and the Dynamics 365 organization will be shared with the other students in your classroom, like employees would share a tenant when using the Dynamics 365 instance belonging to their organization. Do not use any PII (personally identifiable information) when creating records. It is also good practice to use your username prefix (ex., **mollyc**) in front of all records, data, apps, workflows, etc. you create.
 
-6.  When viewing tiles of all available applications, click on “Field Service”
-    to open your Dynamics 365 instance to the Field Service application. You
-    have now entered your Dynamics 365 production environment and are ready to
-    explore the Field Service app.
+6. Click the button to the left of the **Power Platform admin center** in the top menu to view all available apps. Select **Dynamics 365.**
+
+7. Select the **Field Service** app from the list.
 
 Exercise 2 - Configure Dynamics 365 for Field Service Skills and Characteristics
 ================================================================================
@@ -100,12 +91,11 @@ In this task you will create a proficiency model that contains the five
 different security clearance levels that can be applied.
 
 1.  In your Dynamics 365 organization, select the down arrow next to the
-    **Dynamics 365** text, select **Field Service**.
+    **Dynamics 365** text, select **Resource Scheduling**.
 
-2.  Using the sitemap, select the **ellipsis**, and choose **Resource
-    Scheduling**
+2.  Using the sitemap, select the **Settings**
 
-3.  Under **Schedule Settings**, select **Proficiency Models.**
+3.  Under **Resource**, select **Proficiency Models.**
 
 4.  From the Command Bar, select the **New** button.
 
@@ -117,10 +107,7 @@ different security clearance levels that can be applied.
 
 8.  Click the **Save** button to save the record and leave it open.
 
-9.  Select the **Related** tab and choose **Rating Values** from the menu that
-    appears.
-
-10. In the **Rating Values** tab, select the **Add New Rating Value** button.
+10. In the **Rating Values** section, select the ellipsis and select **+ New Rating Value** button.
 
 11. In the **Name** field, enter **Level 1 Security**.
 
@@ -129,7 +116,7 @@ different security clearance levels that can be applied.
 13. Ensure the **Rating Model** is set to **Security Level** and click the
     **Save and Close** button.
 
-14. Select the **Add New Rating Value** button.
+14. Select the **+ New Rating Value** button.
 
 15. In the **Name** field, enter **Level 2 Security**.
 
@@ -173,18 +160,17 @@ In this task you will create a building security skill that will be used in
 conjunction with the Proficiency Model you defined in the previous task.
 
 1.  In your Dynamics 365 organization, select the down arrow next to the
-    **Dynamics 365** text, select **Field Service**.
+    **Dynamics 365** text, select **Resource Scheduling**.
 
-2.  Using the sitemap, select the **ellipsis**, and choose **Field Service
-    Settings**
+2.  Using the sitemap, select **Settings**
 
-3.  Under **Schedule Settings**, select **Characteristics**.
+3.  Under **Resource**, select **Skills**.
 
-4.  Select the **New** button.
+4.  Select the **+New** button.
 
 5.  In the **Name** field, enter **Building Security**
 
-6.  Set the **Certification Type** field to **Skill** and click the **Save**
+6.  Set the **Characteristic Type** field to **Skill** and click the **Save**
     button.
 
 ## Task 3 - Define your required Certification Characteristics
@@ -194,32 +180,31 @@ Manager, **CISSP:** Certified Information Systems Security Professional, and **G
 SEC:** GIAN Security Essentials certifications and resource skills.
 
 1.  In your Dynamics 365 organization, select the down arrow next to the
-    **Dynamics 365** text, select **Field Service**.
+    **Dynamics 365** text, select **Resource Scheduling**.
 
-2.  Using the sitemap, select the **ellipsis**, and choose **Field Service
-    Settings**
+2.  Using the sitemap, select **Settings**
 
-3.  Under **Schedule Settings**, select **Characteristics**.
+3.  Under **Resource**, select **Skills**.
 
-4.  Select the **New** button.
+4.  Select the **+New** button.
 
 5.  In the **Name** field, enter **CISM**
 
-6.  Set the **Certification Type** field to **Certification** and click the
+6.  Set the **Characteristic Type** field to **Certification** and click the
     **Save** button.
 
-7.  Select the **New** button again.
+7.  Select the **+New** button again.
 
 8.  In the **Name** field, enter **CISSP**
 
-9.  Set the **Certification Type** field to **Certification** and click the
+9.  Set the **Characteristic Type** field to **Certification** and click the
     **Save** button.
 
 10. Select the **New** button one last time.
 
 11. In the **Name** field, enter **G SEC**
 
-12. Set the **Certification Type** field to **Certification** and click the
+12. Set the **Characteristic Type** field to **Certification** and click the
     **Save** button.
 
 13. Verify that **CISM**, **CISSP**, and **G SEC** have all been added as
@@ -230,29 +215,33 @@ SEC:** GIAN Security Essentials certifications and resource skills.
 In this task, you will be adding the Installation Specialist, Site Inspector,
 and Security Analyst resource roles.
 
-1.  Using the **Sitemap**, select **Resource Categories** under **Schedule
-    Settings.**
+1.  In your Dynamics 365 organization, select the down arrow next to the
+    **Dynamics 365** text, select **Resource Scheduling**.
 
-2.  Click **New**.
+2.  Using the sitemap, select **Settings**
 
-3.  In the **Name** field, enter **Installation Specialist.**
+3.  Under **Resource**, select **Roles**.
 
-4.  Enter **Installation Specialist** in the **Description** field as well and
+4.  Select **+New**
+
+5.  In the **Name** field, enter **Installation Specialist.**
+
+6.  Enter **Installation Specialist** in the **Description** field as well and
     click the **Save** button.
 
-5.  Click **New** button again.
+7.  Click **+New** button again.
 
-6.  In the **Name** field, enter **Site Inspector.**
+8.  In the **Name** field, enter **Site Inspector.**
 
-7.  Enter **Site Inspector** in the **Description** field as well and click the
+9.  Enter **Site Inspector** in the **Description** field as well and click the
     **Save** button.
 
-8.  Click **New** button one last time.
+10.  Click **New** button one last time.
 
-9.  In the **Name** field, enter **Security Analyst.**
+11.  In the **Name** field, enter **Security Analyst.**
 
-10. Enter **Security Analyst** in the **Description** field as well and click
+12. Enter **Security Analyst** in the **Description** field as well and click
     the **Save** button.
 
-11. Verify that the Security Analyst, Installation Specialist, and Site
+13. Verify that the Security Analyst, Installation Specialist, and Site
     Inspector roles have been added.
