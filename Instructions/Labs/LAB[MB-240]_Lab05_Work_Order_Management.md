@@ -40,32 +40,23 @@ Exercise 1 - Acquire Tenant Information and Connect
 
 ## Task 1 – Connect to the Power platform administration portal
 
-1.  On Virtual machine MIA-BI (unless otherwise specified by your lab hoster),
-    sign in as Student with the password Pa55w.rd.
+1.  Sign into the Virtual Machine using the lab instructions provided by the lab hoster (if using).
 
-2.  Outside the VM (in the online lab interface), click Files and choose D365
-    Credentials. This will allocate a Dynamics 365 tenant for you to use in
-    these labs. It will display the admin email and password for your tenant.
-    You should copy this information to notepad or similar for your reference.
+2.  Outside the VM in the online lab interface click Files and choose D365
+    Credentials. This will allocate a Dynamics 365 365 tenant for you to use in these
+    labs.  It will display the user email and password for your tenant. 
 
-3.  Navigate in the browser to the Power platform admin portal at
-    <https://admin.powerplatform.microsoft.com>. Use the D365 Credentials you
-    just acquired in the previous step to login.
+3.  Launch Microsoft Edge from the taskbar. 
 
-4.  Go into the left-hand column and expand Admin Centers and click on Dynamics
-    365.
+4.  Navigate in the browser to the Power Platform admin portal at https://admin.Powerplatform.microsoft.com.
 
-5.  If prompted to select a trial, select the far-right option to install all
-    applications.
+5. Sign in using the provided credentials. Record the characters before the "@" symbol in your email address - it should be a first name and a last initial. These characters will become your "alias" throughout the course. Write them down somewhere you'll be able to access throughout the course.
 
-    1.  **Note:** If you have already selected your trial in a previous lab
-        exercise, you will be taken to the D365 Administration Center. If so,
-        select the **Open** circled arrow button beside “Contoso Production.”
+**Important:** Please be aware that this tenant and the Dynamics 365 organization will be shared with the other students in your classroom, like employees would share a tenant when using the Dynamics 365 instance belonging to their organization. Do not use any PII (personally identifiable information) when creating records. It is also good practice to use your username prefix (ex., **mollyc**) in front of all records, data, apps, workflows, etc. you create.
 
-6.  When viewing tiles of all available applications, click on “Field Service”
-    to open your Dynamics 365 instance to the Field Service application. You
-    have now entered your Dynamics 365 production environment and are ready to
-    explore the Field Service app.
+6. Click the button to the left of the **Power Platform admin center** in the top menu to view all available apps. Select **Dynamics 365.**
+
+Select the Field Service app from the list.
 
 
 Exercise 2 – Generating Work Orders
@@ -80,8 +71,7 @@ a new work order that we can schedule using the application.
 1.  In **Dynamics 365**, click the arrow next to the **Dynamics 365** text, and
     select **Field Service**.
 
-2.  Click the **Site Map** Icon to expand the **Navigation**. From the menu that
-    appears select **work orders**.
+2.  Click the **Site Map** in the bottom left and select **Service**.  Select **Work Orders** under **Scheduling**
 
 3.  Click the **New** button.
 
@@ -128,8 +118,7 @@ resources based on factors like location, skills, and availability. In this task
 we will examine how you can use the schedule board to schedule items and a high
 level.
 
-1.  Click the **Site Map** icon to expand the **Navigation**. From the menu that
-    appears select **Schedule Board**.
+1.  Select **Schedule Board** under **Scheduling**.
 
 2.  The Schedule Board provides several options that can be used to schedule
     items, such as a filter, and a map view.
@@ -139,52 +128,7 @@ level.
 4.  Select **Unscheduled work orders**.
 
 5.  Locate the **work order** for Adventure Works (Sample) that you created in a
-    previous task. Drag it to Allison Dickson’s row on the schedule board.
+    previous task. Drag it to Alan Steiner’s row on the schedule board.
 
 Notice that it the text will appear red until you find a time that falls
 within the time window promised.
-
-1.  Release the mouse button and the item will be placed on the schedule board.
-
-2.  Locate and select the work order for **Fourth Coffee (Sample)** under
-    **Unscheduled work orders.** Click **Find Availability**.
-
-3.  Dynamics 365 will analyze the requirements needed for this item and will
-    factor in other items such as any skills required, work order & resource
-    locations, and resource availability to create a list of suggested resources
-    that would be able to work on this item.
-
-4.  As you hover over the available time block for **Van Amundson**, a **Book**
-    icon will appear. Click the **Book** icon to schedule Van for this work
-    order.
-
-5.  Click the **Exit Search** Icon to return to the Schedule Board.
-
-### Task 3 - Working with the Map View
-
-Another way that items can be scheduled is by using the map view on the Schedule
-Board. When you select the map view, resources will be color coded. Any
-unscheduled items, will appear on the map with a question mark. You can schedule
-these items by dragging them to a specific resource that you want to assign it
-to.
-
-As you start assigning items to resources, the item will change to the color of
-the resource selected. Additionally, the map will begin to plot a route for the
-resource based on the location of the work orders assigned to them.
-
-Additional items like traffic and road maps can be overlaid on the map to assist
-in scheduling.
-
-**Notes:** If mapping is not enabled in your tenant, you will receive an error
-upon choosing Map View. To enable mapping, click on **Resource Scheduling** in
-the left column and select **Administration.** In the Scheduling Settings
-section, select **Scheduling Parameters.** Switch the **Connect to Maps** field
-to Yes.
-
-1.  On the Schedule Board, click the **Map View**.
-
-2.  To see Traffic, click the **Show Traffic** Icon.
-
-3.  Locate an item on the map that is unscheduled. Drag the item to open time
-    slot on Allison Dickson’s schedule right before the work order you scheduled
-    for her previously.
