@@ -39,32 +39,23 @@ Exercise 1 - Acquire Tenant Information and Connect
 
 ### Task 1 – Connect to the Power Platform administration portal
 
-1.  On Virtual machine MIA-BI (unless otherwise specified by your lab hoster),
-    sign in as Student with the password Pa55w.rd.
+1.  Sign into the Virtual Machine using the lab instructions provided by the lab hoster (if using).
 
-2.  Outside the VM (in the online lab interface), click Files and choose D365
-    Credentials. This will allocate a Dynamics 365 tenant for you to use in
-    these labs. It will display the admin email and password for your tenant.
-    You should copy this information to notepad or similar for your reference.
+2.  Outside the VM in the online lab interface click Files and choose D365
+    Credentials. This will allocate a Dynamics 365 365 tenant for you to use in these
+    labs.  It will display the user email and password for your tenant. 
 
-3.  Navigate in the browser to the Power platform admin portal at
-    <https://admin.powerplatform.microsoft.com>. Use the D365 Credentials you
-    just acquired in the previous step to login.
+3.  Launch Microsoft Edge from the taskbar. 
 
-4.  Go into the left-hand column and expand Admin Centers and click on Dynamics
-    365.
+4.  Navigate in the browser to the Power Platform admin portal at https://admin.Powerplatform.microsoft.com.
 
-5.  If prompted to select a trial, select the far-right option to install all
-    applications.
+5. Sign in using the provided credentials. Record the characters before the "@" symbol in your email address - it should be a first name and a last initial. These characters will become your "alias" throughout the course. Write them down somewhere you'll be able to access throughout the course.
 
-    - **Note:** If you have already selected your trial in a previous lab
-        exercise, you will be taken to the D365 Administration Center. If so,
-        select the **Open** circled arrow button beside “Contoso Production.”
+**Important:** Please be aware that this tenant and the Dynamics 365 organization will be shared with the other students in your classroom, like employees would share a tenant when using the Dynamics 365 instance belonging to their organization. Do not use any PII (personally identifiable information) when creating records. It is also good practice to use your username prefix (ex., **mollyc**) in front of all records, data, apps, workflows, etc. you create.
 
-6.  When viewing tiles of all available applications, click on “Field Service”
-    to open your Dynamics 365 instance to the Field Service application. You
-    have now entered your Dynamics 365 production environment and are ready to
-    explore the Field Service app.
+6. Click the button to the left of the **Power Platform admin center** in the top menu to view all available apps. Select **Dynamics 365.**
+
+Select the Field Service app from the list.
 
 Exercise 2 - Create Field Service related products, and add to Price List 
 ==============================
@@ -78,6 +69,8 @@ Before you can define products associated with Agreements, they need to be added
 -   Printer Service Fee
 
 ## Task 1 - Add a Printer Products
+
+Note: If you have already completed this step in a previous lab, skip to Exercise 3.
 
 1.  Using the **Sitemap**, select **Products** under **Settings.**
 
@@ -211,7 +204,7 @@ be billed at the end of each month with a Monthly Printer Maintenance fee.
 
 3.  Click **New** from the Command Bar.
 
-4.  Select **Alpine Ski House** for the **Service Account**.
+4.  Select **Coho Winery** for the **Service Account**.
 
 5.  Under Details set the fields as follows:
 
@@ -225,12 +218,12 @@ be billed at the end of each month with a Monthly Printer Maintenance fee.
 
 ## Task 2 - Setup an Automated Booking for the Agreement
 
-1.  In the agreement that you just created, click on the **New** button in the
+1.  In the agreement that you just created, click on the **New Agreement Booking Setup** button in the
     Booking Setups area.
 
 2.  Configure the Agreement Booking as follows:
 
-    - **Name:** Alpine Monthly Printer Service
+    - **Name:** Coho Monthly Printer Service
 
     - **Auto Generate Work Order**: Yes
 
@@ -248,17 +241,17 @@ be billed at the end of each month with a Monthly Printer Maintenance fee.
 
     - **Time Window End:** 12:00 PM
 
-    - **Generate Work Order Days 2 in Advance**: (to ensure that the work
+    - **Generate Work Order Days in Advance**: 2 (to ensure that the work
         order is created right away, determine how many days are left in the
         current month, and use that number or greater for this value)
 
 3.  Save the record and leave it open.
 
-4.  Under **Incidents,** click the **Add Incident Record button.**
+4.  Under **Incidents,** click **New Agreement Booking Incident.**
 
 5.  Select **Install IOT** for Incident Type and click **Save & Close.**
 
-6.  On the Agreement Booking Setup Record, click **Booking Recurrence**.
+6.  On the Agreement Booking Setup Record, click the ellipsis and select **Booking Recurrence**.
 
 7.  Set the Recurrence Patten as noted below:
 
@@ -270,7 +263,7 @@ be billed at the end of each month with a Monthly Printer Maintenance fee.
 
 8.  Verify the changes have saved, and close the Booking Setup Record.
 
-9.  In the agreement that you just created, click on the **New** button in the
+9.  In the agreement that you just created, click on the **New Agreement Booking Setup** button in the
     Booking Setups area.
 
 10. Configure the Agreement Booking as follows:
@@ -295,7 +288,7 @@ be billed at the end of each month with a Monthly Printer Maintenance fee.
 
 11. Save the record and leave it open.
 
-12. On the Agreement Booking Setup Record, click **Booking Recurrence**.
+12. On the Agreement Booking Setup Record, click ellipsis and select **Booking Recurrence**.
 
 13. Set the Recurrence Patten as noted below:
 
@@ -307,12 +300,12 @@ be billed at the end of each month with a Monthly Printer Maintenance fee.
 
 14. Verify the changes have saved and close the Booking Setup Record.
 
-15. Locate **the Invoice Setups** Sub-grid, and click the **New** button to
+15. Locate **the Invoice Setups** Sub-grid, and click the **New Agreement Invoice Setup** button to
     create a new Invoice setup
 
-16. Enter Alpine Monthly Invoice for the Name, and Click Save
+16. Enter Coho Monthly Invoice for the Name, and Click Save
 
-17. If Necessary, expand Invoice Products, and click the New button to add
+17. If Necessary, expand Invoice Products, click the ellipsis and select **New Agreement Invoice Product** button to add
     Invoice Products
 
 18. Complete the Agreement Invoice Product as follows:
@@ -325,7 +318,7 @@ be billed at the end of each month with a Monthly Printer Maintenance fee.
 
     - Click **Save and Close**
 
-19. Close the Alpine Monthly Invoice record
+19. Close the Coho Monthly Invoice record
 
 20. Return to the Agreement. Change the Agreement System Status from Estimate to
     **Active** and **Save**.
