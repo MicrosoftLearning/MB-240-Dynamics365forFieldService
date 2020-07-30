@@ -94,9 +94,9 @@ Task 1 - Create a Bookable Resource for your user record
 
 12. Configure as follows:
 
-    - **Characteristic:** *Building Security*
+    - **Characteristic:** *[your prefix ex. mollyc]+ Building Security*
 
-    - **Rating Value**: *Level 5 Security*
+    - **Rating Value**: *[your prefix ex. mollyc]+ Level 5 Security*
     
     - **Resource**: *your user*
 
@@ -106,7 +106,7 @@ Task 1 - Create a Bookable Resource for your user record
 
 14. Configure as follows:
 
-    - **Characteristic:** *CISM*
+    - **Characteristic:** *[your prefix ex. mollyc]+ CISM*
 
     - **Rating Value**: *Proficient*
     
@@ -118,7 +118,7 @@ Task 1 - Create a Bookable Resource for your user record
 
 16. Configure as follows:
 
-    - **Characteristic:** *CISSP*
+    - **Characteristic:** *[your prefix ex. mollyc]+ CISSP*
 
     - **Rating Value**: *Familiar*
     
@@ -136,9 +136,9 @@ Select **Resources** from the sitemap
 
 4. Configure as follows:
 
-    -  **Name:** *Installation Specialist*
+    -  **Name:** *[your prefix ex. mollyc]+ Installation Specialist*
     
-    -  **Resource Category** *Installation Specialist*
+    -  **Resource Category** *[your prefix ex. mollyc]+ Installation Specialist*
 
     -  Click **Save and Close** on the Category record.
 
@@ -146,9 +146,9 @@ Select **Resources** from the sitemap
 
 6. Configure as follows:
 
-    - **Name** *Security Analyst*
+    - **Name** *[your prefix ex. mollyc]+ Security Analyst*
     
-    - **Resource Category:** *Security Analyst*
+    - **Resource Category:** *[your prefix ex. mollyc]+ Security Analyst*
 
     - Click **Save and Close** on the Category record.
 
