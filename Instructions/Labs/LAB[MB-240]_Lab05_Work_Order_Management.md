@@ -77,7 +77,7 @@ a new work order that we can schedule using the application.
 
 4.  Configure the work order as follows:
 
-    -   **Service Account:** *Adventure Works (Sample)*
+    -   **Service Account:** Click + New Account and enter: [your prefix ex. mollyc]+ Account
 
     -   **Work Order Type:** *Inspection*
 
@@ -128,7 +128,7 @@ level.
 4.  Select **Unscheduled work orders**.
 
 5.  Locate the **work order** for Adventure Works (Sample) that you created in a
-    previous task. Drag it to Alan Steiner’s row on the schedule board.
+    previous task. Drag it to your user's row on the schedule board.
 
 Notice that it the text will appear red until you find a time that falls
 within the time window promised.
