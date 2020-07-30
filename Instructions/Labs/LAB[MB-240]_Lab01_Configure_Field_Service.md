@@ -119,7 +119,7 @@ Task 1 - Add Printer Products
 
 3.  Define the Details of the Product as noted below:
 
--   **Name:** [your prefix ex. mollyc]+ Remote Printer
+-   **Name:** *[your prefix ex. mollyc]+ Remote Printer*
 
 -   **Product ID:** *[your prefix ex. mollyc]+ Print-Serv-1234*
 
@@ -142,7 +142,7 @@ Task 1 - Add Printer Products
 
 6.  Define the Details of the Product as noted below:
 
--   **Name:** [your prefix ex. mollyc]+ Monthly Printer Maintenance
+-   **Name:** *[your prefix ex. mollyc]+ Monthly Printer Maintenance*
 
 -   **Product ID:** *[your prefix ex. mollyc]+ Print-Maint4*
 
@@ -157,7 +157,7 @@ Task 1 - Add Printer Products
 
 2.  Set the **Taxable** field to **No**
 
-3.  Save the product, and click **Publish** (Click **Confirm** on the popup)
+3.  Save the product. (you may see an error that a price list was not set. You can ignore this.) Click **Publish** (Click **Confirm** on the popup)
 
 4.  Click **Save & Close**
 
@@ -165,7 +165,7 @@ Task 1 - Add Printer Products
 
 6.  Define the Details of the Product as noted below:
 
--   **Name:** [your prefix ex. mollyc]+ Printer Service Fee
+-   **Name:** *[your prefix ex. mollyc]+ Printer Service Fee*
 
 -   **Product ID:** *[your prefix ex. mollyc]+ Printer-Service-Fee*
 
@@ -196,7 +196,7 @@ Task 2 - Add Printer Products to a Price List
 
 5.  Enter the following information:
 
-    1.  **Product:** [your prefix ex. mollyc]+ Remote Printer
+    1.  **Product:** *[your prefix ex. mollyc]+ Remote Printer*
 
     2.  **Unit:** Primary Unit
     
@@ -213,7 +213,7 @@ Task 2 - Add Printer Products to a Price List
 
 7.  Enter the following information:
 
-    1.  **Product:** [your prefix ex. mollyc]+ Monthly Printer Maintenance
+    1.  **Product:** *[your prefix ex. mollyc]+ Monthly Printer Maintenance*
 
     2.  **Unit:** Primary Unit
     
@@ -230,7 +230,7 @@ Task 2 - Add Printer Products to a Price List
 
 10. Enter the following information:
 
-    1.  **Product:** [your prefix ex. mollyc]+ Printer Service Fee
+    1.  **Product:** *[your prefix ex. mollyc]+ Printer Service Fee*
 
     2.  **Unit:** Primary Unit
     
