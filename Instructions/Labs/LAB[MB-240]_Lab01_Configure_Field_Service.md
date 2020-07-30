@@ -129,18 +129,20 @@ Task 1 - Add Printer Products
 
 -   **Decimals Supported:** *2*
 
-1.  Select the **Field Service** tab, set the Field Service Product Type to
+4.  Select the **Field Service** tab, set the Field Service Product Type to
     **Inventory**
 
-2.  Set the **Taxable** field to **No**
+5.  Set the **Taxable** field to **No**
 
-3.  Save the product, and click **Publish** (Click **Confirm** on the popup)
+6.  Save the product, and click **Publish** (Click **Confirm** on the popup)
 
-4.  Click **Save & Close**
+7.  Click **Save & Close**
 
-5.  Click the **Add Product** to create a Product
+-----------------------------------------------------------
 
-6.  Define the Details of the Product as noted below:
+1.  Click the **Add Product** to create a Product
+
+2.  Define the Details of the Product as noted below:
 
 -   **Name:** *[your prefix ex. mollyc]+ Monthly Printer Maintenance*
 
@@ -152,18 +154,20 @@ Task 1 - Add Printer Products
 
 -   **Decimals Supported:** *2*
 
-1.  Select the **Field Service** tab, set the Field Service Product Type to
+3.  Select the **Field Service** tab, set the Field Service Product Type to
     **Non-Inventory**
 
-2.  Set the **Taxable** field to **No**
+4.  Set the **Taxable** field to **No**
 
-3.  Save the product. (you may see an error that a price list was not set. You can ignore this.) Click **Publish** (Click **Confirm** on the popup)
+5.  Save the product. (you may see an error that a price list was not set. You can ignore this.) Click **Publish** (Click **Confirm** on the popup)
 
-4.  Click **Save & Close**
+6.  Click **Save & Close**
 
-5.  Click the **Add Product** to create a Product
+-----------------------------------------------------------
 
-6.  Define the Details of the Product as noted below:
+1.  Click the **Add Product** to create a Product
+
+2.  Define the Details of the Product as noted below:
 
 -   **Name:** *[your prefix ex. mollyc]+ Printer Service Fee*
 
@@ -175,12 +179,12 @@ Task 1 - Add Printer Products
 
 -   **Decimals Supported:** *2*
 
-1.  Select the **Field Service** tab, set the Field Service Product Type to
+3.  Select the **Field Service** tab, set the Field Service Product Type to
     **Service**
 
-2.  Set the **Taxable** field to **No**
+4.  Set the **Taxable** field to **No**
 
-3.  Save the product, and click **Publish** (Click **Confirm** on the popup)
+5.  Save the product, and click **Publish** (Click **Confirm** on the popup)
 
 Task 2 - Add Printer Products to a Price List
 ---------------------------------------------
@@ -207,11 +211,13 @@ Task 2 - Add Printer Products to a Price List
     5.  **Amount:** $1000.00
     
     6.  Click **Save & Close**
+    
+-----------------------------------------------------------
 
-6.  In the **Price List Items**, click the **+ New Price List Item** button to add a Price List
+1.  In the **Price List Items**, click the **+ New Price List Item** button to add a Price List
     Line Item
 
-7.  Enter the following information:
+2.  Enter the following information:
 
     1.  **Product:** *[your prefix ex. mollyc]+ Monthly Printer Maintenance*
 
@@ -224,11 +230,13 @@ Task 2 - Add Printer Products to a Price List
     5.  **Amount:** $750.00
     
     6.  Click **Save and Close**
+    
+-----------------------------------------------------------
 
-9.  In the **Price List Items**, click the **+ New Price List Item** button to add a Price List
+1.  In the **Price List Items**, click the **+ New Price List Item** button to add a Price List
     Line Item
 
-10. Enter the following information:
+2. Enter the following information:
 
     1.  **Product:** *[your prefix ex. mollyc]+ Printer Service Fee*
 
@@ -242,5 +250,5 @@ Task 2 - Add Printer Products to a Price List
     
     6. Click **Save and Close**
 
-12. Close the Default Price List by clicking **Save & Close**
+3. Close the Default Price List by clicking **Save & Close**
 
