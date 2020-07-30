@@ -40,54 +40,57 @@ Exercise 1 - Acquire Tenant Information and Connect
 
 ### Task 1 – Connect to the Power platform administration portal
 
-1.  On Virtual machine MIA-BI (unless otherwise specified by your lab hoster),
-    sign in as Student with the password Pa55w.rd.
+1.  Sign into the Virtual Machine using the lab instructions provided by the lab hoster (if using).
 
-2.  Outside the VM (in the online lab interface), click Files and choose D365
-    Credentials. This will allocate a Dynamics 365 tenant for you to use in
-    these labs. It will display the admin email and password for your tenant.
-    You should copy this information to notepad or similar for your reference.
+2.  Outside the VM in the online lab interface click Files and choose D365
+    Credentials. This will allocate a Dynamics 365 365 tenant for you to use in these
+    labs.  It will display the user email and password for your tenant. 
 
-3.  Navigate in the browser to the Power platform admin portal at
-    <https://admin.powerplatform.microsoft.com>. Use the D365 Credentials you
-    just acquired in the previous step to login.
+3.  Launch Microsoft Edge from the taskbar. 
 
-4.  Go into the left-hand column and expand Admin Centers and click on Dynamics
-    365.
+4.  Navigate in the browser to the Power Platform admin portal at https://admin.Powerplatform.microsoft.com.
 
-5.  If prompted to select a trial, select the far-right option to install all
-    applications.
+5. Sign in using the provided credentials. Record the characters before the "@" symbol in your email address - it should be a first name and a last initial. These characters will become your "alias" throughout the course. Write them down somewhere you'll be able to access throughout the course.
 
-    - **Note:** If you have already selected your trial in a previous lab
-        exercise, you will be taken to the D365 Administration Center. If so,
-        select the **Open** circled arrow button beside “Contoso Production.”
+**Important:** Please be aware that this tenant and the Dynamics 365 organization will be shared with the other students in your classroom, like employees would share a tenant when using the Dynamics 365 instance belonging to their organization. Do not use any PII (personally identifiable information) when creating records. It is also good practice to use your username prefix (ex., **mollyc**) in front of all records, data, apps, workflows, etc. you create.
 
-6.  When viewing tiles of all available applications, click on “Field Service”
-    to open your Dynamics 365 instance to the Field Service application. You
-    have now entered your Dynamics 365 production environment and are ready to
-    explore the Field Service app.
+6. Click the button to the left of the **Power Platform admin center** in the top menu to view all available apps. Select **Dynamics 365.**
+
+7. Select the Field Service app from the list.
+
 
 Exercise 2 – Create an Incident Type called Printer Installation
 ================================================================
 
 ### Task 1 –Service Task Types to be used with Incidents:
 
-1.  Using the **Sitemap**, select **Service Task Types** under **Work Order**
-    settings
+1.  Using the **Sitemap**, select **Settings
 
-2.  Click the **New** button and enter **Clean Printer Assembly** for the Name.
+2.  Select  **Service Task Types** under **Work Order** settings
 
-3.  Select **30 Minutes** for the **Estimated Duration.**
+3.  Click the **+New** button and enter **Clean Printer Assembly** for the Name.
 
-4.  Click **Save and Close.**
+4.  Select **30 Minutes** for the **Estimated Duration.**
 
-5.  Repeat Steps 2 – 4 to add each of the following:
+5.  Click **Save and Close.**
+
+6.  Repeat Steps 2 – 4 to add each of the following:
 
     1.  **Replace Toner:** *Duration 15 Minutes*
 
     2.  **Finial Test:** *Duration 15 Minutes*
+    
+### Task 2 - Create a Service Call Work Order Type
 
-### Task 2 –Create a Service Printer Incident Type
+1. Using the **Sitemap**, select **Work Order Types**
+
+2. Click the **+New** button and enter **Service Call** for the Name.
+
+3. Set **Incident Required** and **Taxable** to **No**
+
+4. Click **Save & Close**
+
+### Task 3 –Create a Service Printer Incident Type
 
 1.  Using the **Sitemap**, select **Incident Types** under **Work Order**
     settings.
@@ -98,12 +101,11 @@ Exercise 2 – Create an Incident Type called Printer Installation
 
 -   **Copy Incident Items to Agreement:** *Yes*
 
--   **Default Work Order Type**: *Service Call*.
+-   Click **Default Work Order Type** and select  *Service Call*.
 
 1.  Click **Save** to save the Incident type and leave it open.
 
-2.  Select the **Service Task** Tab, click the **Add Incident Type Service
-    Tasks** button. (If pop ups are blocked, you may need to unblock them)
+2.  Select the **Service Task** Tab, click the ellipsis and select **+New Incident Type Service Tasks** button. (If pop ups aare blocked, you may need to unblock them)
 
 3.  Enter **Clean Printer Assembly** for the **Name**, select **Clean Printer
     Assembly** as the task type, ensure 30 minutes is set for **Estimated
@@ -111,7 +113,7 @@ Exercise 2 – Create an Incident Type called Printer Installation
 
 4.  Click **Save and Close.**
 
-5.  Click the **Add Incident Type Service Tasks** button again.
+5.  Click the **+New Incident Type Service Tasks** button again.
 
 6.  Enter **Replace Toner** for the **Name**, select **Replace Toner** as the
     task type, ensure 15 minutes is set for **Estimated Duration**.
@@ -125,9 +127,9 @@ Exercise 2 – Create an Incident Type called Printer Installation
 
 10. Click **Save and Close.**
 
-11. Select the **Product** tab
+11. Select the **Products** tab
 
-12. Click the **Add New Incident Type Product** button.
+12. Click the ellipsis and select **+ New Incident Type Product** button.
 
 13. Configure the Incident Type Product as follows:
 
@@ -143,7 +145,7 @@ Exercise 2 – Create an Incident Type called Printer Installation
 
 15. Select the **Services** Tab.
 
-16. Click the **Add New Incident Type Service** button.
+16. Click the ellipsis and select **+New Incident Type Service** button.
 
 17. Configure the new Incident Type Service as follows:
 
@@ -151,15 +153,13 @@ Exercise 2 – Create an Incident Type called Printer Installation
 
     -   **Unit:** *Primary Unit*
 
-    -   **Quantity:** *1*
-
-    -   **Product:** *Remote Printer*
+    -   **Service** *Printer Service Fee*
 
 18. Click the **Save and Close** Button
 
 19. Select the **Characteristics** tab
 
-20. Click the **Add New Incident Type Characteristics** button
+20. Click the ellipsis and select **+New Incident Type Characteristics** button
 
 21. Configure the Incident Type Characteristic as follows:
 
@@ -169,7 +169,7 @@ Exercise 2 – Create an Incident Type called Printer Installation
 
 22. Click the **Save and Close** button
 
-23. Click the **Add New Incident Type Characteristics** button
+23. Click the **+New Incident Type Characteristics** button again
 
 24. Configure the Incident Type Characteristic as follows:
 
@@ -184,19 +184,23 @@ Exercise 3 – Test your Configuration Settings
 
 ### Task 1 –Create a new Work Order using Service Printer Incident Type:
 
-1.  Using the **Sitemap**, select **Field Service**.
+1.  Using the **Sitemap**, select **Service**.
 
-2.  Under **Work Orders & Scheduling**, select **Work Order**s.
+2.  Under **Work Orders**, under **Scheduling**.
 
-3.  Click the **New** button.
+3.  Click the **+New** button.
 
 4.  Configure the New Work Order as follows:
 
-    -   **Service Account:** *A. Datum Corporation*
+    -   **Service Account:** *A. Datum*
+    
+    -   **Work Order Type** *Service Call*
+    
+    -   **Price List** *Default Price List*
+    
+    -   **Taxable** *No*
 
-    -   **Incident Type:** *Service Printer*
-
-    -   **Taxable:** *No*
+    -   **Primary Incident Type:** *Service Printer*
 
 5.  Click the **Save and Close** button
 
