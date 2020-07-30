@@ -77,7 +77,7 @@ a new work order that we can schedule using the application.
 
 4.  Configure the work order as follows:
 
-    -   **Service Account:** Click + New Account and enter: [your prefix ex. mollyc]+ Account
+    -   **Service Account:** *[your prefix ex. mollyc]+ Account*.  If not found, Click + New Account and enter: [your prefix ex. mollyc]+ Account
 
     -   **Work Order Type:** *Inspection*
 
