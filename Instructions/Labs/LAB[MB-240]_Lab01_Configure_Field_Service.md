@@ -39,25 +39,23 @@ Exercise 1 - Acquire Tenant Information and Connect
 
 ## Task 1 – Connect to the Power platform administration portal
 
-1.  On Virtual machine MIA-BI (unless otherwise specified by your lab hoster),
-    sign in as Student with the password Pa55w.rd.
+1.  Sign into the Virtual Machine using the lab instructions provided by the lab hoster (if using).
 
-2.  Outside the VM (in the online lab interface), click Files and choose D365
-    Credentials. This will allocate a Dynamics 365 tenant for you to use in
-    these labs. It will display the admin email and password for your tenant.
-    You should copy this information to notepad or similar for your reference.
+2.  Outside the VM in the online lab interface click Files and choose D365
+    Credentials. This will allocate a Dynamics 365 365 tenant for you to use in these
+    labs.  It will display the user email and password for your tenant. 
 
-3.  Navigate in the browser to the Power platform admin portal at
-    <https://admin.powerplatform.microsoft.com>. Use the D365 Credentials you
-    just acquired in the previous step to login.
+3.  Launch Microsoft Edge from the taskbar. 
 
-4.  Go into the left-hand column and expand Admin Centers and click on Dynamics
-    365.
+4.  Navigate in the browser to the Power Platform admin portal at https://admin.Powerplatform.microsoft.com.
 
-5.  When viewing tiles of all available applications, click on “Field Service”
-    to open your Dynamics 365 instance to the Field Service application. You
-    have now entered your Dynamics 365 production environment and are ready to
-    explore the Field Service app.
+5. Sign in using the provided credentials. Record the characters before the "@" symbol in your email address - it should be a first name and a last initial. These characters will become your "alias" throughout the course. Write them down somewhere you'll be able to access throughout the course.
+
+**Important:** Please be aware that this tenant and the Dynamics 365 organization will be shared with the other students in your classroom, like employees would share a tenant when using the Dynamics 365 instance belonging to their organization. Do not use any PII (personally identifiable information) when creating records. It is also good practice to use your username prefix (ex., **mollyc**) in front of all records, data, apps, workflows, etc. you create.
+
+6. Click the button to the left of the **Power Platform admin center** in the top menu to view all available apps. Select **Dynamics 365.**
+
+Select the Field Service app from the list.
 
 Exercise 2 – Map Configuration 
 ======================================================  
