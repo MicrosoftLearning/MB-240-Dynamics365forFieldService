@@ -19,12 +19,6 @@ application. You will be adding and configuring some products that can be
 installed and setting up skills and characteristics that will be used as part of
 the implementation.
 
-**Important Note:** If you have already logged into your VM and tenant,
-installed your sample data, and enabled Maps recently and are using the same
-Dynamics 365 credentials, the virtual machine might pick up where you left off
-and you will not need to perform these setup actions. In that case you can skip
-ahead to **Exercise 4.**
-
 Exercise 1 – Map Configuration 
 ======================================================  
 
