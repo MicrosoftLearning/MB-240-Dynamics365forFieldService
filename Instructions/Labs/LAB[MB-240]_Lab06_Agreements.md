@@ -19,54 +19,7 @@ application. You will be adding and configuring some products that can be
 installed and setting up skills and characteristics that will be used as part of
 the implementation.
 
-This lab will provide you with an actual Dynamics 365 tenant and licenses for
-the Power Platform applications you will be using in this course. You will only
-be provided with one tenant for the practice labs in this course. The settings
-and actions you take within this tenant do not roll-back or reset, whereas the
-Windows 10 virtual machine you are provided with will reset each time you close
-the lab session. Please keep in mind that Dynamics 365 is evolving all the time.
-The instructions in this document may be different from what you experience in
-your actual Dynamics 365 tenant.
-
-**Important Note:** If you have already logged into your VM and tenant,
-installed your sample data, and enabled Maps recently and are using the same
-Dynamics 365 credentials, the virtual machine might pick up where you left off
-and you will not need to perform these setup actions. In that case you can skip
-ahead to **Exercise 2.**
-
-Exercise 1 - Acquire Tenant Information and Connect
-=========================
-
-### Task 1 – Connect to the Power Platform administration portal
-
-1.  On Virtual machine MIA-BI (unless otherwise specified by your lab hoster),
-    sign in as Student with the password Pa55w.rd.
-
-2.  Outside the VM (in the online lab interface), click Files and choose D365
-    Credentials. This will allocate a Dynamics 365 tenant for you to use in
-    these labs. It will display the admin email and password for your tenant.
-    You should copy this information to notepad or similar for your reference.
-
-3.  Navigate in the browser to the Power platform admin portal at
-    <https://admin.powerplatform.microsoft.com>. Use the D365 Credentials you
-    just acquired in the previous step to login.
-
-4.  Go into the left-hand column and expand Admin Centers and click on Dynamics
-    365.
-
-5.  If prompted to select a trial, select the far-right option to install all
-    applications.
-
-    - **Note:** If you have already selected your trial in a previous lab
-        exercise, you will be taken to the D365 Administration Center. If so,
-        select the **Open** circled arrow button beside “Contoso Production.”
-
-6.  When viewing tiles of all available applications, click on “Field Service”
-    to open your Dynamics 365 instance to the Field Service application. You
-    have now entered your Dynamics 365 production environment and are ready to
-    explore the Field Service app.
-
-Exercise 2 - Create Field Service related products, and add to Price List 
+Exercise 1 - Create Field Service related products, and add to Price List 
 ==============================
 
 Before you can define products associated with Agreements, they need to be added to the product catalog. In this exercise, you will be defining three new products:
@@ -79,15 +32,17 @@ Before you can define products associated with Agreements, they need to be added
 
 ## Task 1 - Add a Printer Products
 
+Note: If you have already completed this step in a previous lab, skip to Exercise 3.
+
 1.  Using the **Sitemap**, select **Products** under **Settings.**
 
 2.  Click the **Add Product** to create a Product
 
 3.  Define the Details of the Product as noted below:
 
-	-   **Name:** Remote Printer
+	-   **Name:** [your prefix ex. mollyc]+ Remote Printer
 
-	-   **Product ID:** *Print-Serv-1234*
+	-   **Product ID:** *[your prefix ex. mollyc]+ Print-Serv-1234*
 
 	-   **Unit Group:** *Default Unit*
 
@@ -106,9 +61,9 @@ Before you can define products associated with Agreements, they need to be added
 
 7.  Define the Details of the Product as noted below:
 
-	-   **Name:** Monthly Printer Maintenance
+	-   **Name:** [your prefix ex. mollyc]+ Monthly Printer Maintenance
 
-	-   **Product ID:** *Print-Maint4*
+	-   **Product ID:** *[your prefix ex. mollyc]+ Print-Maint4*
 
 	-   **Unit Group:** *Default Unit*
 
@@ -127,15 +82,15 @@ Before you can define products associated with Agreements, they need to be added
 
 12.  Define the Details of the Product as noted below:
 
-	-   **Name:** Printer Service Fee
+        -   **Name:** [your prefix ex. mollyc]+ Printer Service Fee
 
-	-   **Product ID:** *Print-Service-Fee*
+        -   **Product ID:** *[your prefix ex. mollyc]+ Print-Service-Fee*
 
-	-   **Unit Group:** *Default Unit*
+        -   **Unit Group:** *Default Unit*
 
-	-   **Default Unit:** *Primary Unit*
+        -   **Default Unit:** *Primary Unit*
 
-	-   **Decimals Supported:** *2*
+        -   **Decimals Supported:** *2*
 
 13.  Select the **Field Service** tab, set the Field Service Product Type to
     **Service**
@@ -155,7 +110,7 @@ Before you can define products associated with Agreements, they need to be added
 
 4.  Enter the following information:
 
-    - **Product:** Remote Printer
+    - **Product:** [your prefix ex. mollyc]+ Remote Printer
 
     - **Unit:** Primary Unit
 
@@ -168,7 +123,7 @@ Before you can define products associated with Agreements, they need to be added
 
 6.  Enter the following information:
 
-    - **Product:** Monthly Printer Maintenance
+    - **Product:** [your prefix ex. mollyc]+ Monthly Printer Maintenance
 
     - **Unit:** Primary Unit
 
@@ -183,7 +138,7 @@ Before you can define products associated with Agreements, they need to be added
 
 9.  Enter the following information:
 
-    - **Product:** Printer Service Fee
+    - **Product:** [your prefix ex. mollyc]+ Printer Service Fee
 
     - **Unit:** Primary Unit
 
@@ -195,7 +150,7 @@ Before you can define products associated with Agreements, they need to be added
 
 11. Close the price list
 
-Exercise 3 - Create an Agreement 
+Exercise 2 - Create an Agreement 
 ================================
 
 In this exercise you will be defining a preventative maintenance agreement that
@@ -211,7 +166,7 @@ be billed at the end of each month with a Monthly Printer Maintenance fee.
 
 3.  Click **New** from the Command Bar.
 
-4.  Select **Alpine Ski House** for the **Service Account**.
+4.  Select **[your prefix ex. mollyc]+ Account** for the **Service Account**.  If you do not see your Account, create a new Account with name *[your prefix ex. mollyc]+ Account*
 
 5.  Under Details set the fields as follows:
 
@@ -225,12 +180,12 @@ be billed at the end of each month with a Monthly Printer Maintenance fee.
 
 ## Task 2 - Setup an Automated Booking for the Agreement
 
-1.  In the agreement that you just created, click on the **New** button in the
+1.  In the agreement that you just created, click on the **New Agreement Booking Setup** button in the
     Booking Setups area.
 
 2.  Configure the Agreement Booking as follows:
 
-    - **Name:** Alpine Monthly Printer Service
+    - **Name:** [your prefix ex. mollyc]+ Monthly Printer Service
 
     - **Auto Generate Work Order**: Yes
 
@@ -248,17 +203,17 @@ be billed at the end of each month with a Monthly Printer Maintenance fee.
 
     - **Time Window End:** 12:00 PM
 
-    - **Generate Work Order Days 2 in Advance**: (to ensure that the work
+    - **Generate Work Order Days in Advance**: 2 (to ensure that the work
         order is created right away, determine how many days are left in the
         current month, and use that number or greater for this value)
 
 3.  Save the record and leave it open.
 
-4.  Under **Incidents,** click the **Add Incident Record button.**
+4.  Under **Incidents,** click **New Agreement Booking Incident.**
 
 5.  Select **Install IOT** for Incident Type and click **Save & Close.**
 
-6.  On the Agreement Booking Setup Record, click **Booking Recurrence**.
+6.  On the Agreement Booking Setup Record, click the ellipsis and select **Booking Recurrence**.
 
 7.  Set the Recurrence Patten as noted below:
 
@@ -270,12 +225,12 @@ be billed at the end of each month with a Monthly Printer Maintenance fee.
 
 8.  Verify the changes have saved, and close the Booking Setup Record.
 
-9.  In the agreement that you just created, click on the **New** button in the
+9.  In the agreement that you just created, click on the **New Agreement Booking Setup** button in the
     Booking Setups area.
 
 10. Configure the Agreement Booking as follows:
 
-    - **Name:** Quarterly System Check
+    - **Name:** [your prefix ex. mollyc]+ Quarterly System Check
 
     - **Auto Generate Work Order**: Yes
 
@@ -295,7 +250,7 @@ be billed at the end of each month with a Monthly Printer Maintenance fee.
 
 11. Save the record and leave it open.
 
-12. On the Agreement Booking Setup Record, click **Booking Recurrence**.
+12. On the Agreement Booking Setup Record, click ellipsis and select **Booking Recurrence**.
 
 13. Set the Recurrence Patten as noted below:
 
@@ -307,17 +262,17 @@ be billed at the end of each month with a Monthly Printer Maintenance fee.
 
 14. Verify the changes have saved and close the Booking Setup Record.
 
-15. Locate **the Invoice Setups** Sub-grid, and click the **New** button to
+15. Locate **the Invoice Setups** Sub-grid, and click the **New Agreement Invoice Setup** button to
     create a new Invoice setup
 
-16. Enter Alpine Monthly Invoice for the Name, and Click Save
+16. Enter *[your prefix ex. mollyc]+ Monthly Invoice* for the Name, and Click Save
 
-17. If Necessary, expand Invoice Products, and click the New button to add
+17. If Necessary, expand Invoice Products, click the ellipsis and select **New Agreement Invoice Product** button to add
     Invoice Products
 
 18. Complete the Agreement Invoice Product as follows:
 
-    - **Product:** Monthly Printer Maintenance
+    - **Product:** [your prefix ex. mollyc]+ Monthly Printer Maintenance
 
     - **Unit:** Primary Unit
 
@@ -325,7 +280,7 @@ be billed at the end of each month with a Monthly Printer Maintenance fee.
 
     - Click **Save and Close**
 
-19. Close the Alpine Monthly Invoice record
+19. Close the [your prefix ex. mollyc]+ Monthly Invoice record
 
 20. Return to the Agreement. Change the Agreement System Status from Estimate to
     **Active** and **Save**.
