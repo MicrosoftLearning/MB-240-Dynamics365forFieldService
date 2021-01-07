@@ -51,6 +51,6 @@ Exercise 1 - Access the Dynamics 365 application
 
 2.  Select the **Edit** button. You will open the Contoso environment in the **Power Platform admin center.**
 
-4. From the list of available Dynamics 365 apps, select **[APPLICATION.]**
+4. From the list of available Dynamics 365 apps, select **[Dynamics 365 - Custom]**
 
 5. Spend a few minutes exploring the application.
