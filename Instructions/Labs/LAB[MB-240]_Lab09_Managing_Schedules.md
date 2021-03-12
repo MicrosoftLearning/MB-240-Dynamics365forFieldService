@@ -117,7 +117,7 @@ that resource to create the Work Hours Template.
 Exercise 2 - Create a new work order using an incident type
 =============================
 
-Out-of-the-box, Dynamics 365 for Field Service has the work order entity enabled
+Out-of-the-box, Dynamics 365 for Field Service has the work order table enabled
 for use with the Resource Scheduling feature. In this task, we will be creating
 a new work order that we can schedule using the application.
 
