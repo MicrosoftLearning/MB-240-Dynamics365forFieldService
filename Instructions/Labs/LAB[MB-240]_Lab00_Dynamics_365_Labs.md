@@ -47,10 +47,12 @@ Exercise 1 - Access the Dynamics 365 application
 
 ### Task 2 – Access the Dynamics 365 application
 
-1.  Access <https://admin.Powerplatform.microsoft.com> and log in with your user credentials.
+1.  Expand the grid button at the top left of the screen, directly to the left of **Power Platform admin center.** Select **Environments.**
 
-2.  Select **Environments**. 
+2.  Select the **Contoso (Production)** environment.
 
-3.  Locate the **Contoso Production** environment.
+3.  Go to the environment URL.
 
-4.  Spend a few minutes exploring the application.
+4.  From the list of available Dynamics 365 apps, select **Field Service**
+
+5.  Spend a few minutes exploring the application.
