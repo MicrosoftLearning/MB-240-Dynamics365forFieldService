@@ -29,10 +29,10 @@ mapping capabilities available with Field Service, you need to ensure that it is
 configured to use a mapping provider.  Bings Maps is the default map provider,
 but additional providers could be enabled.  We will be using Bing Maps. 
 
-1.  In **Dynamics 365**, click the arrow next to the **Dynamics 365** text, and
+1.  In **Dynamics 365**, click the **Field Service** text in the navigation bar, and
     select **Resource Scheduling**.   
 
-2.  Click the **Site Map** icon in the bottom left corner to
+2.  Click the **Site Map** icon in the bottom left corner which will currently show **Resource Scheduling** to
     expand. Click on **Settings.**  From the menu that
     appears, select **Administration**.   
 
@@ -52,7 +52,7 @@ include defining Skills & Certifications, Territories, Resources, and more.
 Task 1 - Define Territories
 ---------------------------
 
-1.  Switch applications from Resource Scheduling to **Field Service.** Click the **Site Map** icon in the bottom left corner to expand.  Click on **Settings.**
+1.  Switch applications from **Resource Scheduling** to **Field Service.** Click the **Site Map** icon in the bottom left corner to expand.  Click on **Settings.**
 
 2.  In the left column, click **Territories.**
 
@@ -94,7 +94,7 @@ Task 1 - Add Printer Products
 
 5.  Set the **Taxable** field to **No**
 
-6.  Save the product, and click **Publish** (Click **Confirm** on the popup)
+6.  Save the product,(you may see an error that a price list was not set. You can ignore this) and click **Publish** (Click **Confirm** on the popup)
 
 7.  Click **Save & Close**
 
@@ -144,12 +144,12 @@ Task 1 - Add Printer Products
 
 4.  Set the **Taxable** field to **No**
 
-5.  Save the product, and click **Publish** (Click **Confirm** on the popup)
+5.  Save the product. (you may see an error that a price list was not set. You can ignore this.) Click **Publish** (Click **Confirm** on the popup)
 
 Task 2 - Add Printer Products to a Price List
 ---------------------------------------------
 
-1.  Using the **Sitemap**, select **Price Lists** under **General.**
+1.  Using the **Sitemap**, select **Price Lists** under **Settings.**
 
 2.  Open the **Default Price List** (Note: Change the view to **All Price Lists** if it is not already showing)
 
