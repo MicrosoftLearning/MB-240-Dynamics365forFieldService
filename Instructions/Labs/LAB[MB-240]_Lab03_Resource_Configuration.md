@@ -26,9 +26,11 @@ Exercise 1 – Resource Configuration
 Task 1 - Create a Bookable Resource for your user record
 ---------------------------------------------------------
 
-1.  Using the **Sitemap**, select **Resources**
+1.  In your Dynamics 365 organization, select the down arrow next to the **Dynamics 365** text, select **Field Service**.
 
-2.  Click **New** button to create a new **Bookable Resource**.
+2.   Using the **Sitemap**, select **Resources**
+
+3.  Click **New** button to create a new **Bookable Resource**.
 
 3.  Configure the new **Bookable Resource** record as follows:
 
