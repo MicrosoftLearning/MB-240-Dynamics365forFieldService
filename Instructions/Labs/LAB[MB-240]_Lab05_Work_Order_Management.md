@@ -25,6 +25,38 @@ Exercise 1 – Generating Work Orders
 
 ### Task 1 - Create a new work order using and incident type
 
+Lab Setup
+
+1. Go to **Settings** and sekect **Work Order Types** under **Work Orders**.
+
+2. In the name Field enter *Inspection*.
+
+3. Set the Incident Required and Taxable to **No**.
+
+4. Set the Price List to **Default**
+
+4. Click **Save & Close**.
+
+5. Under **Work Orders** go to *Incident Types*.
+
+6. Click **+New**.
+
+7. In the name field type *Install IOT*.
+
+7. Click the **Details** tab and under **Default Work Order Type**, select **Inspection**.
+
+8. Select **Yes** for Copy Incident Items to Agreement.
+
+9. Click **Save & Close**.
+
+10. Under Work Orders, click **Priorities**.
+
+11. Click **+ New**.
+
+12. In the name felid type *Moderate*.
+
+13. Click **Save & Close**.
+
 Out of the box, Dynamics 365 for Field Service has the work order entity enabled
 for use with the Resource Scheduling feature. In this task, we will be creating
 a new work order that we can schedule using the application.
@@ -51,7 +83,7 @@ a new work order that we can schedule using the application.
     -   **Priority:** *Moderate* (if necessary, create a new priority with the
         title Moderate and save and close)
 
-    -   **Service Territory:** *WA*
+    -   **Service Territory:** *[your prefix ex. mollyc]+ North*
 
     -   **Time from Promised:** *Today \@ 1:00 PM*
 
