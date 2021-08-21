@@ -39,7 +39,7 @@ Exercise 1 – Create an Incident Type called Printer Installation
 
     1.  **[your prefix ex. mollyc]+ Replace Toner:** *Duration 15 Minutes*
 
-    2.  **[your prefix ex. mollyc]+ Finial Test:** *Duration 15 Minutes*
+    2.  **[your prefix ex. mollyc]+ Final Test:** *Duration 15 Minutes*
     
 ### Task 2 - Create a Service Call Work Order Type
 
@@ -83,7 +83,7 @@ Exercise 1 – Create an Incident Type called Printer Installation
 
 8.  Click the **Add Incident Type Service Tasks** button one last time.
 
-9.  Enter **[your prefix ex. mollyc]+ Finial Test** for the **Name**, select **[your prefix ex. mollyc]+ Finial Test** as the task
+9.  Enter **[your prefix ex. mollyc]+ Final Test** for the **Name**, select **[your prefix ex. mollyc]+ Final Test** as the task
     type, ensure 15 minutes is set for **Estimated Duration**.
 
 10. Click **Save and Close.**
@@ -147,7 +147,7 @@ Exercise 2 – Test your Configuration Settings
 
 1.  Using the **Sitemap**, select **Service**.
 
-2.  Under **Work Orders**, under **Scheduling**.
+2.  Click **Work Orders**, under **Scheduling**.
 
 3.  Click the **+New** button.
 
@@ -173,7 +173,7 @@ Exercise 2 – Test your Configuration Settings
 8.  Select the **Services** tab and verify that the **[your prefix ex. mollyc]+ Printer Service Fee** was
     added.
 
-9.  Select the **[your prefix ex. mollyc]+ Service Tasks** tab and verify that the three tasks we added.
+9.  Select the **Service Tasks** tab and verify that the three tasks we added.
 
 10. Click the **Related** tab and select **Characteristics**.
 
