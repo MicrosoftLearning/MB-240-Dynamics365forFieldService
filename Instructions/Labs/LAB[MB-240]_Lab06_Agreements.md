@@ -32,7 +32,7 @@ Before you can define products associated with Agreements, they need to be added
 
 ## Task 1 - Add a Printer Products
 
-Note: If you have already completed this step in a previous lab, skip to Exercise 3.
+Note: If you have already completed this step in a previous lab, skip to Exercise 2.
 
 1.  Using the **Sitemap**, select **Products** under **Settings.**
 
@@ -161,7 +161,7 @@ be billed at the end of each month with a Monthly Printer Maintenance fee.
 
 1.  In Dynamics 365, navigate to **Field Service**
 
-2.  Using the Sitemap, select **Agreements** under the **Service Delivery**
+2.  Using the Sitemap, chnage to the **Service** section, and select **Agreements** under the **Service Delivery**
     heading.
 
 3.  Click **New** from the Command Bar.
@@ -176,12 +176,11 @@ be billed at the end of each month with a Monthly Printer Maintenance fee.
 
 6.  Set the **Price List** to **Default Price List** and **Taxable** to **No**.
 
-7.  Click the **Save** to save the agreement and leave it open.
+7.  Click **Save** to save the agreement and leave it open.
 
 ## Task 2 - Setup an Automated Booking for the Agreement
 
-1.  In the agreement that you just created, click on the **New Agreement Booking Setup** button in the
-    Booking Setups area.
+1.  In the agreement that you just created, click on the ellipse in the Booking Setups area, and select the **New Agreement Booking Setup** button 
 
 2.  Configure the Agreement Booking as follows:
 
@@ -189,7 +188,7 @@ be billed at the end of each month with a Monthly Printer Maintenance fee.
 
     - **Auto Generate Work Order**: Yes
 
-    - **Work Order Type:** Preventative Maintenance
+    - **Work Order Type:** Preventative Maintenance.  If you do not see this listed, create a new Work Order Type with name *[your prefix ex. mollyc]+ Preventative Maintenance*
 
     - **Auto Generate Booking**: No
 
@@ -209,7 +208,7 @@ be billed at the end of each month with a Monthly Printer Maintenance fee.
 
 3.  Save the record and leave it open.
 
-4.  Under **Incidents,** click **New Agreement Booking Incident.**
+4.  In the **Incidents** grid, click the ellipse, and select **New Agreement Booking Incident.**
 
 5.  Select **Install IOT** for Incident Type and click **Save & Close.**
 
