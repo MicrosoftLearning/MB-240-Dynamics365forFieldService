@@ -103,7 +103,7 @@ Note: If you have already completed this step in a previous lab, skip to Exercis
 
 1.  Using the **Sitemap**, select **Price Lists** under **Settings.**
 
-2.  Open an exisitng price list.
+2.  Open an existing price list.
 
 3.  In the **Price List Items**, click the **+ Add** button to add a Price List
     Line Item
@@ -161,7 +161,7 @@ be billed at the end of each month with a Monthly Printer Maintenance fee.
 
 1.  In Dynamics 365, navigate to **Field Service**
 
-2.  Using the Sitemap, chnage to the **Service** section, and select **Agreements** under the **Service Delivery**
+2.  Using the Sitemap, change to the **Service** section, and select **Agreements** under the **Service Delivery**
     heading.
 
 3.  Click **New** from the Command Bar.
