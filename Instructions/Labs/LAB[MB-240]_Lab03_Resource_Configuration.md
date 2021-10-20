@@ -26,9 +26,13 @@ Exercise 1 – Resource Configuration
 Task 1 - Create a Bookable Resource for your user record
 ---------------------------------------------------------
 
-1.  Using the **Sitemap**, select **Resources**
+1.  In your Dynamics 365 organization, select the down arrow next to the **Dynamics 365** text, select **Field Service**.
 
-2.  Click **New** button to create a new **Bookable Resource**.
+2.  Using the **Sitemap**, select **Resources**
+
+3.  Under **Resource**, select **Resources**
+
+3.  Click **New** button to create a new **Bookable Resource**.
 
 3.  Configure the new **Bookable Resource** record as follows:
 
@@ -52,7 +56,7 @@ Task 1 - Create a Bookable Resource for your user record
 
 10. **Save** the bookable resource record and leave it open.
 
-11. Locate the **Characteristics** sub-grid, ensure the view is **Active Bookable Resource Characteristics** and select **+New** (note: change the form view to **Information** by clicking the dropdown arrow.)
+11. Under the **General** tab, click **+New Bookable Resource**.
 
 12. Configure as follows:
 
@@ -70,7 +74,7 @@ Task 1 - Create a Bookable Resource for your user record
 
     - **Characteristic:** *[your prefix ex. mollyc]+ CISM*
 
-    - **Rating Value**: *Proficient*
+    - **Rating Value**: *[your prefix ex. mollyc]+ Level 5 Security*
     
     - **Resource**: *your user*
 
@@ -82,7 +86,7 @@ Task 1 - Create a Bookable Resource for your user record
 
     - **Characteristic:** *[your prefix ex. mollyc]+ CISSP*
 
-    - **Rating Value**: *Familiar*
+    - **Rating Value**: *[your prefix ex. mollyc]+ Level 3 Security*
     
     - **Resource**: *your user*
 
@@ -124,7 +128,7 @@ Select **Resources** from the sitemap
 
 11. Click the **+New Resource Territory** button.
 
-12. In the **Territory Lookup** field, select **WA**.
+12. In the **Territory Lookup** field, select *[your prefix ex. mollyc]+ North*.
 
 13. Select the **Save and Close** button.
 

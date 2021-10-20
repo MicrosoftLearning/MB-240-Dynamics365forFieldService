@@ -39,17 +39,17 @@ Doctors.
 
 3.  Click the **New** button to create a new Resource Category.
 
-4.  Enter **Consultation Room** into the Name field and select **Save and
+4.  Enter *Consultation Room* into the Name field and select **Save and
     Close.**
 
 5.  Click the **New** button to create another new Resource Category.
 
-6.  Enter **[your prefix ex. mollyc]+ Patient Consultant** into the name field and select **Save and
+6.  Enter *[your prefix ex. mollyc]+ Patient Consultant* into the name field and select **Save and
     Close.**
 
 7.  Click the **New** button to create the last new Resource Category.
 
-8.  Enter **[your prefix ex. mollyc]+ Doctor** into the name field and select **Save and Close**.
+8.  Enter *[your prefix ex. mollyc]+ Doctor* into the name field and select **Save and Close**.
 
 ### Task 2 – Create a Consultation Characteristic
 
@@ -58,14 +58,11 @@ we can identify the doctors that are able to perform consultations, we are going
 to add a new resource characteristic called Consultation. This characteristic
 will be added to any resource that could be used in a consultation.
 
-1.  While you are in **Resources** section, click **Characteristics** in the
-    left menu. (make sure the view is set to **Resource Characteristics**
+1.  While you are in the **Resources** section, click **Characteristics** in the left menu
 
-2.  Click the **New** button to define a **Characteristic**.  Ensure the form is set to **Information**
+2.  Click the **New** button to create a new record.
 
-3.  Enter **[your prefix ex. mollyc]+ Consultation** into the Name field. (If prompted to create a new
-    Characteristic, press new and create the Characteristic before assigning it
-    as a Bookable Resource Characteristic.  Set the type to **Skill**)
+3.  Enter **[your prefix ex. mollyc]+ Consultation** into the Name field. (If the record isn't present in the system, click **+ New Characteristic** and create the Characteristic before assigning it as a Bookable Resource Characteristic.  Set the type to **Skill**)
 
 4.  Enter your user record as the Resource.
 
@@ -86,11 +83,11 @@ that resource to create the Work Hours Template.
 
 2.  Locate and select the resource record for your user.
 
-3.  On the **command bar** at the top, click the **Show Work Hours** button.
+3.  Click the **Show Work Hours** button on the menu bar.
     *(Note: you may need to allow pop-up windows if you are running a popup
     blocker.)*
 
-4.  Select the **+New** drop-down and select **Working hours**.
+4.  Select the **+ New** drop-down and select **Working hours**.
 
 5.  Change *repeat* to **Every Week**.
 
@@ -102,9 +99,9 @@ that resource to create the Work Hours Template.
 8. Verify that the new schedule is being applied moving forward and **Close**
     the **Work Hours window.**
 
-11. In the left menu, click on **Workhour Templates.**
+11. In the left menu, click on **Work Hours Templates.**
 
-12. Click the **New** button to define a new template.
+12. Click the **+ New** button to define a new template.
 
 13. Define the template as follows:
 
@@ -128,7 +125,7 @@ a new work order that we can schedule using the application.
 
 2.  From the sitemap in the bottom left corner, select **Service**. In the left column, select **Work Orders**.
 
-3.  Click the **New** button.
+3.  Click the **+ New** button.
 
 4.  Configure the work order as follows:
 
@@ -142,7 +139,7 @@ a new work order that we can schedule using the application.
 
     -   **Priority:** *Moderate*
 
-    -   **Service Territory:** *WA*
+    -   **Service Territory:** *[your prefix ex. mollyc]+ North*
 
     -   **Time from Promised:** *Today \@ 1:00 PM*
 
@@ -172,20 +169,15 @@ schedule items and a high level.
 
 4.  Select **Unscheduled work orders**.
 
-5.  Locate the **work order** for [your prefix ex. mollyc]+ Account. Drag it to your user on the schedule board.
+5.  Locate the **work order** for *[your prefix ex. mollyc]+ Account*. Drag it to your user on the schedule board.
 
 6.  Release the mouse button and the item will be placed on the schedule board.
 
-7.  Locate and select the work order for **[your prefix ex. mollyc]+ Coho Winery** under
-    **Unscheduled work orders.** Click **Find Availability**.
+7.  Locate and select the additional work order under **Unscheduled work orders**. Click **Find Availability**.
 
 8.  Dynamics 365 will analyze the requirements needed for this item and will
     factor in other items such as any skills required, work order & resource
     locations, and resource availability to create a list of suggested resources
     that would be able to work on this item.
-
-9.  As you hover over the available time block for **your user**, a **Book**
-    icon will appear. Click the **Book** icon to schedule Van for this work
-    order.
-
+    
 10. Click the **Exit Search** Icon to return to the Schedule Board.

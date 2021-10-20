@@ -69,7 +69,9 @@ different security clearance levels that can be applied.
 
 8.  Click the **Save** button to save the record and leave it open.
 
-10. In the **Rating Values** section, select the ellipsis and select **+ New Rating Value** button.
+9.  Click the **Related** tab, and select **Rating Values**
+
+10. In the **Rating Values** section, select **+ New Rating Value** button.
 
 11. In the **Name** field, enter **[your prefix ex. mollyc]+ Level 1 Security**.
 
@@ -170,7 +172,7 @@ SEC:** GIAN Security Essentials certifications and resource skills.
     **Save** button.
 
 13. Verify that **[your prefix ex. mollyc]+ CISM**, **[your prefix ex. mollyc]+ CISSP**, and **[your prefix ex. mollyc]+ G SEC** have all been added as
-    Characteristics.
+    Skills.
 
 ## Task 4 - Define Resource Categories
 
