@@ -51,7 +51,7 @@ Exercise 1 - Access the Dynamics 365 application
 
 1.  Expand the ellipse button at the top left of the screen, directly to the left of **Power Platform admin center.** Select **Environments.**
 
-2.  Select the **Contoso (Production)** environment.
+2.  Select the **Contoso (default)** environment.
 
 3.  Go to the environment URL.
 
