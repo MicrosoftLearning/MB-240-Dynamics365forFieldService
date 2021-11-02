@@ -56,12 +56,12 @@ Task 1 - Define Territories
 
 2.  In the left column, click **Territories.**
 
-3.  Click **New**.
+3.  Click **+New**.
 
-4.  Enter **[your prefix ex. mollyc]+ North** for **Name** and click **Save**. After saving, click **New**
+4.  Enter **[your prefix ex. mollyc]+ North** for **Name** and click **Save**. After saving, click **+New**
 
 5.  Enter **[your prefix ex. mollyc]+ South** for **Name** and click **Save.** After saving, click
-    **New**.
+    **+New**.
 
 6.  Create two more Territories and name them **[your prefix ex. mollyc]+ East** and **[your prefix ex. mollyc]+ West**.
 
