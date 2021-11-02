@@ -59,7 +59,7 @@ different security clearance levels that can be applied.
 
 3.  Under **Resource**, select **Proficiency Models.**
 
-4.  From the Command Bar, select the **New** button.
+4.  From the Command Bar, select the **+New** button.
 
 5.  In the **Name** field enter **[your prefix ex. mollyc]+ Security Level**.
 
