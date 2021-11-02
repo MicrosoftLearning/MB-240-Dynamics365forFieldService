@@ -37,17 +37,17 @@ Doctors.
 
 2.  Open **Categories** in the left menu.
 
-3.  Click the **New** button to create a new Resource Category.
+3.  Click the **+New** button to create a new Resource Category.
 
 4.  Enter *Consultation Room* into the Name field and select **Save and
     Close.**
 
-5.  Click the **New** button to create another new Resource Category.
+5.  Click the **+New** button to create another new Resource Category.
 
 6.  Enter *[your prefix ex. mollyc]+ Patient Consultant* into the name field and select **Save and
     Close.**
 
-7.  Click the **New** button to create the last new Resource Category.
+7.  Click the **+New** button to create the last new Resource Category.
 
 8.  Enter *[your prefix ex. mollyc]+ Doctor* into the name field and select **Save and Close**.
 
@@ -60,7 +60,7 @@ will be added to any resource that could be used in a consultation.
 
 1.  While you are in the **Resources** section, click **Characteristics** in the left menu
 
-2.  Click the **New** button to create a new record.
+2.  Click the **+New** button to create a new record.
 
 3.  Enter **[your prefix ex. mollyc]+ Consultation** into the Name field. (If the record isn't present in the system, click **+ New Characteristic** and create the Characteristic before assigning it as a Bookable Resource Characteristic.  Set the type to **Skill**)
 
