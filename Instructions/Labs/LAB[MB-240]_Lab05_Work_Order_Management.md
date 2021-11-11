@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab: Work order management'
-    module: 'Module 2: Manage Work Order'
+    module: 'Module 2: Manage Work Orders'
 ---
 
 # Practice Lab 5 - Work order management
