@@ -106,7 +106,7 @@ In this exercise you will be defining an inspection template and adding it to a 
 
 ### Task 3 – Download an image
 
-1. On a browser, navigate to https://www.microsoft.com/en-us/microsoft-365/blog/2019/07/09/lexmark-digitizes-its-future-with-modern-workplace-microsoft-365/.
+1. On a browser, navigate to <https://www.microsoft.com/en-us/microsoft-365/blog/2019/07/09/lexmark-digitizes-its-future-with-modern-workplace-microsoft-365/>.
 
 1. Right click on the image  of the printer and select **Save image as** and click **OK**.
 

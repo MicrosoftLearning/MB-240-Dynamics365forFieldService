@@ -68,7 +68,7 @@ Universal Resource Scheduling provides several items that can be used to assist 
 
 1. Select the **Unscheduled Work Orders** tab.
 
-1. Select the **Urgent** work order that you created in Exercise 1 and drag it to an avalable time slot for your user's resource on the schedule board.
+1. Select the **Urgent** work order that you created in Exercise 1 and drag it to an available time slot for your user's resource on the schedule board.
 
 1. Release the mouse button and the item will be placed on the schedule board.
 
