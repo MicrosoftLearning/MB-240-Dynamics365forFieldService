@@ -126,7 +126,7 @@ In this exercise you will be defining an inspection template and adding it to a 
 
 1. Select the **Service Tasks** tab and verify that the four tasks were added.
 
-1. Open the **[your prefix] Inspect Printer** work order service task,
+1. Open the **[your prefix] Inspect Printer** work order service task.
 
 1. Enter **122333** for **Serial number**
 

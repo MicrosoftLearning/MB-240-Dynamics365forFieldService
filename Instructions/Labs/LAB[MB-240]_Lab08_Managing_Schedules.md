@@ -8,9 +8,7 @@ lab:
 
 ## Exercise 1 - Schedule work orders with the schedule board
 
-Out-of-the-box, Dynamics 365 for Field Service has the work order table enabled
-for use with the Resource Scheduling feature. In this task, we will be creating
-a new work order that we can schedule using the application.
+Out-of-the-box, Dynamics 365 for Field Service has the work order table enabled for use with the Resource Scheduling feature. In this exercise, we will be creating work orders that we can schedule using the application.
 
 ### Task 1 – Create work orders
 
@@ -50,7 +48,7 @@ a new work order that we can schedule using the application.
 
 ## Exercise 2 - Schedule work orders using the schedule board
 
-Universal Resource Scheduling provides several items that can be used to assist in scheduling resources for specific items. The two primary components that are used are the Schedule Board and the Schedule Assistant. The Schedule Board provides the ability to manually schedule items, and the assistant offers suggestions on resources based on factors like location, skills, and availability. In this task we will examine how you can use the schedule board to schedule items.
+Universal Resource Scheduling provides several items that can be used to assist in scheduling resources for specific items. The two primary components that are used are the Schedule Board and the Schedule Assistant. The Schedule Board provides the ability to manually schedule items, and the assistant offers suggestions on resources based on factors like location, skills, and availability. In this exercise we will examine how you can use the schedule board to schedule items.
 
 ### Task 1 – Enable the new Schedule Board
 
