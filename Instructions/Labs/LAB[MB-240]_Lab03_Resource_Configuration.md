@@ -147,3 +147,15 @@ In this exercise you will create the location where resources will start and end
 1. Click **Save**.
 
 1. Click **Save & Close**.
+
+### Task 2 - Create a Working Hours template
+
+1. In the **Dynamics 365 Field Service app**, click the **Resources** area in the bottom-left of the sitemap, and in the **Resource** group select **Work Hours Templates**.
+
+1. Click **+ New**.
+
+1. Enter **[your prefix ex. mollyc]** + **Standard hours** for **Name**.
+
+1. Select your users for **Template resource**.
+
+1. Click **Save & Close**.
