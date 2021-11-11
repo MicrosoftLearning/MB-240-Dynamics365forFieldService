@@ -1,285 +1,119 @@
 ---
 lab:
     title: 'Lab: Agreements'
-    module: 'Module 6: Field Service Agreements'
+    module: 'Module 2: Manage Work Order'
 ---
 
-Module 6 - Field Service Agreements
-=====================
-## Practice Lab 6 - Agreements
+# Practice Lab 6 - Agreements
 
-## Scenario
-Worldwide Industries (WWI) provides IT and networking services to their
-customers. Their services range from phone system and network installations to
-telephoning systems and security system installations. They are going to be
-leveraging Dynamics 365 for Field Service for installation and servicing of
-these systems for their customers. You are the system implementer that has been
-tasked with configuring the application to support the roll-out of the
-application. You will be adding and configuring some products that can be
-installed and setting up skills and characteristics that will be used as part of
-the implementation.
+## Exercise 1 - Create an Agreement
 
-Exercise 1 - Create Field Service related products, and add to Price List 
-==============================
+In this exercise you will be defining a preventative maintenance agreement that will generate Work orders monthly and bill customers quarterly.
 
-Before you can define products associated with Agreements, they need to be added to the product catalog. In this exercise, you will be defining three new products:
+### Task 1 - Create Agreement
 
--   A Remote Printer
+1. In the **Dynamics 365 Field Service app**, click the **Service** area in the bottom-left of the sitemap, and in the **Service Delivery** group select **Agreements**.
 
--   Monthly Printer Maintenance
+1. Click **+ New**.
 
--   Printer Service Fee
+1. Select the **[your prefix] Relecloud** account you created in a previous lab for **Service Account**.
 
-## Task 1 - Add a Printer Products
+1. Select the **[your prefix] Price List** price list you created in a previous lab for **Price List**.
 
-Note: If you have already completed this step in a previous lab, skip to Exercise 2.
+1. Select **No** from the **Taxable** drop-down field.
 
-1.  Using the **Sitemap**, select **Products** under **Settings.**
+1. Select the first of the current month for the **Start Date**.
 
-2.  Click the **Add Product** to create a Product
+1. Select the **End Date** to 12 months after the start date.
 
-3.  Define the Details of the Product as noted below:
+1. Set **Duration** to **365 days**.
 
-	-   **Name:** [your prefix ex. mollyc]+ Remote Printer
+1. Click **Save**.
 
-	-   **Product ID:** *[your prefix ex. mollyc]+ Print-Serv-1234*
+### Task 2 - Setup an Automated Booking for the Agreement
 
-	-   **Unit Group:** *Default Unit*
+1. In the agreement created in Task 1, click on the ellipsis (...) in the **Booking Setup** section, and select **+ New Agreement Booking Setup**.
 
-	-   **Default Unit:** *Primary Unit*
+1. Enter **[your prefix ex. mollyc]** + **Monthly Printer Service** for **Name**.
 
-	-   **Decimals Supported:** *2*
+1. Select **Yes** for **Auto Generate Work Order**.
 
-4.  Select the **Field Service** tab, set the Field Service Product Type to
-    **Inventory**
+1. Select **60** for **Auto Generate Work Order Days in Advance**.
 
-	-  Set the **Taxable** field to **No**
+1. Select the **[your prefix] Low** priority you created in a previous lab for **Priority**.
 
-	-  Save the product, and click **Publish**
+1. Select the **[your prefix] Price List** price list you created in a previous lab for **Price List**.
 
-6.  Return to the Products page. Click the **Add Product** to create a Product
+1. Select **No** for **Auto Generate Work Booking**.
 
-7.  Define the Details of the Product as noted below:
+1. Select **1 Hour** for **Estimated Duration**.
 
-	-   **Name:** [your prefix ex. mollyc]+ Monthly Printer Maintenance
+1. Select **3** for **Pre Booking Flexibility**.
 
-	-   **Product ID:** *[your prefix ex. mollyc]+ Print-Maint4*
+1. Select **3** for **Post  Booking Flexibility**.
 
-	-   **Unit Group:** *Default Unit*
+1. Select **9:00 AM** for **Time Window Start**.
 
-	-   **Default Unit:** *Primary Unit*
+1. Select **12:00 PM** for **Time Window End:**.
 
-	-   **Decimals Supported:** *2*
+1. Click **Save**.
 
-8.  Select the **Field Service** tab, set the Field Service Product Type to
-    **Non-Inventory**
+1. Click on the ellipsis (...) in the **Incidents** section, and select **+ New Agreement Booking Incident**.
 
-9.  Set the **Taxable** field to **No**
+1. Select the **[your prefix] Service Printer** incident type you created in a previous lab for **Incident Type**.
 
-10.  Save the product, and click **Publish**
+1. Click **Save and Close**.
 
-11.  Click the **Add Product** to create a Product
+1. Click **Booking Recurrence** in the command bar.
 
-12.  Define the Details of the Product as noted below:
+1. Select **Monthly** from **Repeat** drop-down list.
 
-        -   **Name:** [your prefix ex. mollyc]+ Printer Service Fee
+1. Select **End after (#specified) occurrences** from **End Date Behavior** drop-down list.
 
-        -   **Product ID:** *[your prefix ex. mollyc]+ Print-Service-Fee*
+1. Enter **12** for **Number of occurrences**.
 
-        -   **Unit Group:** *Default Unit*
+1. Click **OK**.
 
-        -   **Default Unit:** *Primary Unit*
+1. Click **Save & Close**.
 
-        -   **Decimals Supported:** *2*
+1. In the business process flow, click **Next Stage** and select the Agreement Booking Setup.
 
-13.  Select the **Field Service** tab, set the Field Service Product Type to
-    **Service**
+### Task 3 - Setup an Automated Invoice for the Agreement
 
-14.  Set the **Taxable** field to **No**
+1. In the agreement created in Task 1, click on the ellipsis (...) in the **Invoice Setup** section, and select **+ New Agreement Invoice Setup**.
 
-15.  Save the product, and click **Publish**
+1. Enter **[your prefix ex. mollyc]** + **Quarterly Invoice** for **Name**.
 
-## Task 2 - Add a Printer Products to a Price List
+1. Click **Save**.
 
-1.  Using the **Sitemap**, select **Price Lists** under **Settings.**
+1. Select the **Invoice Products** tab.
 
-2.  Open an existing price list.
+1. Click **+ New Agreement Invoice Product**.
 
-3.  In the **Price List Items**, click the **+ Add** button to add a Price List
-    Line Item
+1. Select the **[your prefix] Monthly Printer Maintenance** product you created in a previous lab for **Product**.
 
-4.  Enter the following information:
+1. Select the **Primary Unit** for **Unit**.
 
-    - **Product:** [your prefix ex. mollyc]+ Remote Printer
+1. Select the **Quantity & Sale Amount** tab.
 
-    - **Unit:** Primary Unit
+1. Enter **3** for **Quantity**.
 
-    - **Pricing Method:** Currency Amount
+1. Click **Save & Close**.
 
-    - **Amount:** $1000.00
+1. Click **Save & Close**.
 
-5.  In the **Price List Items**, click the **+ Add** button to add a Price List
-    Line Item
+1. In the business process flow, click **Next Stage** and select the Agreement Invoice Setup.
 
-6.  Enter the following information:
+1. In the business process flow, click **Next Stage**.
 
-    - **Product:** [your prefix ex. mollyc]+ Monthly Printer Maintenance
+### Task 4 - Generate work orders
 
-    - **Unit:** Primary Unit
+1. Return to the agreement created in Task 1.
 
-    - **Pricing Method:** Currency Amount
+1. Select **Active** from the **System Status** drop-down field.
 
-    - **Amount:** \$750.00
+1. Click **Save**.
 
-7.  Click **Save and Close**
+1. In the **Booking Setup** section, open the Agreement Booking Setup you created in Task 2.
 
-8.  In the **Price List Items**, click the **+ Add** button to add a Price List
-    Line Item
-
-9.  Enter the following information:
-
-    - **Product:** [your prefix ex. mollyc]+ Printer Service Fee
-
-    - **Unit:** Primary Unit
-
-    - **Pricing Method:** Currency amount
-
-    - **Amount:** \$150.00
-
-10. Click **Save and Close**
-
-11. Close the price list
-
-Exercise 2 - Create an Agreement 
-================================
-
-In this exercise you will be defining a preventative maintenance agreement that
-will generate Work orders monthly and quarterly. Additionally, the customer will
-be billed at the end of each month with a Monthly Printer Maintenance fee.
-
-## Task 1 - Create an Agreement to be used for Preventative Maintenance 
-
-1.  In Dynamics 365, navigate to **Field Service**
-
-2.  Using the Sitemap, change to the **Service** section, and select **Agreements** under the **Service Delivery**
-    heading.
-
-3.  Click **New** from the Command Bar.
-
-4.  Select **[your prefix ex. mollyc]+ Account** for the **Service Account**.  If you do not see your Account, create a new Account with name *[your prefix ex. mollyc]+ Account*
-
-5.  Under Details set the fields as follows:
-
-    - **Start Date:** Today’s Date
-
-    - **End Date:** 1 Year from Today
-
-6.  Set the **Price List** to **Default Price List** and **Taxable** to **No**.
-
-7.  Click **Save** to save the agreement and leave it open.
-
-## Task 2 - Setup an Automated Booking for the Agreement
-
-1.  In the agreement that you just created, click on the ellipse in the Booking Setups area, and select the **New Agreement Booking Setup** button 
-
-2.  Configure the Agreement Booking as follows:
-
-    - **Name:** [your prefix ex. mollyc]+ Monthly Printer Service
-
-    - **Auto Generate Work Order**: Yes
-
-    - **Work Order Type:** Preventative Maintenance.  If you do not see this listed, create a new Work Order Type with name *[your prefix ex. mollyc]+ Preventative Maintenance*
-
-    - **Auto Generate Booking**: No
-
-    - **Estimated Duration:** 1 Hour
-
-    - **Pre Booking Flexibility:** 1
-
-    - **Post Booking Flexibility:** 1
-
-    - **Time Window Start:** 9:00 AM
-
-    - **Time Window End:** 12:00 PM
-
-    - **Generate Work Order Days in Advance**: 2 (to ensure that the work
-        order is created right away, determine how many days are left in the
-        current month, and use that number or greater for this value)
-
-3.  Save the record and leave it open.
-
-4.  In the **Incidents** grid, click the ellipse, and select **New Agreement Booking Incident.**
-
-5.  Select **Install IOT** for Incident Type and click **Save & Close.**
-
-6.  On the Agreement Booking Setup Record, click the ellipsis and select **Booking Recurrence**.
-
-7.  Set the Recurrence Patten as noted below:
-
-    - **Monthly:** on the 1st day of every One Month
-
-    - Start on the 1st day of Next Month
-
-    - End After 12 Occurrences
-
-8.  Verify the changes have saved, and close the Booking Setup Record.
-
-9.  In the agreement that you just created, click on the **New Agreement Booking Setup** button in the
-    Booking Setups area.
-
-10. Configure the Agreement Booking as follows:
-
-    - **Name:** [your prefix ex. mollyc]+ Quarterly System Check
-
-    - **Auto Generate Work Order**: Yes
-
-    - **Work Order Type:** Preventative Maintenance
-
-    - **Generate Work Order Days In Advance:** 5
-
-    - **Priority:** Moderate
-
-    - **Auto Generate Booking**: No
-
-    - **Estimated Duration:** 30 Minutes
-
-    - **Pre Booking Flexibility:** 2
-
-    - **Post Booking Flexibility:** 4
-
-11. Save the record and leave it open.
-
-12. On the Agreement Booking Setup Record, click ellipsis and select **Booking Recurrence**.
-
-13. Set the Recurrence Patten as noted below:
-
-    - **Monthly:** on the 1st day of Every 3 Month
-
-    - Start on the 1st day of Next Month
-
-   - End After 12 Occurrences
-
-14. Verify the changes have saved and close the Booking Setup Record.
-
-15. Locate **the Invoice Setups** Sub-grid, and click the **New Agreement Invoice Setup** button to
-    create a new Invoice setup
-
-16. Enter *[your prefix ex. mollyc]+ Monthly Invoice* for the Name, and Click Save
-
-17. If Necessary, expand Invoice Products, click the ellipsis and select **New Agreement Invoice Product** button to add
-    Invoice Products
-
-18. Complete the Agreement Invoice Product as follows:
-
-    - **Product:** [your prefix ex. mollyc]+ Monthly Printer Maintenance
-
-    - **Unit:** Primary Unit
-
-    - **Quantity:** 1
-
-    - Click **Save and Close**
-
-19. Close the [your prefix ex. mollyc]+ Monthly Invoice record
-
-20. Return to the Agreement. Change the Agreement System Status from Estimate to
-    **Active** and **Save**.
+1. Verify there are booking dates listed.

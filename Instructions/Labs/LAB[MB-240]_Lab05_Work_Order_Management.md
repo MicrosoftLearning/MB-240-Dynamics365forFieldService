@@ -6,10 +6,6 @@ lab:
 
 # Practice Lab 5 - Work order management
 
-## Scenario
-
-Worldwide Industries (WWI) provides IT and networking services to their customers. Their services range from phone system and network installations to telephoning systems and security system installations. They are going to be leveraging Dynamics 365 for Field Service for installation and servicing of these systems for their customers. You are the system implementer that has been tasked with configuring the application to support the roll-out of the application. You will be adding and configuring some products that can be installed and setting up skills and characteristics that will be used as part of the implementation.
-
 ## Exercise 1 – Settings for work orders
 
 In this exercise you will configure settings for work orders including priorities and resolutions.

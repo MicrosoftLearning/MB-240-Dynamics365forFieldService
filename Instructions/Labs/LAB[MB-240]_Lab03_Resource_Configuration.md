@@ -6,10 +6,6 @@ lab:
 
 # Practice Lab 3 - Resources
 
-## Scenario
-
-Worldwide Industries (WWI) provides IT and networking services to their customers. Their services range from phone system and network installations to telephoning systems and security system installations. They are going to be leveraging Dynamics 365 for Field Service for installation and servicing of these systems for their customers. You are the system implementor that has been tasked with configuring the application to support the rollout of the application. You will be adding and configuring some products that can be installed and setting up skills and characteristics that will be used as part of the implementation.
-
 ## Exercise 1 – Base location
 
 In this exercise you will create the location where resources will start and end their day.
