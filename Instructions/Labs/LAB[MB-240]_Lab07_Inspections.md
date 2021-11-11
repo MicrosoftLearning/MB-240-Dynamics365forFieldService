@@ -128,11 +128,11 @@ In this exercise you will be defining an inspection template and adding it to a 
 
 1. Open the **[your prefix] Inspect Printer** work order service task.
 
-1. Enter **122333** for **Serial number**
+1. Enter **122333** for **Serial number**.
 
 1. Select **Satisfactory** from the **Condition** drop-down field.
 
-1. Enter ***999*** for **Page Count**.
+1. Enter **999** for **Page Count**.
 
 1. Enter **No problems found** for **Comments**.
 

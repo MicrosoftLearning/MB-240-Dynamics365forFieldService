@@ -46,7 +46,7 @@ You can create new schedule boards and configure the for your requirements. In t
 
 1. Click on the **Scheduler Settings** gear icon on the Schedule Board.
 
-1. Select your **Time Zone**
+1. Select your **Time Zone**.
 
 1. Select **8:00 AM to 6:00 PM** for **Working time**.
 
