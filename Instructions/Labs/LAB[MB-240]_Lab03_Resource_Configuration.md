@@ -1,150 +1,149 @@
 ---
 lab:
-    title: 'Lab: Resource configuration'
-    module: 'Module 3: Defining and Configuring Bookable Resources'
+    title: 'Lab: Resources'
+    module: 'Module 1: Configure Field Service'
 ---
 
-Module 3 - Defining and Configuring Bookable Resources
-====================
-## Practice Lab 3 - Resource configuration
+# Practice Lab 3 - Resources
 
-## Scenario
+## Exercise 1 – Base location
 
-Worldwide Industries (WWI) provides IT and networking services to their
-customers. Their services range from phone system and network installations to
-telephoning systems and security system installations. They are going to be
-leveraging Dynamics 365 for Field Service for installation and servicing of
-these systems for their customers. You are the system implementor that has been
-tasked with configuring the application to support the rollout of the
-application. You will be adding and configuring some products that can be
-installed and setting up skills and characteristics that will be used as part of
-the implementation.
+In this exercise you will create the location where resources will start and end their day.
 
-Exercise 1 – Resource Configuration 
-====================================
+### Task 1 - Set Time Zone
 
-Task 1 - Create a Bookable Resource for your user record
----------------------------------------------------------
+1. Click the **Settings** icon in the navigation bar and select **Personalize Settings**.
 
-1.  In your Dynamics 365 organization, select the down arrow next to the **Dynamics 365** text, select **Field Service**.
+1. Select your **Time Zone** and click **OK**.
 
-2.  Using the **Sitemap**, select **Resources**
+1. Click on **Home** at the top of the left-hand side navigation.
 
-3.  Under **Resource**, select **Resources**
+1. In the **Dynamics 365 Field Service app**, click the **Service** area in the bottom-left of the sitemap, and in the **Scheduling** group select **Schedule Board**.
 
-3.  Click **New** button to create a new **Bookable Resource**.
+1. Click on the **Scheduler Settings** gear icon on the Schedule Board.
 
-3.  Configure the new **Bookable Resource** record as follows:
+1. Select your **Time Zone**
 
-    -   **Resource Type:** *User*
+### Task 2 - Create Organizational Unit
 
-    -   **User:** *The Contact record you are signed in as (example **alans or Alan Steiner**)*
+1. In the **Dynamics 365 Field Service app**, click the **Settings** area in the bottom-left of the sitemap, and in the **General** group select **Org Units**.
 
-    -   **Time Zone:** Leave the default value in the Time Zone Field.
+1. Click **+ New**.
 
-4.  Select the **Scheduling** tab.
+1. Enter **[your prefix ex. mollyc]** + **Org Unit** for **Name**.
 
-5.  Set the **Organizational Unit** field to **Seattle.**
+1. Select the **Scheduling** tab.
 
-6.  In the **Start Location** field, select **Organizational Unit Address**.
+1. Enter **47.70939** for Latitude and **-122.31784** for Longitude.
 
-7.  In the **End Location** field, select **Organizational Unit Address**.
+1. Click **Save & Close**
 
-8.  Select the **Field Service** tab
+### Task 3 - Create a Warehouse for a Truck
 
-9.  Set the **Hourly Rate** field to **175**.
+1. In the **Dynamics 365 Field Service app**, click the **Inventory** area in the bottom-left of the sitemap, and in the **Inventory** group select **Warehouses**.
 
-10. **Save** the bookable resource record and leave it open.
+1. Click **+ New**.
 
-11. Under the **General** tab, click **+New Bookable Resource**.
+1. Enter **[your prefix ex. mollyc]** + **Truck** for **Name**.
 
-12. Configure as follows:
+1. Click **Save & Close**
 
-    - **Characteristic:** *[your prefix ex. mollyc]+ Building Security*
+## Exercise 2 – Configure resources
 
-    - **Rating Value**: *[your prefix ex. mollyc]+ Level 5 Security*
-    
-    - **Resource**: *your user*
+### Task 1 - Create a Bookable Resource for your user record
 
-    - Click **Save and Close** on the characteristic record.
+1. In the **Dynamics 365 Field Service app**, click the **Resources** area in the bottom-left of the sitemap, and in the **Resource** group select **Resources**.
 
-13. Select **+New** Again
+1. Click **+ New**.
 
-14. Configure as follows:
+1. Select **User** from the **Resource Type** drop-down field.
 
-    - **Characteristic:** *[your prefix ex. mollyc]+ CISM*
+1. Select the user record you are signed in as ex. **mollyc** or **Molly Clark** for the **User**.
 
-    - **Rating Value**: *[your prefix ex. mollyc]+ Level 5 Security*
-    
-    - **Resource**: *your user*
+1. Select your Time Zone for **Time Zone**.
 
-    - Click **Save and Close** on the characteristic record.
+1. Select the **Scheduling** tab.
 
-15. Select **+New** Again
+1. Select **Organizational Unit Address** from the **Start Location** drop-down field.
 
-16. Configure as follows:
+1. Select **Organizational Unit Address** from the **End Location** drop-down field.
 
-    - **Characteristic:** *[your prefix ex. mollyc]+ CISSP*
+1. Select the **[your prefix] Org Unit** organizational unit you created in Exercise 1 for **Organizational Unit**.
 
-    - **Rating Value**: *[your prefix ex. mollyc]+ Level 3 Security*
-    
-    - **Resource**: *your user*
+1. Select the **Field Service** tab
 
-    - Click **Save and Close** on the characteristic record.
+1. Set the **Hourly Rate** field to **175**.
 
-Select **Resources** from the sitemap
+1. Select the **[your prefix] Truck** you created in Exercise 1 for **Warehouse**.
 
-1. Select *your user*
+1. Select **Yes** from the **Time Off Approval Required** drop-down field.
 
-2. Select the **Related** tab and select **Resource Category Assns**
+1. Click **Save**.
 
-3. Select **+New Bookable Resource Category Assn**
+1. Select the **General** tab
 
-4. Configure as follows:
+1. Click **+ New Bookable Resource Characteristic**.
 
-    -  **Name:** *[your prefix ex. mollyc]+ Installation Specialist*
-    
-    -  **Resource Category** *[your prefix ex. mollyc]+ Installation Specialist*
+1. Select the **[your prefix] Building Security** you created in the previous lab for **Characteristic**.
 
-    -  Click **Save and Close** on the Category record.
+1. Select the **[your prefix] Level 5 Security** you created in the previous lab for **Rating Value**.
 
-5. Select **+New Bookable Resource Category Assn** again.
+1. Click **Save and Close**.
 
-6. Configure as follows:
+1. Click **+ New Bookable Resource Characteristic**.
 
-    - **Name** *[your prefix ex. mollyc]+ Security Analyst*
-    
-    - **Resource Category:** *[your prefix ex. mollyc]+ Security Analyst*
+1. Select the **[your prefix] CISM** you created in the previous lab for **Characteristic**.
 
-    - Click **Save and Close** on the Category record.
+1. Select the **[your prefix] Proficient** you created in the previous lab for **Rating Value**.
 
-7. **Save and Close** the bookable resource record**.**
+1. Click **Save and Close**.
 
-8. Select *your user*
+1. Click **+ New Bookable Resource Characteristic**.
 
-9. Select the **Related** tab.
+1. Select the **[your prefix] CISSP** you created in the previous lab for **Characteristic**.
 
-10. From the menu that appears, select **Resource Territories**.
+1. Select the **[your prefix] Expert** you created in the previous lab for **Rating Value**.
 
-11. Click the **+New Resource Territory** button.
+1. Click **Save and Close**.
 
-12. In the **Territory Lookup** field, select *[your prefix ex. mollyc]+ North*.
+1. Select the **General** tab
 
-13. Select the **Save and Close** button.
+1. Click **+ New Bookable Resource Category Assn**.
 
-14. Select the **Work Hours** tab. (Note: click the **Related** tab if you don't see it)
+1. Select the **[your prefix] Installation Specialist** you created in the previous lab for **Resource Category**.
 
-15. In the Calendar view, click **+New** dropdown arrow and select **Working hours**.
+1. Click **Save & Close**.
 
-16. From the menu that appears, choose **Every Week** from the repeat field.
+1. Click **+ New Bookable Resource Category Assn**.
 
-17. Ensure the Work Hour are set to **8:00 AM** to **5:00 PM**
+1. Select the **[your prefix] Security Analyst** you created in the previous lab for **Resource Category**.
 
-18. Ensure **Sun** and **Sat** are unchecked, and **Mo** thru **Fr** are checked.
+1. Click **Save and Close**.
 
-19. Click **Save**.
+1. Click **Related** and select **Resource Territories**.
 
-20. Verify that the schedule is showing 8:00 AM to 5:00 PM – Monday – Friday
-    from today forward.
+1. Click **+ New Resource Territory**.
 
-21. Click **Save & Close**.
+1. Select the **[your prefix] North** record you created in the previous lab for **Territory**.
+
+1. Click **Save & Close**.
+
+1. Click **Show Work Hours** in the command bar.
+
+1. In the Calendar view, click **+ New** drop-down arrow and select **Working hours**.
+
+1. Select the first of the current month for the date.
+
+1. Select **Every Week** from the **Repeat** drop-down field.
+
+1. Check **Mo** thru **Fr** are checked
+
+1. Uncheck **Su** and **Sa**.
+
+1. Set the Work Hour are set to **9:00 AM** to **5:00 PM**
+
+1. Select your Time Zone.
+
+1. Click **Save**.
+
+1. Click **Save & Close**.

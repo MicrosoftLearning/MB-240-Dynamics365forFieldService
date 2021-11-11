@@ -1,180 +1,229 @@
 ---
 lab:
     title: 'Lab: Incident types'
-    module: 'Module 4: Configure Incidents'
+    module: 'Module 2: Manage Work Order'
 ---
 
-Module 4 - Configure Incidents
-====================
-## Practice Lab 4 - Incident types
+# Practice Lab 4 - Incident types
 
-## Scenario
+## Exercise 1 – Create an Incident Type
 
-Worldwide Industries (WWI) provides IT and networking services to their
-customers. Their services range from phone system and network installations to
-telephoning systems and security system installations. They are going to be
-leveraging Dynamics 365 for Field Service for installation and servicing of
-these systems for their customers. You are the system implementer that has been
-tasked with configuring the application to support the roll-out of the
-application. You will be adding and configuring some products that can be
-installed and setting up skills and characteristics that will be used as part of
-the implementation.
+In this exercise you will create and populate an Incident Type as a template for creating work orders.
 
-Exercise 1 – Create an Incident Type called Printer Installation
-================================================================
+### Task 1 - Work Order Type
 
-### Task 1 –Service Task Types to be used with Incidents:
+1. In the **Dynamics 365 Field Service app**, click the **Settings** area in the bottom-left of the sitemap, and in the **Work Orders** group select **Work Order Types**.
 
-1.  Using the **Sitemap**, select **Settings
+1. Click **+ New**.
 
-2.  Select  **Service Task Types** under **Work Order** settings
+1. Enter **[your prefix ex. mollyc]** + **Service Call** for **Name**.
 
-3.  Click the **+New** button and enter **[your prefix ex. mollyc]+ Clean Printer Assembly** for the Name.
+1. Select **Yes** from the **Incident Required** drop-down field.
 
-4.  Select **30 Minutes** for the **Estimated Duration.**
+1. Select **No** from the **Taxable** drop-down field.
 
-5.  Click **Save and Close.**
+1. Select the **[your prefix] Price List** record you created in the previous lab for **Price List**.
 
-6.  Repeat Steps 2 – 4 to add each of the following:
+1. Click **Save & Close**
 
-    1.  **[your prefix ex. mollyc]+ Replace Toner:** *Duration 15 Minutes*
+1. Click **+ New**.
 
-    2.  **[your prefix ex. mollyc]+ Final Test:** *Duration 15 Minutes*
-    
-### Task 2 - Create a Service Call Work Order Type
+1. Enter **[your prefix ex. mollyc]** + **Inspection** for **Name**.
 
-1. Using the **Sitemap**, select **Work Order Types**
+1. Select **No** from the **Incident Required** drop-down field.
 
-2. Click the **+New** button and enter **[your prefix ex. mollyc]+ Service Call** for the Name.
+1. Select **No** from the **Taxable** drop-down field.
 
-3. Set **Incident Required** and **Taxable** to **No**
+1. Select the **[your prefix] Price List** record you created in the previous lab for **Price List**.
 
-4. Click **Save & Close**
+1. Click **Save & Close**
 
-### Task 3 –Create a Service Printer Incident Type
+### Task 2 – Service Task Types
 
-1.  Using the **Sitemap**, select **Incident Types** under **Work Order**
-    settings.
+1. In the **Dynamics 365 Field Service app**, click the **Settings** area in the bottom-left of the sitemap, and in the **Work Orders** group select **Service Task Types**.
 
-2.  Click the **New** button and enter **[your prefix ex. mollyc]+ Service Printer** for the Name.
+1. Click **+ New**.
 
-3.  Select the Details tab, and configure as follows:
+1. Enter **[your prefix ex. mollyc]** + **Clean Printer Assembly** for **Name**.
 
--   **Copy Incident Items to Agreement:** *Yes*
+1. Select **30 Minutes** for **Estimated Duration**.
 
--   Click **Default Work Order Type** and select  *[your prefix ex. mollyc]+ Service Call*.
+1. Click **Save and Close.**
 
-1.  Click **Save** to save the Incident type and leave it open.
+1. Click **+ New**.
 
-2.  Select the **Service Task** Tab, click the ellipsis and select **+New Incident Type Service Tasks** button. (If pop ups are blocked, you may need to unblock them)
+1. Enter **[your prefix ex. mollyc]** + **Replace Toner** for **Name**.
 
-3.  Enter **[your prefix ex. mollyc]+ Clean Printer Assembly** for the **Name**, select **[your prefix ex. mollyc]+ Clean Printer
-    Assembly** as the task type, ensure 30 minutes is set for **Estimated
-    Duration**.
+1. Select **15 Minutes** for **Estimated Duration**.
 
-4.  Click **Save and Close.**
+1. Click **Save and Close.**
 
-5.  Click the **+New Incident Type Service Tasks** button again.
+1. Click **+ New**.
 
-6.  Enter **[your prefix ex. mollyc]+ Replace Toner** for the **Name**, select **[your prefix ex. mollyc]+ Replace Toner** as the
-    task type, ensure 15 minutes is set for **Estimated Duration**.
+1. Enter **[your prefix ex. mollyc]** + **Final Test** for **Name**.
 
-7.  Click **Save and Close.**
+1. Select **15 Minutes** for **Estimated Duration**.
 
-8.  Click the **Add Incident Type Service Tasks** button one last time.
+1. Click **Save and Close.**
 
-9.  Enter **[your prefix ex. mollyc]+ Final Test** for the **Name**, select **[your prefix ex. mollyc]+ Final Test** as the task
-    type, ensure 15 minutes is set for **Estimated Duration**.
+1. Click **+ New**.
 
-10. Click **Save and Close.**
+1. Enter **[your prefix ex. mollyc]** + **Inspection** for **Name**.
 
-11. Select the **Products** tab
+1. Select **45 Minutes** for **Estimated Duration**.
 
-12. Click the ellipsis and select **+ New Incident Type Product** button.
+1. Click **Save and Close.**
 
-13. Configure the Incident Type Product as follows:
+### Task 3 – Incident Type
 
-    -   **Name:** *[your prefix ex. mollyc]+ Remote Printer*
+1. In the **Dynamics 365 Field Service app**, click the **Settings** area in the bottom-left of the sitemap, and in the **Work Orders** group select **Incident Types**.
 
-    -   **Unit:** *Primary Unit*
+1. Click **+ New**.
 
-    -   **Quantity:** *1*
+1. Enter **[your prefix ex. mollyc]** + **Service Printer** for **Name**.
 
-    -   **Product:** *[your prefix ex. mollyc]+ Remote Printer*
+1. Click the **New** button and enter **[your prefix ex. mollyc]+ Service Printer** for the Name.
 
-14. Click the **Save and Close** button
+1. Select the **Details** tab.
 
-15. Select the **Services** Tab.
+1. Select the **[your prefix] Service Call** work order type you created in Task 1 for **Default Work Order Type**.
 
-16. Click the ellipsis and select **+New Incident Type Service** button.
+1. Select **Yes** from the **Copy Incident Items to Agreement** drop-down field.
 
-17. Configure the new Incident Type Service as follows:
+1. Click **Save**.
 
-    -   **Name:** *[your prefix ex. mollyc]+ Printer Service Fee*
+1. Select the **Service Tasks** tab.
 
-    -   **Unit:** *Primary Unit*
+1. Click **+ New Incident Type Service Task**.
 
-    -   **Service** *[your prefix ex. mollyc]+ Printer Service Fee*
+1. Enter **[your prefix ex. mollyc]** + **Clean Printer Assembly** for **Name**.
 
-18. Click the **Save and Close** Button
+1. Select the **[your prefix] Clean Printer Assembly** service task type you created in Task 2 for **Task Type**.
 
-19. Select the **Characteristics** tab
+1. Click **Save and Close**.
 
-20. Click the ellipsis and select **+New Incident Type Characteristics** button
+1. Click **+ New Incident Type Service Task**.
 
-21. Configure the Incident Type Characteristic as follows:
+1. Enter **[your prefix ex. mollyc]** + **Replace Toner** for **Name**.
 
-    -   **Characteristic:** *[your prefix ex. mollyc]+ CISM*
+1. Select the **[your prefix] Replace Toner** service task type you created in Task 2 for **Task Type**.
 
-    -   **Rating Value:** *Familiar*
+1. Click **Save and Close**.
 
-22. Click the **Save and Close** button
+1. Click **+ New Incident Type Service Task**.
 
-23. Click the **+New Incident Type Characteristics** button again
+1. Enter **[your prefix ex. mollyc]** + **Final Test** for **Name**.
 
-24. Configure the Incident Type Characteristic as follows:
+1. Select the **[your prefix] Final Test** service task type you created in Task 2 for **Task Type**.
 
-    -   **Characteristic:** *[your prefix ex. mollyc]+ Building Security*
+1. Click **Save and Close**.
 
-    -   **Rating Value:** *[your prefix ex. mollyc]+ Level 2 Security*
+1. Select the **Products** tab.
 
-25. Click the Save and Close Button
+1. Click **+ New Incident Type Product**.
 
-Exercise 2 – Test your Configuration Settings
-=============================================
+1. Enter **[your prefix ex. mollyc]** + **Remote Printer** for **Name**.
 
-### Task 1 –Create a new Work Order using Service Printer Incident Type:
+1. Select the **[your prefix] Remote Printer** product you created in a previous lab for **Product**.
 
-1.  Using the **Sitemap**, select **Service**.
+1. Select the **Primary Unit** for **Unit**.
 
-2.  Click **Work Orders**, under **Scheduling**.
+1. Enter **1** for **Quantity:**.
 
-3.  Click the **+New** button.
+1. Click **Save and Close**.
 
-4.  Configure the New Work Order as follows:
+1. Select the **Services** tab.
 
-    -   **Service Account:** Click +New Account: enter *[your prefix ex. mollyc]+ Account* for the name. If not found, Click **+ New Account** and enter: *[your prefix ex. mollyc]+ Account*
-    
-    -   **Work Order Type** *[your prefix ex. mollyc]+ Service Call*
-    
-    -   **Price List** *Default Price List*
-    
-    -   **Taxable** *No*
+1. Click **+ New Incident Type Service**.
 
-    -   **Primary Incident Type:** *[your prefix ex. mollyc]+ Service Printer*
+1. Enter **[your prefix ex. mollyc]** + **Printer Service Fee** for **Name**.
 
-5.  Click the **Save and Close** button
+1. Select the **[your prefix] Printer Service Fee** product you created in a previous lab for **Service**.
 
-6.  Wait about 30 seconds to a minute and open the work order you just created.
+1. Select the **Primary Unit** for **Unit**.
 
-7.  Select the **Products** tab and verify that the **[your prefix ex. mollyc]+ Remote Printer Product**
-    was added.
+1. Click **Save and Close**.
 
-8.  Select the **Services** tab and verify that the **[your prefix ex. mollyc]+ Printer Service Fee** was
-    added.
+1. Select the **Characteristics** tab.
 
-9.  Select the **Service Tasks** tab and verify that the three tasks we added.
+1. Click **+ New Incident Type Characteristic**.
 
-10. Click the **Related** tab and select **Characteristics**.
+1. Select the **[your prefix] CISM** characteristic you created in a previous lab for **Characteristic**.
 
-11. Verify that the two Characteristics defined on the Incident Type we added.
+1. Select the **[your prefix] Familiar** rating you created in a previous lab for **Rating Value**.
+
+1. Click **Save and Close**.
+
+1. Select the **Characteristics** tab.
+
+1. Click **+ New Incident Type Characteristic**.
+
+1. Select the **[your prefix] Building Security** characteristic you created in a previous lab for **Characteristic**.
+
+1. Select the **[your prefix] Level 2 Security** rating you created in a previous lab for **Rating Value**.
+
+1. Click **Save and Close**.
+
+## Exercise 2 – Test the Incident Type
+
+In this exercise you will create a work order by using the incident type.
+
+### Task 1 - Create Customer
+
+1. In the **Dynamics 365 Field Service app**, click the **Service** area in the bottom-left of the sitemap, and in the **Customers** group select **Accounts**.
+
+1. Click **+ New**.
+
+1. Enter **[your prefix ex. mollyc]** + **Relecloud** for **Account Name**.
+
+1. Select the **Servicing** tab.
+
+1. Select the **[your prefix] Price List** record you created in a previous lab for **Price List**.
+
+1. Select the **[your prefix] North** territory you created in a previous lab for **Service Territory**.
+
+1. Enter **Contact security at entrance on arrival** for **Work Order Instructions**.
+
+1. Enter **47.58413** for Latitude and **-122.13052** for Longitude.
+
+1. Click **Save & Close**.
+
+1. Click on **Contacts** in the **Customers** group of the sitemap.
+
+1. Click **+ New** located on the command bar.
+
+1. Enter **[your prefix ex. mollyc]** + **Jane** for **First Name**.
+
+1. Enter **Doe** for **Last Name**.
+
+1. Select the **[your prefix] Relecloud** account you created in Task 1 for **Account Name**.
+
+1. Click **Save & Close**.
+
+### Task 2 – Create a new Work Order using an Incident Type
+
+1. In the **Dynamics 365 Field Service app**, click the **Service** area in the bottom-left of the sitemap, and in the **Scheduling** group select **Work Orders**.
+
+1. Click **+ New**.
+
+1. Select the **[your prefix] Relecloud** account you created in Task 1 for **Service Account**.
+
+1. Select the **[your prefix] Service Call** you created in a previous lab for **Work Order Type**.
+
+1. Select **No** from the **Taxable** drop-down field.
+
+1. Select the **[your prefix] Service Printer** incident type you created in a previous lab for **Primary Incident Type**.
+
+1. Click **Save**.
+
+1. Wait about 30 seconds to a minute and click **Refresh** in the command bar.
+
+1. Select the **Products** tab and verify that the **[your prefix ex. mollyc]+ Remote Printer Product** was added.
+
+1. Select the **Services** tab and verify that the **[your prefix ex. mollyc]+ Printer Service Fee** was added.
+
+1. Select the **Service Tasks** tab and verify that the three tasks were added.
+
+1. Click **Related** and select **Characteristics**.
+
+1. Verify that the two Characteristics defined on the Incident Type were added.

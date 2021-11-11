@@ -1,211 +1,211 @@
 ---
 lab:
     title: 'Lab: Skills and characteristics'
-    module: 'Module 2: Resource Scheduling Configuration'
+    module: 'Module 1: Configure Field Service'
 ---
 
-Module 2 - Resource Scheduling Configuration
-====================
-## Practice Lab 2 - Skills and characteristics 
+# Practice Lab 2 - Skills and characteristics
 
-## Scenario
+## Exercise 1 - Configure Dynamics 365 for Field Service Skills and Characteristics
 
-Worldwide Industries (WWI) provides IT and networking services to their
-customers. Their services range from phone system and network installations to
-telephoning systems and security system installations. They are going to be
-leveraging Dynamics 365 for Field Service for installation and servicing of
-these systems for their customers. You are the system implementor that has been
-tasked with configuring the application to support the rollout of the
-application. You will be adding and configuring some products that can be
-installed and setting up skills and characteristics that will be used as part of
-the implementation.
+Each technician that goes out to service customers may have a number of different skills and roles assigned to them. There are three primary roles that tech may have:
 
-Exercise 1 - Configure Dynamics 365 for Field Service Skills and Characteristics
-================================================================================
+- Installation Specialist
+- Site Inspector
+- Security Analyst
 
-Each technician that goes out to service customers may have a number of
-different skills and roles assigned to them. There are three primary roles
-that tech may have:
+Additionally, each technician may have specific skills or Certifications that relate to a specific product or service. The most common certifications might be any of the following:
 
--   Installation Specialist
+- **CISM:** Certified Information Security Manager
+- **CISSP:** Certified Information Systems Security Professional
+- **G SEC:** GIAN Security Essentials
 
--   Site Inspector
+Since some of your customers are government agencies, technicians may need to have specific security clearance levels. These can range from Level one to Level five.
 
--   Security Analyst
+### Task 1 – Proficiency Models
 
-Additionally, each technician may have specific skills or Certifications
-that relate to a specific product or service. The most common certifications
-might be any of the following:
+In this task you will create a proficiency model that contains the five different security clearance levels and a proficiency model for skill level.
 
--   **CISM:** Certified Information Security Manager.
+1. In the **Dynamics 365 Field Service app**, click the **Resources** area in the bottom-left of the sitemap, and in the **Resource** group select **Proficiency Models**.
 
--   **CISSP:** Certified Information Systems Security Professional.
+1. Click **+ New** located on the command bar.
 
--   **G SEC:** GIAN Security Essentials
+1. Enter **[your prefix ex. mollyc]** + **Security Level** for **Name**.
 
-Since some of your customers are government agencies, technicians may need
-to have specific security clearance levels. These can range from Level one
-to Level five.
+1. Enter **1* for **Min Rating Value**.
 
-## Task 1 – Create a Security clearance Proficiency Model
+1. Enter **5* for **Max Rating Value**.
 
-In this task you will create a proficiency model that contains the five
-different security clearance levels that can be applied.
+1. Click **Save**.
 
-1.  In your Dynamics 365 organization, select the down arrow next to the
-    **Dynamics 365** text, select **Resource Scheduling**.
+1. Click **Related** and select **Rating Values**.
 
-2.  Using the sitemap, select the **Settings**
+1. Click **+ New Rating Value**.
 
-3.  Under **Resource**, select **Proficiency Models.**
+1. Enter **[your prefix ex. mollyc]** + **Level 1 Security** for **Name**.
 
-4.  From the Command Bar, select the **New** button.
+1. Enter **1** for **Value**.
 
-5.  In the **Name** field enter **[your prefix ex. mollyc]+ Security Level**.
+1. Click **Save & Close**.
 
-6.  Set the **Min Rating Value** to **1**.
+1. Click **+ New Rating Value**.
 
-7.  Set the **Max Rating Value** to 5.
+1. Enter **[your prefix ex. mollyc]** + **Level 2 Security** for **Name**.
 
-8.  Click the **Save** button to save the record and leave it open.
+1. Enter **2** for **Value**.
 
-9.  Click the **Related** tab, and select **Rating Values**
+1. Click **Save & Close**.
 
-10. In the **Rating Values** section, select **+ New Rating Value** button.
+1. Click **+ New Rating Value**.
 
-11. In the **Name** field, enter **[your prefix ex. mollyc]+ Level 1 Security**.
+1. Enter **[your prefix ex. mollyc]** + **Level 3 Security** for **Name**.
 
-12. Set the **Value** field to **1**.
+1. Enter **3** for **Value**.
 
-13. Ensure the **Rating Model** is set to **[your prefix ex. mollyc]+ Security Level** and click the
-    **Save and Close** button.
+1. Click **Save & Close**.
 
-14. Select the **+ New Rating Value** button.
+1. Click **+ New Rating Value**.
 
-15. In the **Name** field, enter **[your prefix ex. mollyc]+ Level 2 Security**.
+1. Enter **[your prefix ex. mollyc]** + **Level 4 Security** for **Name**.
 
-16. Set the **Value** field to **2**.
+1. Enter **4** for **Value**.
 
-17. Ensure the **Rating Model** is set to **[your prefix ex. mollyc]+ Security Level** and click the
-    **Save and Close** button.
+1. Click **Save & Close**.
 
-18. Select the **Add New Rating Value** button.
+1. Click **+ New Rating Value**.
 
-19. In the **Name** field, enter **[your prefix ex. mollyc]+ Level 3 Security**.
+1. Enter **[your prefix ex. mollyc]** + **Level 5 Security** for **Name**.
 
-20. Set the **Value** field to **3**.
+1. Enter **5** for **Value**.
 
-21. Ensure the **Rating Model** is set to **[your prefix ex. mollyc]+ Security Level** and click the
-    **Save and Close** button.
+1. Click **Save & Close**.
 
-22. Select the **Add New Rating Value** button.
+1. Click **Save & Close**.
 
-23. In the **Name** field, enter **[your prefix ex. mollyc]+ Level 4 Security**.
+1. Click **+ New** located on the command bar.
 
-24. Set the **Value** field to **4**.
+1. Enter **[your prefix ex. mollyc]** + **Proficiency** for **Name**.
 
-25. Ensure the **Rating Model** is set to **[your prefix ex. mollyc]+ Security Level** and click the
-    **Save and Close** button.
+1. Enter **1* for **Min Rating Value**.
 
-26. Select the **Add New Rating Value** button.
+1. Enter **3* for **Max Rating Value**.
 
-27. In the **Name** field, enter **[your prefix ex. mollyc]+ Level 5 Security**.
+1. Click **Save**.
 
-28. Set the **Value** field to **5**.
+1. Click **Related** and select **Rating Values**.
 
-29. Ensure the **Rating Model** is set to **[your prefix ex. mollyc]+ Security Level** and click the
-    **Save and Close** button.
+1. Click **+ New Rating Value**.
 
-30. Verify that the Security Level Model has 5 Security levels added to it.
+1. Enter **[your prefix ex. mollyc]** + **Familiar** for **Name**.
 
-## Task 2 - Define your Security Clearance Skill
+1. Enter **1** for **Value**.
 
-In this task you will create a building security skill that will be used in
-conjunction with the Proficiency Model you defined in the previous task.
+1. Click **Save & Close**.
 
-1.  In your Dynamics 365 organization, select the down arrow next to the
-    **Dynamics 365** text, select **Resource Scheduling**.
+1. Click **+ New Rating Value**.
 
-2.  Using the sitemap, select **Settings**
+1. Enter **[your prefix ex. mollyc]** + **Proficient** for **Name**.
 
-3.  Under **Resource**, select **Skills**.
+1. Enter **2** for **Value**.
 
-4.  Select the **+New** button.
+1. Click **Save & Close**.
 
-5.  In the **Name** field, enter **[your prefix ex. mollyc]+ Building Security**
+1. Click **+ New Rating Value**.
 
-6.  Set the **Characteristic Type** field to **Skill** and click the **Save**
-    button.
+1. Enter **[your prefix ex. mollyc]** + **Expert** for **Name**.
 
-## Task 3 - Define your required Certification Characteristics
+1. Enter **3** for **Value**.
 
-In this task you will be adding the **CISM:** Certified Information Security
-Manager, **CISSP:** Certified Information Systems Security Professional, and **G
-SEC:** GIAN Security Essentials certifications and resource skills.
+1. Click **Save & Close**.
 
-1.  In your Dynamics 365 organization, select the down arrow next to the
-    **Dynamics 365** text, select **Resource Scheduling**.
+1. Click **Save & Close**.
 
-2.  Using the sitemap, select **Settings**
+### Task 2 - Define a Security Clearance skill
 
-3.  Under **Resource**, select **Skills**.
+In this task you will create a building security skill that will be used in conjunction with the Proficiency Model you defined in the previous task.
 
-4.  Select the **+New** button.
+1. Click on the name of the app in the top left of the application next to Dynamics 365 and from the list of published apps, select the **Resource Scheduling** app.
 
-5.  In the **Name** field, enter **[your prefix ex. mollyc]+ CISM**
+1. In the **Resource Scheduling app**, click the **Settings** area in the bottom-left of the sitemap, and in the **Resource** group select **Skills**.
 
-6.  Set the **Characteristic Type** field to **Certification** and click the
-    **Save** button.
+1. Click **+ New**.
 
-7.  Select the **+New** button again.
+1. Enter **[your prefix ex. mollyc]** + **Building Security** for **Name**.
 
-8.  In the **Name** field, enter **[your prefix ex. mollyc]+ CISSP**
+1. Select **Skill** from the **Characteristic Type** drop-down field.
 
-9.  Set the **Characteristic Type** field to **Certification** and click the
-    **Save** button.
+1. Click **Save & Close**.
 
-10. Select the **New** button one last time.
+### Task 3 - Define Security certifications
 
-11. In the **Name** field, enter **[your prefix ex. mollyc]+ G SEC**
+In this task you will be adding the **CISM:** Certified Information Security Manager, **CISSP:** Certified Information Systems Security Professional, and **GSEC:** GIAN Security Essentials certifications and resource skills.
 
-12. Set the **Characteristic Type** field to **Certification** and click the
-    **Save** button.
+1. In the **Resource Scheduling app**, click the **Settings** area in the bottom-left of the sitemap, and in the **Resource** group select **Skills**.
 
-13. Verify that **[your prefix ex. mollyc]+ CISM**, **[your prefix ex. mollyc]+ CISSP**, and **[your prefix ex. mollyc]+ G SEC** have all been added as
-    Skills.
+1. Click **+ New**.
 
-## Task 4 - Define Resource Categories
+1. Enter **[your prefix ex. mollyc]** + **CISM** for **Name**.
 
-In this task, you will be adding the Installation Specialist, Site Inspector,
-and Security Analyst resource roles.
+1. Enter **[your prefix ex. mollyc]** + **Certified Information Security Manager** for **Description**.
 
-1.  In your Dynamics 365 organization, select the down arrow next to the
-    **Dynamics 365** text, select **Resource Scheduling**.
+1. Select **Certification** from the **Characteristic Type** drop-down field.
 
-2.  Using the sitemap, select **Settings**
+1. Click **Save & Close**.
 
-3.  Under **Resource**, select **Roles**.
+1. Click **+ New**.
 
-4.  Select **+New**
+1. Enter **[your prefix ex. mollyc]** + **CISSP** for **Name**.
 
-5.  In the **Name** field, enter **[your prefix ex. mollyc]+ Installation Specialist.**
+1. Enter **[your prefix ex. mollyc]** + **Certified Information Systems Security Professional** for **Description**.
 
-6.  Enter **[your prefix ex. mollyc]+ Installation Specialist** in the **Description** field as well and
-    click the **Save** button.
+1. Select **Certification** from the **Characteristic Type** drop-down field.
 
-7.  Click **+New** button again.
+1. Click **Save & Close**.
 
-8.  In the **Name** field, enter **[your prefix ex. mollyc]+ Site Inspector.**
+1. Click **+ New**.
 
-9.  Enter **[your prefix ex. mollyc]+ Site Inspector** in the **Description** field as well and click the
-    **Save** button.
+1. Enter **[your prefix ex. mollyc]** + **G SEC** for **Name**.
 
-10.  Click **New** button one last time.
+1. Enter **[your prefix ex. mollyc]** + **GIAN Security Essentials** for **Description**.
 
-11.  In the **Name** field, enter **[your prefix ex. mollyc]+ Security Analyst.**
+1. Select **Certification** from the **Characteristic Type** drop-down field.
 
-12. Enter **[your prefix ex. mollyc]+ Security Analyst** in the **Description** field as well and click
-    the **Save** button.
+1. Click **Save & Close**.
 
-13. Verify that the [your prefix ex. mollyc]+ Security Analyst, [your prefix ex. mollyc]+ Installation Specialist, and [your prefix ex. mollyc]+ Site
-    Inspector roles have been added.
+1. Click **Save & Close**.
+
+### Task 4 - Define Resource Roles (Categories)
+
+In this task, you will be adding the Installation Specialist, Site Inspector, and Security Analyst resource roles.
+
+1. In **Resource Scheduling app**, click the **Settings** area in the bottom-left of the sitemap, and in the **Resource** group select **Roles**.
+
+1. Click **+ New**.
+
+1. Enter **[your prefix ex. mollyc]** + **Installation Specialist** for **Name**.
+
+1. Enter **Installation Specialist** for **Description**.
+
+1. Click **Save & Close**.
+
+1. Click **+ New**.
+
+1. Enter **[your prefix ex. mollyc]** + **Site Inspector** for **Name**.
+
+1. Enter **Site Inspector** for **Description**.
+
+1. Click **Save & Close**.
+
+1. Click **+ New**.
+
+1. Enter **[your prefix ex. mollyc]** + **** for **Name**.
+
+1. Enter **Security Analyst** for **Description**.
+
+1. Click **Save & Close**.
+
+1. Click on the name of the app in the top left of the application next to Dynamics 365 and from the list of published apps, select the **Field Service** app.
+
+1. Navigate to **Resources** -> **Resource** -> **Categories**.
+
+1. Verify the roles you created are listed under Active Resource Categories.
