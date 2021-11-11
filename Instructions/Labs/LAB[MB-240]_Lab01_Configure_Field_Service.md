@@ -1,214 +1,203 @@
 ---
 lab:
-    title: 'Lab: Configure Dynamics 365 Field Service'
+    title: 'Lab: Configure Field Service'
     module: 'Module 1: Configure Field Service'
 ---
 
-Practice Lab 1 - Configure Dynamics 365 Field Service
-=====
+# Practice Lab 1 - Configure Dynamics 365 Field Service
 
 ## Scenario
 
-Worldwide Industries (WWI) provides IT and networking services to their
-customers. Their services range from phone system and network installations to
-telephoning systems and security system installations. They are going to be
-leveraging Dynamics 365 for Field Service for installation and servicing of
-these systems for their customers. You are the system implementor that has been
-tasked with configuring the application to support the rollout of the
-application. You will be adding and configuring some products that can be
-installed and setting up skills and characteristics that will be used as part of
-the implementation.
+Worldwide Industries (WWI) provides IT and networking services to their customers. Their services range from phone system and network installations to telephoning systems and security system installations. They are going to be leveraging Dynamics 365 for Field Service for installation and servicing of these systems for their customers. You are the system implementor that has been tasked with configuring the application to support the rollout of the application. You will be adding and configuring some products that can be installed and setting up skills and characteristics that will be used as part of the implementation.
 
-Exercise 1 – Map Configuration 
-======================================================  
+## Exercise 1 – Map Configuration
 
-## Task 1 - Enable Bing Maps to use with Resource Scheduling 
+### Task 1 - Enable Bing Maps to use with Resource Scheduling
 
-To ensure that you are able to take full advantage of the full scheduling and
-mapping capabilities available with Field Service, you need to ensure that it is
-configured to use a mapping provider.  Bings Maps is the default map provider,
-but additional providers could be enabled.  We will be using Bing Maps. 
+To ensure that you are able to take full advantage of the full scheduling and mapping capabilities available with Field Service, you need to ensure that it is configured to use a mapping provider. Bing Maps is the default map provider, but additional providers could be enabled.  We will be using Bing Maps.
 
-1.  In **Dynamics 365**, click the **Field Service** text in the navigation bar, and
-    select **Resource Scheduling**.   
+1. In the **Dynamics 365 Field Service app**, click the **Resources** area in the bottom-left of the sitemap, and in the **Administration** group select **Scheduling Parameters**.
 
-2.  Click the **Site Map** icon in the bottom left corner which will currently show **Resource Scheduling** to
-    expand. Click on **Settings.**  From the menu that
-    appears, select **Administration**.   
+1. Open the **Resource Scheduling** record.
 
-3.  Select **Scheduling Parameters**. 
+1. Locate the **Connect to Maps** field. This should be set to **Yes**.
 
-4.  Locate the **Connect to Maps** field and set it to **Yes**. (Select OK from the popup)
+1. If **Connect to Maps** is set to **No**, set it to **Yes** and click **OK** from the popup.
 
-5.  **Save and Close** the settings.   
+1. Click **Save and Close**.
 
-Exercise 2 - Configure Dynamics 365 for Field Service
-=====================================================
+## Exercise 2 - Configure Territories
 
-In this exercise, you will be modifying and configuring several Field
-Service settings that will be used throughout the application. This will
-include defining Skills & Certifications, Territories, Resources, and more.
+In this exercise, you will adding territories that will be used when scheduling resources and work orders.
 
-Task 1 - Define Territories
----------------------------
+### Task 1 - Define Territories
 
-1.  Switch applications from **Resource Scheduling** to **Field Service.** Click the **Site Map** icon in the bottom left corner to expand.  Click on **Settings.**
+1. In the **Dynamics 365 Field Service app**, click the **Settings** area in the bottom-left of the sitemap, and in the **General** group select **Territories**.
 
-2.  In the left column, click **Territories.**
+1. Click **+ New** located on the command bar.
 
-3.  Click **New**.
+1. Enter **[your prefix ex. mollyc]** + **North** for **Territory Name** and click **Save**. Click **+ New**.
 
-4.  Enter **[your prefix ex. mollyc]+ North** for **Name** and click **Save**. After saving, click **New**
+1. Enter **[your prefix ex. mollyc]** + **South** for **Territory Name** and click **Save**. Click **+ New**.
 
-5.  Enter **[your prefix ex. mollyc]+ South** for **Name** and click **Save.** After saving, click
-    **New**.
+1. Enter **[your prefix ex. mollyc]** + **East** for **Territory Name** and click **Save**. Click **+ New**.
 
-6.  Create two more Territories and name them **[your prefix ex. mollyc]+ East** and **[your prefix ex. mollyc]+ West**.
+1. Enter **[your prefix ex. mollyc]** + **West** for **Territory Name** and click **Save**.
 
-7.  You will now have four additional Territories.
+1. You will now have four Territories with your prefix.
 
-Exercise 3 - Create Service Based product, and Add to Price List 
-=================================================================
+## Exercise 3 - Create Products
 
-Task 1 - Add Printer Products
-----------------------------
+In this exercise, you will adding products and services for use on work orders and add them to the price list.
 
-1.  Using the **Sitemap**, select **Products** under **General.**
+### Task 1 - Add Inventory Product
 
-2.  Click the **Add Product** to create a Product
+1. In the **Dynamics 365 Field Service app**, click the **Settings** area in the bottom-left of the sitemap, and in the **General** group select **Products**.
 
-3.  Define the Details of the Product as noted below:
+1. Click **Add Product**.
 
--   **Name:** *[your prefix ex. mollyc]+ Remote Printer*
+1. Enter **[your prefix ex. mollyc]** + **Remote Printer** for **Name**.
 
--   **Product ID:** *[your prefix ex. mollyc]+ Print-Serv-1234*
+1. Enter **[your prefix ex. mollyc]** + **Print-Serv-1234** for **Product ID**.
 
--   **Unit Group:** *Default Unit*
+1. Select **Default Unit** for **Unit Group**.
 
--   **Default Unit:** *Primary Unit*
+1. Select **Primary Unit** for **Default Unit**.
 
--   **Decimals Supported:** *2*
+1. Set **Decimals Supported** to **2**.
 
-4.  Select the **Field Service** tab, set the Field Service Product Type to
-    **Inventory**
+1. Select the **Field Service** tab.
 
-5.  Set the **Taxable** field to **No**
+1. Set **Field Service Product Type** to **Inventory**.
 
-6.  Save the product,(you may see an error that a price list was not set. You can ignore this) and click **Publish** (Click **Confirm** on the popup)
+1. Set **Taxable** field to **No**.
 
-7.  Click **Save & Close**
+1. Click **Save**. (You may see a warning that a default price list has not been set. You can ignore this.)
 
------------------------------------------------------------
+1. Click **Publish** and click **Confirm** from the popup.
 
-1.  Click the **Add Product** to create a Product
+1. Click **Save & Close**
 
-2.  Define the Details of the Product as noted below:
+### Task 2 - Add Non-Inventory Product
 
--   **Name:** *[your prefix ex. mollyc]+ Monthly Printer Maintenance*
+1. Click **Add Product**.
 
--   **Product ID:** *[your prefix ex. mollyc]+ Print-Maint4*
+1. Enter **[your prefix ex. mollyc]** + **Monthly Printer Maintenance** for **Name**.
 
--   **Unit Group:** *Default Unit*
+1. Enter **[your prefix ex. mollyc]** + **Print-Maint** for **Product ID**.
 
--   **Default Unit:** *Primary Unit*
+1. Select **Default Unit** for **Unit Group**.
 
--   **Decimals Supported:** *2*
+1. Select **Primary Unit** for **Default Unit**.
 
-3.  Select the **Field Service** tab, set the Field Service Product Type to
-    **Non-Inventory**
+1. Set **Decimals Supported** to **2**.
 
-4.  Set the **Taxable** field to **No**
+1. Select the **Field Service** tab.
 
-5.  Save the product. (you may see an error that a price list was not set. You can ignore this.) Click **Publish** (Click **Confirm** on the popup)
+1. Set **Field Service Product Type** to **Non-Inventory**.
 
-6.  Click **Save & Close**
+1. Set **Taxable** field to **No**.
 
------------------------------------------------------------
+1. Click **Save**. (You may see a warning that a default price list has not been set. You can ignore this.)
 
-1.  Click the **Add Product** to create a Product
+1. Click **Publish** and click **Confirm** from the popup.
 
-2.  Define the Details of the Product as noted below:
+1. Click **Save & Close**
 
--   **Name:** *[your prefix ex. mollyc]+ Printer Service Fee*
+### Task 3 - Add Service Product
 
--   **Product ID:** *[your prefix ex. mollyc]+ Printer-Service-Fee*
+1. Click **Add Product**.
 
--   **Unit Group:** *Default Unit*
+1. Enter **[your prefix ex. mollyc]** + **Printer Service Fee** for **Name**.
 
--   **Default Unit:** *Primary Unit*
+1. Enter **[your prefix ex. mollyc]** + **Printer-Service-Fee** for **Product ID**.
 
--   **Decimals Supported:** *2*
+1. Select **Default Unit** for **Unit Group**.
 
-3.  Select the **Field Service** tab, set the Field Service Product Type to
-    **Service**
+1. Select **Primary Unit** for **Default Unit**.
 
-4.  Set the **Taxable** field to **No**
+1. Set **Decimals Supported** to **2**.
 
-5.  Save the product. (you may see an error that a price list was not set. You can ignore this.) Click **Publish** (Click **Confirm** on the popup)
+1. Select the **Field Service** tab.
 
-Task 2 - Add Printer Products to a Price List
----------------------------------------------
+1. Set **Field Service Product Type** to **Service**.
 
-1.  Using the **Sitemap**, select **Price Lists** under **Settings.**
+1. Set **Taxable** field to **No**.
 
-2.  Open the **Default Price List** (Note: Change the view to **All Price Lists** if it is not already showing)
+1. Click **Save**. (You may see a warning that a default price list has not been set. You can ignore this.)
 
-3.  Click **Activate** to activate the **Default Price List** if it is not already active.
+1. Click **Publish** and click **Confirm** from the popup.
 
-4.  In the **Price List Items** tab, click the **+ New Price List Item** button to add a Price List
-    Line Item
+1. Click **Save & Close**
 
-5.  Enter the following information:
+### Task 4 - Add Products to a Price List
 
-    1.  **Product:** *[your prefix ex. mollyc]+ Remote Printer*
+1. In the **Dynamics 365 Field Service app**, click the **Settings** area in the bottom-left of the sitemap, and in the **General** group select **Price Lists**.
 
-    2.  **Unit:** Primary Unit
-    
-    3.  Click the **Pricing Information** tab
+1. Click **+ New**.
 
-    4.  **Pricing Method:** Currency Amount
+1. Enter **[your prefix ex. mollyc]** +  **Price List** for **Name**.
 
-    5.  **Amount:** $1000.00
-    
-    6.  Click **Save & Close**
-    
------------------------------------------------------------
+1. Click **Save**
 
-1.  In the **Price List Items**, click the **+ New Price List Item** button to add a Price List
-    Line Item
+1. Select the **Price List Items** tab.
 
-2.  Enter the following information:
+1. Click **+ New Price List Item**.
 
-    1.  **Product:** *[your prefix ex. mollyc]+ Monthly Printer Maintenance*
+1. Select the **[your prefix] Remote Printer** product you created in Task 1.
 
-    2.  **Unit:** Primary Unit
-    
-    3.  Click the **Pricing Information** tab
+1. Select **Primary Unit** for **Unit**.
 
-    4.  **Pricing Method:** Currency Amount
+1. Select the **Pricing Information** tab.
 
-    5.  **Amount:** $750.00
-    
-    6.  Click **Save and Close**
-    
------------------------------------------------------------
+1. Select **Currency Amount** from the **Pricing Method** drop-down field.
 
-1.  In the **Price List Items**, click the **+ New Price List Item** button to add a Price List
-    Line Item
+1. Enter **1000.00** for **Amount**.
 
-2. Enter the following information:
+1. Click **Save & Close**.
 
-    1.  **Product:** *[your prefix ex. mollyc]+ Printer Service Fee*
+1. Click **+ New Price List Item**.
 
-    2.  **Unit:** Primary Unit
-    
-    3. Click the **Pricing Information** tab
+1. Select the **[your prefix] Monthly Printer Maintenance** product you created in Task 2.
 
-    4.  **Pricing Method:** Currency Amount
+1. Select **Primary Unit** for **Unit**.
 
-    5.  **Amount:** $150.00
-    
-    6. Click **Save and Close**
+1. Select the **Pricing Information** tab.
 
-3. Close the Default Price List by clicking **Save & Close**
+1. Select **Currency Amount** from the **Pricing Method** drop-down field.
 
+1. Enter **750.00** for **Amount**.
+
+1. Click **Save & Close**.
+
+1. Click **+ New Price List Item**.
+
+1. Select the **[your prefix] Printer Service Fee** product you created in Task 3.
+
+1. Select **Primary Unit** for **Unit**.
+
+1. Select the **Pricing Information** tab.
+
+1. Select **Currency Amount** from the **Pricing Method** drop-down field.
+
+1. Enter **150.00** for **Amount**.
+
+1. Click **Save & Close**.
+
+1. Click **Related** on the Price List and select **Field Service Price List Items**.
+
+1. Click **+ New Field Service Price List Item**.
+
+1. Enter **[your prefix ex. mollyc]** + **Printer Service Fee** for **Name**.
+
+1. Select **Yes** from the **Flat Fee** drop-down field.
+
+1. Select the **[your prefix] Price List** price list you created in Task 4.
+
+1. Select the **[your prefix] Printer Service Fee** product you created in Task 3.
+
+1. Close the Default Price List by clicking **Save & Close**
+
+1. Click **Save & Close**.
+
+1. Click **Save & Close**.
