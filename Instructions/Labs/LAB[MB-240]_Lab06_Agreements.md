@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab: Agreements'
-    module: 'Module 2: Manage Work Order'
+    module: 'Module 2: Manage Work Orders'
 ---
 
 # Practice Lab 6 - Agreements
