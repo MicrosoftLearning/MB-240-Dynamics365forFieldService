@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab: Agreements'
+    title: 'Lab: Inspections'
     module: 'Module 2: Manage Work Orders'
 ---
 
