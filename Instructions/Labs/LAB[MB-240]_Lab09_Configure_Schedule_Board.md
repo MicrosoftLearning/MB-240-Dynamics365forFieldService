@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Lab: Customize Schedule Boards'
+    title: 'Lab 9: Configure Schedule Boards (10 minutes)'
     module: 'Module 3: Schedule and dispatch work orders'
 ---
 
-# Practice Lab 9 - Customize the Schedule Board
+# Practice Lab 9 - Configure the Schedule Board
 
 ## Exercise 1 - Create and configure a new schedule board
 

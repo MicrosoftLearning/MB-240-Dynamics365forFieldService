@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab: Managing schedules'
+    title: 'Lab 8: Managing schedules (15 minutes)'
     module: 'Module 3: Schedule and dispatch work orders'
 ---
 
@@ -54,7 +54,7 @@ Universal Resource Scheduling provides several items that can be used to assist 
 
 1. In the **Dynamics 365 Field Service app**, click the **Service** area in the bottom-left of the sitemap, and in the **Scheduling** group select **Schedule Board**.
 
-1. in the top-right on the Schedule Board, toggle **New Schedule Board** to **On**.
+1. In the top-right on the Schedule Board, toggle **New Schedule Board** to **On**.
 
 ### Task 2 – Schedule work orders
 
@@ -78,11 +78,11 @@ Universal Resource Scheduling provides several items that can be used to assist 
 
 1. Click on the **Filters** icon.
 
-1. Select the **[your prefix] North** territory you created in a previous lab. Your resource should be listed.
+1. Select the **[your prefix] North** territory you created in a previous lab. 
 
-1. Click **Apply**.
+1. Click **Apply**. Your resource should be listed.
 
-1. Right-click on your resource cell in the Schedule Board and select **View Resource Card**.
+1. Right-click on your resource cell in the Schedule Board and select **View resource card**.
 
 1. Click on the **Map View** icon.
 

@@ -1,6 +1,6 @@
 ---
 lab:
-  title: 'Lab: Power Platform'
+  title: 'Lab 13: Customize Schedule Boards (50 minutes)'
   module: 'Module 7: Power Platform'
 ---
 
@@ -28,11 +28,11 @@ In this exercise, you will create a solution and add the views used on the sched
 
 1. Click **+ New publisher**.
 
-1. Enter **[your prefix ex. mollyc]** + for **Display Name**.
+1. Enter **[your prefix ex. mollyc]** for **Display Name**.
 
-1. Enter **[your prefix ex. mollyc]** + for **Name**.
+1. Enter **[your prefix ex. mollyc]** for **Name**.
 
-1. Enter **[your prefix ex. mollyc]** + for **Prefix**.
+1. Enter **[your prefix ex. mollyc]** for **Prefix**.
 
 1. Click **Save**.
 
@@ -104,9 +104,13 @@ In this exercise, you will create a solution and add the views used on the sched
 
 1. Add the **Hourly Rate** column to the view.
 
-1. Click **Save**.
+1. Click **Save As**.
+
+1. Enter **[your prefix ex. mollyc]** + **Bookable Resource Detail panel** for **Name** and click **Save**.
 
 1. Click **Publish**.
+
+1. Click **Back**.
 
 1. Select **Bookable Resource Booking** table.
 
@@ -114,7 +118,7 @@ In this exercise, you will create a solution and add the views used on the sched
 
 1. Click **+ Add view**.
 
-1. Enter **[your prefix ex. mollyc]** + **BRB Details panel** for **Name**.
+1. Enter **[your prefix ex. mollyc]** + **BRB Details panel** for **Name** and click **Create**.
 
 1. Add the **Work Order** column to the view.
 
@@ -133,6 +137,8 @@ In this exercise, you will create a solution and add the views used on the sched
 1. Click **Save**.
 
 1. Click **Publish**.
+
+1. Click **Back**.
 
 1. Select **Bookable Resource Booking** table.
 
@@ -163,6 +169,8 @@ In this exercise, you will create a solution and add the views used on the sched
 1. Click **Save**.
 
 1. Click **Publish**.
+
+1. Click **Back**.
 
 1. Select **Resource Requirement** table.
 
@@ -204,13 +212,15 @@ In this exercise, you will create a solution and add the views used on the sched
 
 1. Select **Work Order**.
 
-1. Select **Service Account** with operator **Equals** and value **[your prefix] North**.
+1. Select **Service Territory** with operator **Equals** and value **[your prefix] North**.
 
 1. Click **Ok**.
 
 1. Click **Save**.
 
 1. Click **Publish**.
+
+1. Click **Back**.
 
 ### Task 4: Use views on schedule board
 
@@ -220,6 +230,14 @@ In this exercise, you will create a solution and add the views used on the sched
 
 1. Click the ellipsis (...) next to the name of the tab and select **Board settings**.
 
+1. Select the **Map** tab.
+
+1. Select **[your prefix] Bookable Resource Detail panel** for **Resource details view**.
+
+1. Expand **Schedule types** and select **Other**.
+
+1. Select **[your prefix] BRB Details panel** for **Booking details view**.
+
 1. Expand **Schedule types** and select **Work Order**.
 
 1. Select **[your prefix] BRB Tooltip** for **Booking tooltips view**.
@@ -228,15 +246,15 @@ In this exercise, you will create a solution and add the views used on the sched
 
 1. Select **Requirement panels**.
 
-1. Toggle **Show default requirement panels** to **Off**
+1. Toggle **Show default requirement panels** to **Off**.
 
 1. Click on **+**.
 
 1. Enter **North work orders to schedule** for **Title**.
 
-1. Select **[your prefix] Unscheduled North Territory WOrk Orders** for **View**.
+1. Select **[your prefix] Unscheduled North Territory Work Orders** for **View**.
 
-1. Click **Save**
+1. Click **Save**.
 
 ### Task 5: Test the changes
 

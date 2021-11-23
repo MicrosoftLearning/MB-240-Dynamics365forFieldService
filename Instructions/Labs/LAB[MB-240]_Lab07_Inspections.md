@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab: Agreements'
+    title: 'Lab 7: Inspections (15 minutes)'
     module: 'Module 2: Manage Work Orders'
 ---
 
@@ -20,7 +20,7 @@ In this exercise you will be defining an inspection template and adding it to a 
 
 1. Click on **TextBox** to add question.
 
-1. Enter **Serial number** for **Question1** name.
+1. Enter **Serial number** for **Question1** title.
 
 1. Toggle **Required** to On.
 
@@ -32,7 +32,7 @@ In this exercise you will be defining an inspection template and adding it to a 
 
 1. Click on **Dropdown** to add question.
 
-1. Enter **Condition** for **Question2** name.
+1. Enter **Condition** for **Question2** title.
 
 1. Toggle **Required** to On.
 
@@ -44,27 +44,27 @@ In this exercise you will be defining an inspection template and adding it to a 
 
 1. Click on **Number** to add question.
 
-1. Enter **Page Count** for **Question3** name.
+1. Enter **Page Count** for **Question3** title.
 
-1. Click **Advanced**.
+1. Select the **Advanced** tab.
 
 1. Toggle **Whole Number** to On.
 
-1. Select **Toolbox** tab.
+1. Select the **Toolbox** tab.
 
 1. Click on **TextBox** to add question.
 
-1. Enter **Comments** for **Question4** name.
+1. Enter **Comments** for **Question4** title.
 
-1. Click **Advanced**.
+1. Select the **Advanced** tab.
 
-1. Select **Multiline** for **Input type**.
+1. Select **Multiline** for the **Input type** dro-pdown.
 
-1. Select **Toolbox** tab.
+1. Select the **Toolbox** tab.
 
 1. Click on **File** to add question.
 
-1. Enter **Image** for **Question5** name.
+1. Enter **Image** for **Question5** title.
 
 1. Click the **Preview** tab.
 
@@ -139,5 +139,7 @@ In this exercise you will be defining an inspection template and adding it to a 
 1. Click on **Choose file(s)** and browse to the image you downloaded in Task 3 and click **Open**.
 
 1. Click **Save**.
+
+1. Select **Pass** for **Result**.
 
 1. Click **Mark Complete**.

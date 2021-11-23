@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab: Configure Field Service'
+    title: 'Lab 1: Configure Field Service (10 minutes)'
     module: 'Module 1: Configure Field Service'
 ---
 
@@ -138,7 +138,7 @@ In this exercise, you will adding products and services for use on work orders a
 
 1. Enter **[your prefix ex. mollyc]** +  **Price List** for **Name**.
 
-1. Click **Save**
+1. Click **Save**.
 
 1. Select the **Price List Items** tab.
 
@@ -195,9 +195,5 @@ In this exercise, you will adding products and services for use on work orders a
 1. Select the **[your prefix] Price List** price list you created in Task 4.
 
 1. Select the **[your prefix] Printer Service Fee** product you created in Task 3.
-
-1. Close the Default Price List by clicking **Save & Close**
-
-1. Click **Save & Close**.
 
 1. Click **Save & Close**.
