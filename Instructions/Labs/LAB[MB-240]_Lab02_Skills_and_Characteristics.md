@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab: Skills and characteristics'
+    title: 'Lab 2: Skills and characteristics (20 minutes)'
     module: 'Module 1: Configure Field Service'
 ---
 
@@ -32,13 +32,13 @@ In this task you will create a proficiency model that contains the five differen
 
 1. Enter **[your prefix ex. mollyc]** + **Security Level** for **Name**.
 
-1. Enter **1* for **Min Rating Value**.
+1. Enter **1** for **Min Rating Value**.
 
-1. Enter **5* for **Max Rating Value**.
+1. Enter **5** for **Max Rating Value**.
 
 1. Click **Save**.
 
-1. Click **Related** and select **Rating Values**.
+1. If Rating Values are not shown in a sub-gird on the General tab, click **Related** and select **Rating Values**.
 
 1. Click **+ New Rating Value**.
 
@@ -82,17 +82,19 @@ In this task you will create a proficiency model that contains the five differen
 
 1. Click **Save & Close**.
 
+1. In the **Dynamics 365 Field Service app**, click the **Resources** area in the bottom-left of the sitemap, and in the **Resource** group select **Proficiency Models**.
+
 1. Click **+ New** located on the command bar.
 
 1. Enter **[your prefix ex. mollyc]** + **Proficiency** for **Name**.
 
-1. Enter **1* for **Min Rating Value**.
+1. Enter **1** for **Min Rating Value**.
 
-1. Enter **3* for **Max Rating Value**.
+1. Enter **3** for **Max Rating Value**.
 
 1. Click **Save**.
 
-1. Click **Related** and select **Rating Values**.
+1. If Rating Values are not shown in a sub-gird on the General tab, click **Related** and select **Rating Values**.
 
 1. Click **+ New Rating Value**.
 
@@ -198,7 +200,7 @@ In this task, you will be adding the Installation Specialist, Site Inspector, an
 
 1. Click **+ New**.
 
-1. Enter **[your prefix ex. mollyc]** + **** for **Name**.
+1. Enter **[your prefix ex. mollyc]** + ***Security Analyst** for **Name**.
 
 1. Enter **Security Analyst** for **Description**.
 

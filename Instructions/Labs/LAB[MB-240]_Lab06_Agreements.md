@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab: Agreements'
+    title: 'Lab 6: Agreements (20 minutes)'
     module: 'Module 2: Manage Work Orders'
 ---
 
@@ -18,7 +18,7 @@ In this exercise you will be defining a preventative maintenance agreement that 
 
 1. Select the **[your prefix] Relecloud** account you created in a previous lab for **Service Account**.
 
-1. Select the **[your prefix] Price List** price list you created in a previous lab for **Price List**.
+1. Select the **[your prefix] Service Call** work order type you created in a previous lab for **Work Order Type**.
 
 1. Select **No** from the **Taxable** drop-down field.
 
@@ -38,19 +38,19 @@ In this exercise you will be defining a preventative maintenance agreement that 
 
 1. Select **Yes** for **Auto Generate Work Order**.
 
-1. Select **60** for **Auto Generate Work Order Days in Advance**.
+1. Select **60** for **Generate Work Order Days in Advance**.
 
 1. Select the **[your prefix] Low** priority you created in a previous lab for **Priority**.
 
 1. Select the **[your prefix] Price List** price list you created in a previous lab for **Price List**.
 
-1. Select **No** for **Auto Generate Work Booking**.
+1. Select **No** for **Auto Generate Booking**.
 
 1. Select **1 Hour** for **Estimated Duration**.
 
-1. Select **3** for **Pre Booking Flexibility**.
+1. Enter **3** for **Pre Booking Flexibility**.
 
-1. Select **3** for **Post  Booking Flexibility**.
+1. Enter **3** for **Post  Booking Flexibility**.
 
 1. Select **9:00 AM** for **Time Window Start**.
 
@@ -68,7 +68,7 @@ In this exercise you will be defining a preventative maintenance agreement that 
 
 1. Select **Monthly** from **Repeat** drop-down list.
 
-1. Select **End after (#specified) occurrences** from **End Date Behavior** drop-down list.
+1. Select **End after (#specified) occurrences** from the **End Date Behavior** drop-down list.
 
 1. Enter **12** for **Number of occurrences**.
 
@@ -76,7 +76,9 @@ In this exercise you will be defining a preventative maintenance agreement that 
 
 1. Click **Save & Close**.
 
-1. In the business process flow, click **Next Stage** and select the Agreement Booking Setup.
+1. In the business process flow, click **Next Stage** and select the Agreement Booking Setup you created.
+
+1. In the business process flow, click **Next Stage**.
 
 ### Task 3 - Setup an Automated Invoice for the Agreement
 

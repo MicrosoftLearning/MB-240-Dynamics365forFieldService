@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab: Work order management'
+    title: 'Lab 5: Work order management  (50 minutes)'
     module: 'Module 2: Manage Work Orders'
 ---
 
@@ -43,6 +43,8 @@ In this exercise you will configure settings for work orders including prioritie
 1. Enter **FF8E42** for **Priority Color**.
 
 1. Click **Save & Close**
+
+1. Click **+ New**.
 
 1. Enter **[your prefix ex. mollyc]** + **Urgent** for **Name**.
 
@@ -100,7 +102,7 @@ In this exercise you will create work orders, schedule the work orders, and comp
 
 1. Select the **[your prefix] North** territory you created in a previous lab **Service Territory**.
 
-1. Select the **[your prefix] Jane Doe** contact you created in a previous lab  for **Service Account**.
+1. Select the **[your prefix] Jane Doe** contact you created in a previous lab  for **Reported By Contact**.
 
 1. Enter **Today \@ 1:00 PM** for **Time from Promised**.
 
@@ -132,7 +134,7 @@ Field Service provides several items that can be used to assist in scheduling re
 
 1. Select the **[your prefix] North** territory you created in a previous lab **Service Territory**.
 
-1. Select the **[your prefix] Jane Doe** contact you created in a previous lab  for **Service Account**.
+1. Select the **[your prefix] Jane Doe** contact you created in a previous lab  for **Reported By Contact**.
 
 1. Enter **10:00 AM** for **Time Window Start**.
 
@@ -143,8 +145,6 @@ Field Service provides several items that can be used to assist in scheduling re
 1. Select the **Service Tasks** tab.
 
 1. Click **+ New Work Order Service Task**.
-
-1. Enter **[your prefix ex. mollyc]** + **Inspection** for **Name**.
 
 1. Select the **[your prefix] Inspection** service task type you created in Task 2 for **Task Type**.
 
@@ -174,21 +174,27 @@ Field Service provides several items that can be used to assist in scheduling re
 
 1. Click **Refresh** in the command bar. Verify that System Status is **Scheduled**.
 
-1. Click **Related** and select **Requirement**.
+1. Click **Related** and select **Requirements**.
 
-1. Edit the Resource Requirement record and examine its contents. The **Remaining Duration** should be **0 minutes**.
+1. Edit the Resource Requirement record and examine its contents. Select the **Scheduling** tab. The **Remaining Duration** should be **0 minutes**.
 
 1. Navigate back to the work order.
 
-1. In the General tab, edit the booking in the Bookings section and examine its contents.
+1. In the Summary tab, edit the booking in the Bookings section and examine its contents.
 
-1. In the Booking Record Booking form, enter an arrival time and change the **Booking Status** to **In Progress** and **Save and Close**.
+1. In the Bookable Resource Booking form, select the **Scheduling** tab.
+
+1. Set the **Actual Arrival Time** to the **Estimated Arrival Time**.
+
+1. Change the **Booking Status** to **In Progress**.
+
+1. Click **Save & Close**.
 
 1. Click **Refresh** in the command bar. Verify that System Status is **In Progress**.
 
-1. In the General tab, edit the booking in the Bookings section.
+1. In the Summary tab, edit the booking in the Bookings section.
 
-1. In the Booking Record Booking form, change the **Booking Status** to **Completed** and **Save and Close**.
+1. In the Booking Record Booking form, change the **Booking Status** to **Completed** and **Save & Close**.
 
 1. Select the **Service Tasks** tab.
 
@@ -196,9 +202,11 @@ Field Service provides several items that can be used to assist in scheduling re
 
 1. In the business process flow, click **Next Stage**. Verify that System Status is **Completed**.
 
-1. Select the **GEneral** tab.
+1. Select the **Summary** tab.
 
 1. Select the **[your prefix] Inspection complete no issues** resolution you created in Exercise 1 for **Primary Resolution**.
+
+1. Click **Save**.
 
 ### Task 4 - Create an incident type from a work order
 
@@ -210,4 +218,4 @@ Field Service provides several items that can be used to assist in scheduling re
 
 1. Click **Create Incident Type**.
 
-1. Click **Yes** and inspect the new incident type.
+1. Click **Yes** to the prompt, and inspect the new incident type.

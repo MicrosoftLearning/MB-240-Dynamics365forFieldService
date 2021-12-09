@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab: Inventory'
+    title: 'Lab 11: Inventory (10 minutes)'
     module: 'Module 5: Inventory'
 ---
 
@@ -48,7 +48,7 @@ In this exercise you will add inventory to a warehouse and then transfer to a tr
 
 1. Click **Save and Close**.
 
-1. Click **Save and Close**.
+1. Click **Save & Close**.
 
 ### Task 3 – Inventory transfer
 
@@ -72,6 +72,6 @@ In this exercise you will add inventory to a warehouse and then transfer to a tr
 
 1. Click **Save and Close**.
 
-1. Click **Save and Close**.
+1. Click **Save & Close**.
 
 1. In the **Dynamics 365 Field Service app**, click the **Inventory** area in the bottom-left of the sitemap, and in the **Inventory** group select **Product Inventory** and review the inventory lines.

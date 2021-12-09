@@ -1,6 +1,6 @@
 ---
 lab:
-  title: 'Lab: Create survey'
+  title: 'Lab 14: Create survey (30 minutes)'
   module: 'Module 7: Power Platform'
 ---
 
@@ -16,7 +16,7 @@ In this exercise, you will create a project and use a template to create a surve
 
 ### Task 1: Create project
 
-1. Navigate to <https://customervoice.microsoft.com>
+1. Navigate to <https://customervoice.microsoft.com>.
 
 1. Sign in with your Dynamics 365 tenant credentials.
 
@@ -26,7 +26,7 @@ In this exercise, you will create a project and use a template to create a surve
 
 1. Click **Next**
 
-1. Select the **WWLLABnnn** Dynamics 365 environment.
+1. Select the **WWLLABnnn** Dynamics 365 environment. If the environment is not listed, click **See all environments**.
 
 1. Click **Create**.
 
@@ -40,7 +40,7 @@ In this exercise, you will create a project and use a template to create a surve
 
 1. Select your project.
 
-1. Click in the **Header** and change **Field Service feedback** to **How did we do?**.
+1. Click in the **Header** and change **Field service feedback** to **How did we do?**.
 
 1. Hover the mouse over the header and click on the **Theme color** icon and change from 2266e3 to **ffdd66**.
 
@@ -56,9 +56,9 @@ In this exercise, you will create a project and use a template to create a surve
 
 1. Click in the Footer and enter **The feedback you submit will not be shared outside of the company.**
 
-1. Expand **Customization** and select **Personalization**
+1. Expand **Customization** and select **Personalization**.
 
-1. Click + **Add variable** and enter **workordernumber** with default value **Your booking**.
+1. Click + **Add variable** and enter **workordernumber** with default value **your booking**.
 
 1. Click **Save**.
 
@@ -68,7 +68,7 @@ In this exercise, you will create a project and use a template to create a surve
 
 1. Toggle **Progress bar** to **Off** and close the formatting pane.
 
-1. Click into the section header and clear the text *it*, click on the **variables** drop-down and select **workordernumber**.
+1. Click into the section header that starts with *Hi {{First Name}}* and clear the text *it*, click on the **variables** drop-down and select **workordernumber**.
 
 1. Click **Preview**.
 
@@ -108,9 +108,11 @@ In this exercise, you will create an email template and send the survey by email
 
 1. Enter **[your prefix ex. mollyc]** + **Field Service Visit** and click **Add**.
 
-1. Add a new line after the first paragraph.
+1. Click on the **Template** drop-down and **[your prefix] Field Service Visit**.
 
-1. Click on the **Insert** drop-down and select **First question in survey**.
+1. Click in the top of the body of the email template.
+
+1. Click on the **Insert** drop-down and select **First question of the survey**.
 
 1. Replace the subject line with **Please provide feedback on**, click on the **Insert** drop-down and select **Personalized variables** and then select **workordernumber**.
 
@@ -148,7 +150,7 @@ In this exercise, you will use Power Automate to send a survey when a work order
 
 1. Select the **Send a survey when a work order is completed or closed in Dynamics 365** template. You may need to click on **See more templates**.
 
-1. If the connections require action, click **Fix connection** and sign in when prompted.
+1. If the connections require action, click **Fix connection** and **Sign in** when prompted.
 
 1. Click **Continue**.
 

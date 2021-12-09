@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab: Customer assets'
+    title: 'Lab 12: Customer assets (25 minutes)'
     module: 'Module 6: Customer assets and connected devices'
 ---
 
@@ -58,13 +58,13 @@ In this exercise you will create the assets for a customer.
 
 1. Select the **[your prefix] Model** property definition you created for **Property**.
 
-1. Click **Save & Close**.
+1. Click **Save and Close**.
 
 1. Click **+ New Asset Category Template Association**.
 
 1. Select the **[your prefix] Printer** asset category you created for **Customer Asset Category**.
 
-1. Click **Save & Close**.
+1. Click **Save and Close**.
 
 1. Click **Save & Close**.
 
@@ -78,9 +78,9 @@ In this exercise you will create the assets for a customer.
 
 1. Select the **[your prefix] Printer** asset category you created for **Category**.
 
-1. Select the **[your prefix] Relecloud** account you created in an earlier lab for **Account**.
-
 1. Select the **[your prefix] Remote Printer** product you created in an earlier lab for **Product**.
+
+1. Select the **[your prefix] Relecloud** account you created in an earlier lab for **Account**.
 
 1. Click **Save & Close**.
 
@@ -96,7 +96,7 @@ In this exercise you will create the assets for a customer.
 
 1. Select the **[your prefix] Relecloud** account you created in an earlier lab for **Account**.
 
-1. Select the **[your prefix] Printer 122333** asset you created **Parent Asset**.
+1. Select the **[your prefix] Printer 122333** asset you created **Parent Customer Asset**.
 
 1. Click **Save & Close**.
 
@@ -108,7 +108,7 @@ In this exercise you will create the assets for a customer.
 
 1. Select the **[your prefix] Relecloud** account you created in an earlier lab for **Account**.
 
-1. Select the **[your prefix] Printer 122333** asset you created **Parent Asset**.
+1. Select the **[your prefix] Printer 122333** asset you created **Parent Customer Asset**.
 
 1. Click **Save & Close**.
 
@@ -124,27 +124,29 @@ In this exercise you will create functional locations for an account and associa
 
 1. Select the **Assets and Locations** tab.
 
-1. Click on the ellipsis (...) and select + **New location**.
+1. Click on the ellipsis (...) alongside **[your prefix] Relecloud** and select + **New location**.
 
 1. Enter **[your prefix]** + **Advanta A** for **Name**.
 
 1. Click on the pencil icon and enter **3009 160th Avenue Southeast, Bellevue, WA 98008, USA** for Address.
 
-1. Click **Save and CLose**.
+1. Click **Save and Close**.
 
-1. Click on the ellipsis (...) and select + **New location**.
+1. Click on the ellipsis (...) alongside **[your prefix] Relecloud** and select + **New location**.
 
 1. Enter **[your prefix]** + **Advanta B** for **Name**.
 
 1. Click on the pencil icon and enter **3007 160th Ave SE, Bellevue, WA 98008, USA** for Address.
 
-1. Click **Save and CLose**.
+1. Click **Save and Close**.
+
+1. Click on the ellipsis (...) alongside **[your prefix] Relecloud** and select + **New location**.
 
 1. Enter **[your prefix]** + **Advanta C** for **Name**.
 
-1. Click on the pencil icon and enter **3009 160th Ave SE, Bellevue, WA 98008, USA** for Address.
+1. Click on the pencil icon and enter **3005 160th Ave SE, Bellevue, WA 98008, USA** for Address.
 
-1. Click **Save and CLose**.
+1. Click **Save and Close**.
 
 1. In the **Dynamics 365 Field Service app**, click the **Service** area in the bottom-left of the sitemap, and in the **Assets** group select **Functional Locations**.
 
@@ -168,7 +170,6 @@ In this exercise you will create a work order linked to the customer asset and f
 
 ### Task 1 – Create work order with a customer asset
 
-
 1. In the **Dynamics 365 Field Service app**, click the **Service** area in the bottom-left of the sitemap, and in the **Scheduling** group select **Work Orders**.
 
 1. Click **+ New**.
@@ -185,4 +186,4 @@ In this exercise you will create a work order linked to the customer asset and f
 
 1. Select the **Products** tab.
 
-1. Open the work order product and select the **Product Related To** tab and verify the customer asset is selected.
+1. Open the work order product and select the **Product Relates To** tab and verify the customer asset is selected.

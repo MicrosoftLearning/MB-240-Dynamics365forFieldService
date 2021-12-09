@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab: Incident types'
+    title: 'Lab 4: Incident types (15 minutes)'
     module: 'Module 2: Manage Work Orders'
 ---
 
@@ -81,8 +81,6 @@ In this exercise you will create and populate an Incident Type as a template for
 1. Click **+ New**.
 
 1. Enter **[your prefix ex. mollyc]** + **Service Printer** for **Name**.
-
-1. Click the **New** button and enter **[your prefix ex. mollyc]+ Service Printer** for the Name.
 
 1. Select the **Details** tab.
 
@@ -218,9 +216,9 @@ In this exercise you will create a work order by using the incident type.
 
 1. Wait about 30 seconds to a minute and click **Refresh** in the command bar.
 
-1. Select the **Products** tab and verify that the **[your prefix ex. mollyc]+ Remote Printer Product** was added.
+1. Select the **Products** tab and verify that the **[your prefix] Remote Printer Product** was added.
 
-1. Select the **Services** tab and verify that the **[your prefix ex. mollyc]+ Printer Service Fee** was added.
+1. Select the **Services** tab and verify that the **[your prefix] Printer Service Fee** was added.
 
 1. Select the **Service Tasks** tab and verify that the three tasks were added.
 

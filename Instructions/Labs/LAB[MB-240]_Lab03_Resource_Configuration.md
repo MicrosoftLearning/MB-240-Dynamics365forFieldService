@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab: Resources'
+    title: 'Lab 3: Resources (20 minutes)'
     module: 'Module 1: Configure Field Service'
 ---
 
@@ -82,6 +82,8 @@ In this exercise you will create the location where resources will start and end
 
 1. Select the **General** tab
 
+1. If Resource Characteristics are not shown in a sub-gird on the General tab, click **Related** and select *Resource Characteristics**.
+
 1. Click **+ New Bookable Resource Characteristic**.
 
 1. Select the **[your prefix] Building Security** you created in the previous lab for **Characteristic**.
@@ -107,6 +109,8 @@ In this exercise you will create the location where resources will start and end
 1. Click **Save and Close**.
 
 1. Select the **General** tab
+
+1. If Resource Categories are not shown in a sub-gird on the General tab, click **Related** and select *Resource Characteristics**.
 
 1. Click **+ New Bookable Resource Category Assn**.
 
@@ -156,6 +160,6 @@ In this exercise you will create the location where resources will start and end
 
 1. Enter **[your prefix ex. mollyc]** + **Standard hours** for **Name**.
 
-1. Select your users for **Template resource**.
+1. Select your user for **Template resource**.
 
 1. Click **Save & Close**.

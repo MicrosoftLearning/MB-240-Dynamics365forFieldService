@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab: Field Service mobile app'
+    title: 'Lab 10: Field Service mobile app (30 minutes)'
     module: 'Module 4: Field Service mobile app'
 ---
 
@@ -40,8 +40,6 @@ In this exercise you will configure settings for work orders including prioritie
 
 1. In the **Dynamics 365 Field Service app**, click the **Service** area in the bottom-left of the sitemap, and in the **Scheduling** group select **Schedule Board**.
 
-1. The Schedule Board provides several options that can be used to schedule items, such as a filter, and a map view.
-
 1. Select the  **[your prefix] Board** tab.
 
 1. Expand the **Booking Requirements** pane at the bottom of the board.
@@ -71,6 +69,8 @@ In this exercise you will configure settings for work orders including prioritie
 1. Tap the **Customer** tab.
 
 1. Tap **Get Directions**.
+
+1. Close the mapping app.
 
 1. Tap the **Service** tab.
 
@@ -115,6 +115,8 @@ In this exercise you will configure settings for work orders including prioritie
 1. Tap to open the **Remote Printer** product.
 
 1. Tap **Used** for **Line Status**.
+
+1. If a popup message appears that says you do not have quantity on hand, click **OK**.
 
 1. Tap **Save**.
 
