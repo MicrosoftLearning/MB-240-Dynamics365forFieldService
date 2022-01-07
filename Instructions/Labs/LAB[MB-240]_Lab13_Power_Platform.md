@@ -4,7 +4,7 @@ lab:
   module: 'Module 7: Power Platform'
 ---
 
-# Practice Lab 13 – Power Platform
+# Practice Lab 13 – Customize Schedule Boards
 
 ## Scenario
 

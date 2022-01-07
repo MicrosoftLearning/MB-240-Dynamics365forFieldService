@@ -4,7 +4,7 @@ lab:
     module: 'Module 5: Inventory'
 ---
 
-# Practice Lab 11 - Field Service mobile app
+# Practice Lab 11 - Inventory
 
 ## Exercise 1 – Manage inventory
 
