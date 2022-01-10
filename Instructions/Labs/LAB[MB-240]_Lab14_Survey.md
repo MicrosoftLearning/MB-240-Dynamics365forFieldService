@@ -20,7 +20,7 @@ In this exercise, you will create a project and use a template to create a surve
 
 1. Sign in with your Dynamics 365 tenant credentials.
 
-1. Click **+ New project**.
+1. Create a new Project.
 
 1. Select the **Service visit** template
 
