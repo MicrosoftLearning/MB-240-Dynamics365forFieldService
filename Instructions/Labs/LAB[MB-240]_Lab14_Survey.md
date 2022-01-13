@@ -1,6 +1,6 @@
 ---
 lab:
-  title: 'Lab 14: Create survey (30 minutes)'
+  title: 'Lab 14: Create survey (25 minutes)'
   module: 'Module 7: Power Platform'
 ---
 
