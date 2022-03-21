@@ -18,7 +18,7 @@ In this exercise you will be defining a preventative maintenance agreement that 
 
 1. Select the **[your prefix] Relecloud** account you created in a previous lab for **Service Account**.
 
-1. Select the **[your prefix] Service Call** work order type you created in a previous lab for **Work Order Type**.
+1. Select the **[your prefix] Price List** price list created in a previous lab for **Price List**.
 
 1. Select **No** from the **Taxable** drop-down field.
 
