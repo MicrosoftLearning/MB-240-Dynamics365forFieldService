@@ -200,7 +200,7 @@ In this task, you will be adding the Installation Specialist, Site Inspector, an
 
 1. Click **+ New**.
 
-1. Enter **[your prefix ex. mollyc]** + ***Security Analyst** for **Name**.
+1. Enter **[your prefix ex. mollyc]** + **Security Analyst** for **Name**.
 
 1. Enter **Security Analyst** for **Description**.
 
