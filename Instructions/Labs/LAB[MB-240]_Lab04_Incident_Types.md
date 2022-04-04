@@ -174,7 +174,7 @@ In this exercise you will create a work order by using the incident type.
 
 1. Enter **[your prefix ex. mollyc]** + **Relecloud** for **Account Name**.
 
-1. Select the **Servicing** tab.
+1. Select the **Field Service** tab.
 
 1. Select the **[your prefix] Price List** record you created in a previous lab for **Price List**.
 
