@@ -182,7 +182,7 @@ Field Service provides several items that can be used to assist in scheduling re
 
 1. In the Summary tab, edit the booking in the Bookings section and examine its contents.
 
-1. In the Bookable Resource Booking form, select the **Scheduling** tab.
+1. In the Bookable Resource Booking form, select the **General** tab.
 
 1. Set the **Actual Arrival Time** to the **Estimated Arrival Time**.
 
