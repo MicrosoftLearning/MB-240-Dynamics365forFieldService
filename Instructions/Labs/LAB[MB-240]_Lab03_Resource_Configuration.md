@@ -12,7 +12,7 @@ In this exercise you will create the location where resources will start and end
 
 ### Task 1 - Set Time Zone
 
-1. Click the **Settings** icon in the navigation bar and select **Personalize Settings**.
+1. Click the **Settings** icon in the navigation bar and select **Personalization Settings**.
 
 1. Select your **Time Zone** and click **OK**.
 
