@@ -34,7 +34,7 @@ In this Module 0 lab, you will validate that your classroom tenant is working as
 
 1. Select the **WWLLABnnn** environment, where nnn is a number. This is the shared Dynamics 365 environment where you will be performing all labs.
 
-1. Click **Open environment**.
+1. Click **Open**.
 
 1. From the list of available Dynamics 365 apps, select the **Field Service** app.
 
