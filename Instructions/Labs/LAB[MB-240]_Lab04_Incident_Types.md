@@ -174,16 +174,6 @@ In this exercise you will create a work order by using the incident type.
 
 1. Enter **[your prefix ex. mollyc]** + **Relecloud** for **Account Name**.
 
-1. Select the **Field Service** tab.
-
-1. Select the **[your prefix] Price List** record you created in a previous lab for **Price List**.
-
-1. Select the **[your prefix] North** territory you created in a previous lab for **Service Territory**.
-
-1. Enter **Contact security at entrance on arrival** for **Work Order Instructions**.
-
-1. Enter **47.58413** for Latitude and **-122.13052** for Longitude.
-
 1. Click **Save & Close**.
 
 1. Click on **Contacts** in the **Customers** group of the sitemap.
