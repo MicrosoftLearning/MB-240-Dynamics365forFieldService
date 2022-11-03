@@ -146,7 +146,7 @@ In this exercise, you will use Power Automate to send a survey when a work order
 
 1. Click on the **Send** tab.
 
-1. Click on **Resend** and select **Automate**.
+1. Click **Automate**.
 
 1. Select the **Send a survey when a work order is completed or closed in Dynamics 365** template. You may need to click on **See more templates**.
 
