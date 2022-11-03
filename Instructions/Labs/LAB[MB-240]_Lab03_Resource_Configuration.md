@@ -110,7 +110,7 @@ In this exercise you will create the location where resources will start and end
 
 1. Select the **General** tab
 
-1. If Resource Categories are not shown in a sub-gird on the General tab, click **Related** and select *Resource Characteristics**.
+1. If **Resource Category Assns** are not shown in a sub-gird on the General tab, click **Related** and select **Resource Category Assns**.
 
 1. Click **+ New Bookable Resource Category Assn**.
 
