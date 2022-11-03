@@ -144,7 +144,7 @@ In this exercise, you will create a solution and add the views used on the sched
 
 1. Select the **Views** tab.
 
-1. Click **+ Add view**.
+1. Click **+ New view**.
 
 1. Enter **[your prefix ex. mollyc]** + **BRB Tooltip** for **Name** and click **Create**.
 
