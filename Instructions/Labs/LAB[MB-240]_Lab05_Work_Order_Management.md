@@ -186,7 +186,7 @@ Field Service provides several items that can be used to assist in scheduling re
 
 1. Set the **Actual Arrival Time** to the **Estimated Arrival Time**.
 
-1. Change the **Booking Status** to **In Progress**.
+1. Select the **General** tab and change the **Booking Status** to **In Progress**.
 
 1. Click **Save & Close**.
 
