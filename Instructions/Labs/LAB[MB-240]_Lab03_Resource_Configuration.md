@@ -132,7 +132,7 @@ In this exercise you will create the location where resources will start and end
 
 1. Click **Save & Close**.
 
-1. Click **Show Work Hours** in the command bar.
+1. Click the **Work Hours** tab.
 
 1. In the Calendar view, click **+ New** drop-down arrow and select **Working hours**.
 
