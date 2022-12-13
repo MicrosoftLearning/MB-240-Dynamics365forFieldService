@@ -166,7 +166,7 @@ Field Service provides several items that can be used to assist in scheduling re
 
 1. Navigate back to the work order.
 
-1. In the business process flow, click **Next Stage**. Verify that System Status is **Unscheduled** and Substatus is blank.
+1. In the business process flow, click **Work Order** then click Next Stage. Verify that System Status is Unscheduled and Substatus is blank.
 
 1. Click **Book**.
 
