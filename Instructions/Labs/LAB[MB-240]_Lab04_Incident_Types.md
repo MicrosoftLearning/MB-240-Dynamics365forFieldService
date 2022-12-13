@@ -172,7 +172,7 @@ In this exercise you will create a work order by using the incident type.
 
 1. Click **+ New**.
 
-1. Enter **[your prefix ex. mollyc]** + **Relecloud** for **Account Name**.
+1. Enter **[your prefix ex. mollyc]** + **Relecloud** for **Account Name**. Click **Save**.
 
 1. Select the **Field Service** tab.
 
