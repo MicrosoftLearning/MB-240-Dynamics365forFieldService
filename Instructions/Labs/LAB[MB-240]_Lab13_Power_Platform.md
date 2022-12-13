@@ -64,7 +64,7 @@ In this exercise, you will create a solution and add the views used on the sched
 
 1. Select **Resource Requirement** and click **Next**
 
-1. Click **Select components**.
+1. Click **Select objects**.
 
 1. Select the **Views** tab.
 
