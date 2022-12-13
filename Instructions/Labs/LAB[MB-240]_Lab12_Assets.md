@@ -186,4 +186,4 @@ In this exercise you will create a work order linked to the customer asset and f
 
 1. Select the **Products** tab.
 
-1. Open the work order product and select the **Product Relates To** tab and verify the customer asset is selected.
+1. Open the work order product and in the **General** tab, verify the customer asset is populated.
