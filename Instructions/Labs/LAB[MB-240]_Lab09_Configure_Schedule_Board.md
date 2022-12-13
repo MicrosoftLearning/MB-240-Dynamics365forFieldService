@@ -38,8 +38,6 @@ You can create new schedule boards and configure the for your requirements. In t
 
 1. Enter **12** for **Resource page count**.
 
-1. Enter **4** for **Number of days displayed in hours view**.
-
 1. Click **Add**.
 
 1. Select the  **[your prefix] Board** tab.
