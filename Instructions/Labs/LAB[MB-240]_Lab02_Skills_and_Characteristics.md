@@ -174,8 +174,6 @@ In this task you will be adding the **CISM:** Certified Information Security Man
 
 1. Click **Save & Close**.
 
-1. Click **Save & Close**.
-
 ### Task 4 - Define Resource Roles (Categories)
 
 In this task, you will be adding the Installation Specialist, Site Inspector, and Security Analyst resource roles.
