@@ -106,9 +106,9 @@ In this exercise you will be defining an inspection template and adding it to a 
 
 ### Task 3 – Download an image
 
-1. On a browser, navigate to <https://www.microsoft.com/en-us/microsoft-365/blog/2019/07/09/lexmark-digitizes-its-future-with-modern-workplace-microsoft-365/>.
+1. In the browser, open Microsoft Bing and do an image search for printers. 
 
-1. Right click on the image  of the printer and select **Save image as** and click **Save**.
+1. Right click on the image of the printer and select **Save image as** and click **Save**.
 
 ### Task 4 – Create a new Work Order and view the inspection
 
