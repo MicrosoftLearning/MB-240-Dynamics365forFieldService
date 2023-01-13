@@ -168,7 +168,7 @@ In this task you will be adding the **CISM:** Certified Information Security Man
 
 1. Enter **[your prefix ex. mollyc]** + **G SEC** for **Name**.
 
-1. Enter **[your prefix ex. mollyc]** + **GIAN Security Essentials** for **Description**.
+1. Enter **[your prefix ex. mollyc]** + **GIAC Security Essentials** for **Description**.
 
 1. Select **Certification** from the **Characteristic Type** drop-down field.
 
