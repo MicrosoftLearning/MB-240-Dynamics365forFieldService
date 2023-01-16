@@ -124,7 +124,7 @@ In this exercise you will create the location where resources will start and end
 
 1. Click **Save and Close**.
 
-1. Click **Related** and select **Resource Territories**.
+1. Click **Related** and select **Resource Territories** under the **Related-Details** section.
 
 1. Click **+ New Resource Territory**.
 
