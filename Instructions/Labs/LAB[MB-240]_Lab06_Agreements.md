@@ -58,7 +58,7 @@ In this exercise you will be defining a preventative maintenance agreement that 
 
 1. Click **Save**.
 
-1. Click on the ellipsis (...) in the **Incidents** section, and select **+ New Agreement Booking Incident**.
+1. Select the **Sub Grids** tab and then click on the ellipsis (...) in the **Incidents** section, and select **+ New Agreement Booking Incident**.
 
 1. Select the **[your prefix] Service Printer** incident type you created in a previous lab for **Incident Type**.
 
