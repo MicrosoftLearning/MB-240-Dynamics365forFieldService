@@ -140,7 +140,7 @@ In this task you will create a building security skill that will be used in conj
 
 ### Task 3 - Define Security certifications
 
-In this task you will be adding the **CISM:** Certified Information Security Manager, **CISSP:** Certified Information Systems Security Professional, and **GSEC:** GIAN Security Essentials certifications and resource skills.
+In this task you will be adding the **CISM:** Certified Information Security Manager, **CISSP:** Certified Information Systems Security Professional, and **GSEC:** GIAC Security Essentials certifications and resource skills.
 
 1. In the **Resource Scheduling app**, click the **Settings** area in the bottom-left of the sitemap, and in the **Resource** group select **Skills**.
 
