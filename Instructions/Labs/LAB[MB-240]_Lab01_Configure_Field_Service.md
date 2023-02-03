@@ -42,7 +42,7 @@ In this exercise, you will adding territories that will be used when scheduling 
 
 1. Enter **[your prefix ex. mollyc]** + **East** for **Territory Name** and click **Save**. Click **+ New**.
 
-1. Enter **[your prefix ex. mollyc]** + **West** for **Territory Name** and click **Save**.
+1. Enter **[your prefix ex. mollyc]** + **West** for **Territory Name** and click **Save & Close**.
 
 1. You will now have four Territories with your prefix.
 
