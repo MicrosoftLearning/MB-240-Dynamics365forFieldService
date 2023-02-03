@@ -58,7 +58,7 @@ In this exercise you will be defining an inspection template and adding it to a 
 
 1. Select the **Advanced** tab.
 
-1. Select **Multiline** for the **Input type** dro-pdown.
+1. Select **Multiline** for the **Input type** drop-down.
 
 1. Select the **Toolbox** tab.
 
