@@ -138,7 +138,7 @@ Field Service provides several items that can be used to assist in scheduling re
 
 1. Enter **10:00 AM** for **Time Window Start**.
 
-1. Enter **2:00 PM** for **Time Window Wnd**.
+1. Enter **2:00 PM** for **Time Window End**.
 
 1. Click **Save**.
 
