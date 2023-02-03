@@ -18,7 +18,7 @@ Additionally, each technician may have specific skills or Certifications that re
 
 - **CISM:** Certified Information Security Manager
 - **CISSP:** Certified Information Systems Security Professional
-- **G SEC:** GIAN Security Essentials
+- **G SEC:** GIAC Security Essentials
 
 Since some of your customers are government agencies, technicians may need to have specific security clearance levels. These can range from Level one to Level five.
 
