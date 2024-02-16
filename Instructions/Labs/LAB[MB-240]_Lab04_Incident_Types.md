@@ -5,10 +5,20 @@ lab:
 ---
 
 # Practice Lab 4 - Incident types
+## Scenario
+Many of Contoso Coffees’ work orders are similar in the fact that the products, services, and tasks are all the same. One that they perform often is preventative maintenance on commercial coffee equipment. To improve the amount of time that it takes to enter items into the system, Contoso wants to have templates that can be selected when new work orders are created that will pre-populate information onto a work order. 
+
+In this lab, you will be creating an Incident Type that will be used for preventative maintenance as a template for creating work orders. 
 
 ## Exercise 1 – Create an Incident Type
 
-In this exercise you will create and populate an Incident Type as a template for creating work orders.
+In this exercise you will create and populate a preventative maintenance inspection Incident Type that will be used as a template for creating work orders. 
+
+Your Incident Type will include the following:
+- The Products and Services to be delivered
+- The Service Tasks (with time estimates) that will need to be done.
+- Any Skills/Certifications that would be required for a technician to have. 
+
 
 ### Task 1 - Work Order Type
 
@@ -164,7 +174,7 @@ In this exercise you will create and populate an Incident Type as a template for
 
 ## Exercise 2 – Test the Incident Type
 
-In this exercise you will create a work order by using the incident type.
+Now that you Incident Type is created, In this exercise you will create a work order by using the incident type.
 
 ### Task 1 - Create Customer
 

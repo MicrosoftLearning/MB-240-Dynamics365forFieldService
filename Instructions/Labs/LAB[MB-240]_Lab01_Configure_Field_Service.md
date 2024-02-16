@@ -8,13 +8,23 @@ lab:
 
 ## Scenario
 
-Worldwide Industries (WWI) provides IT and networking services to their customers. Their services range from phone system and network installations to telephoning systems and security system installations. They are going to be leveraging Dynamics 365 for Field Service for installation and servicing of these systems for their customers. You are the system implementor that has been tasked with configuring the application to support the rollout of the application. You will be adding and configuring some products that can be installed and setting up skills and characteristics that will be used as part of the implementation.
+Contoso Coffee produces high-quality coffee and coffee machines. Their products are sold through retail channels including new Contoso retail stores in premium locations, premium food resellers and the Contoso Coffee Web Site. Even though their products are sold through different channels, they have certified technicians that either work directly for Contoso Coffee, or that work for authorized service providers. 
+
+Contoso coffee will be leveraging Dynamics 365 for Field Service to help manage machine installation for commercial vendors, and servicing machines for commercial and retail customers. You are the system implementor who has been tasked with configuring the Dynamics 365 Field service to support their rollout of the application. 
+
+Contoso wants to leverage the Dynamics 365 product catalog to define the products and services that will be delivered on work orders.  Additionally, Contoso splits their service zones into territories to make it easier to schedule onsite workers. You have been asked to configure the system to support these needs. 
+
+Upon successful completion of this lab, you will have successfully configured the following:
+* Ensured that Bing Maps can be used with resource scheduling.
+* Defined the different territories boundaries required.
+* Defined the Products and Services that will be delivered in the Product Catalog. 
+
 
 ## Exercise 1 – Map Configuration
 
 ### Task 1 - Enable Bing Maps to use with Resource Scheduling
 
-To ensure that you are able to take full advantage of the full scheduling and mapping capabilities available with Field Service, you need to ensure that it is configured to use a mapping provider. Bing Maps is the default map provider, but additional providers could be enabled.  We will be using Bing Maps.
+To ensure Contoso can take full advantage of all the scheduling and mapping capabilities available with Dynamics 365 Field Service, you need to ensure that it is configured to use a mapping provider. Bing Maps is the default map provider, but additional providers could be enabled. For the purposes of this exercise, we will be using Bing Maps.
 
 1. In the **Dynamics 365 Field Service app**, click the **Resources** area in the bottom-left of the sitemap, and in the **Administration** group select **Scheduling Parameters**.
 
@@ -28,7 +38,7 @@ To ensure that you are able to take full advantage of the full scheduling and 
 
 ## Exercise 2 - Configure Territories
 
-In this exercise, you will adding territories that will be used when scheduling resources and work orders.
+As mentioned previously, Contoso breaks the areas that they service into different territories. In this exercise, you will define the territories that will later be associated with Contoso’s different resources and work orders.
 
 ### Task 1 - Define Territories
 
@@ -48,7 +58,8 @@ In this exercise, you will adding territories that will be used when scheduling 
 
 ## Exercise 3 - Create Products
 
-In this exercise, you will adding products and services for use on work orders and add them to the price list.
+When onsite workers are servicing customers, they will often be installing, or replacing parts on different machines. Contoso wants to be able to track the products being installed, as well as the different services an onsite worker might provide. 
+You will need to add different products and services to the Dynamics 365 Product Catalog to support this. 
 
 ### Task 1 - Add Inventory Product
 

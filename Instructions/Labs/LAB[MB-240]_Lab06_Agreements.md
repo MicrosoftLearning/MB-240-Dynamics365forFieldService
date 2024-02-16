@@ -5,10 +5,17 @@ lab:
 ---
 
 # Practice Lab 6 - Agreements
+## Scenario
+Contoso Coffee provides preventative maintenance contracts on several models of commercial coffee equipment that they sell. When a customer purchase one of these models, Contoso will send out a technician once every three months to provide preventative maintenance on a device. 
+
+You have been asked to configure an agreement for a new customer that will do the following:
+- Create and schedule a preventative maintenance work order every three months. 
+    - The work customer has a specific resource they prefer to work with. This resource should be indicated. 
+- Send out an invoice every 6 months. 
 
 ## Exercise 1 - Create an Agreement
 
-In this exercise you will be defining a preventative maintenance agreement that will generate Work orders monthly and bill customers quarterly.
+In this exercise you will be defining a preventative maintenance agreement that will generate Work orders quarterly and bill customers every six months.
 
 ### Task 1 - Create Agreement
 

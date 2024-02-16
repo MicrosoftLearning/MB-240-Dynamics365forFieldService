@@ -5,10 +5,24 @@ lab:
 ---
 
 # Practice Lab 9 - Configure the Schedule Board
+## Scenario
+Contoso Coffee’s dispatchers are telling you that there are too many resources when trying to schedule items using the schedule board. They feel like it would be easier to schedule resources if the schedule boards were broken down into a series of smaller boards. One way they have identified to simplify scheduling is to have different boards broken down by territory.
+
+Each board should include the following:
+- Unscheduled work orders should only include work orders for that territory. 
+- Listed resources should only be resources associated with that territory.
+
+It is important to note that some resources might be assigned to multiple territories. It is OK if they show up on multiple schedule boards. 
 
 ## Exercise 1 - Create and configure a new schedule board
 
-You can create new schedule boards and configure the for your requirements. In this exercise we will create and configure a schedule board.
+In this exercise we will create and configure a schedule board for the WA territory.
+
+Successful configuration will include:   
+- Creation/Modification of necessary views based on territory. 
+- Creation of WA schedule board.
+- Filtering the board based on different views. 
+
 
 ### Task 1 – Create a schedule board
 

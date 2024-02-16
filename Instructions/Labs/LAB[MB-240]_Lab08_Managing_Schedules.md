@@ -5,10 +5,11 @@ lab:
 ---
 
 # Practice Lab 8 - Scheduling
-
+## Scenario
+Contoso Coffee is going to use Dynamics 365 Field Service to schedule and dispatch resources to complete work orders. In this lab, you will be using Dynamics 365 Field Service to schedule work orders. 
 ## Exercise 1 - Schedule work orders with the schedule board
 
-Out-of-the-box, Dynamics 365 for Field Service has the work order table enabled for use with the Resource Scheduling feature. In this exercise, we will be creating work orders that we can schedule using the application.
+Out-of-the-box, Dynamics 365 for Field Service has the work order table enabled for use with the Resource Scheduling feature. In this exercise, we will be creating two different work orders that we can schedule using the application.
 
 ### Task 1 – Create work orders
 
@@ -103,3 +104,4 @@ Universal Resource Scheduling provides several items that can be used to assist 
 1. Select the **Normal** work order that you created in Exercise 1 and click **Find Availability**.
 
 1. Select your resource and click **Book & Exit**.
+

@@ -5,6 +5,14 @@ lab:
 ---
 
 # Practice Lab 12 - Customer assets
+## Scenario
+After a Commercial coffee machine is installed at a customer location, Contoso Coffee will keep track of the assets at the customer location. This allows them to track work orders that are associated with the device. You have been tasked with configuring Dynamics 365 Field Service to support the use of Customer Assets. 
+
+Upon successful completion of this lab, you will do the following:
+- Configure a product to be converted to a Customer Asset automatically. 
+- Create a Customer Asset record. 
+- Define functional locations for an Account and associate assets with them. 
+- Attach Assets to work orders. 
 
 ## Exercise 1 – Convert product to customer asset
 

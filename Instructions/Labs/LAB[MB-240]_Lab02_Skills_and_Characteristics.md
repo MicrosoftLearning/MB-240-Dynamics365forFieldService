@@ -6,21 +6,34 @@ lab:
 
 # Practice Lab 2 - Skills and characteristics
 
-## Exercise 1 - Configure Dynamics 365 for Field Service Skills and Characteristics
+## Scenario
 
-Each technician that goes out to service customers may have a number of different skills and roles assigned to them. There are three primary roles that tech may have:
+Each technician services and installs equipment could have several different skills and roles assigned to them.  These skills and roles are used by Dynamics 365 Field Service to identify resources qualified to qualified resources that goes out to service customers 
+Contoso has identified three primary roles that an onsite technician might have:
 
 - Installation Specialist
+- Certified Repair Technician
 - Site Inspector
-- Security Analyst
 
-Additionally, each technician may have specific skills or Certifications that relate to a specific product or service. The most common certifications might be any of the following:
+Additionally, each technician may have specific Skills or Certifications that relate to a specific product or service. 
+
+Contoso has identified that the most common certifications might be any of the following:
+
 
 - **CISM:** Certified Information Security Manager
 - **CISSP:** Certified Information Systems Security Professional
 - **G SEC:** GIAC Security Essentials
 
-Since some of your customers are government agencies, technicians may need to have specific security clearance levels. These can range from Level one to Level five.
+## Exercise 1 - Configure Dynamics 365 for Field Service Skills and Characteristics
+Each technician that goes out to service customers may have a number of different skills and roles assigned to them. There are three primary roles that tech may have:
+- Installation Specialist
+- Site Inspector
+- Security Analyst
+
+Additionally, each technician may have specific skills or Certifications that relate to a specific product or service. The most common certifications a technician can have might be any of the following:
+- **CAT**: Certified Airpot Technician
+
+To gage the overall proficiency of a technician, Contoso uses a scale of 1 to 5. 
 
 ### Task 1 – Proficiency Models
 

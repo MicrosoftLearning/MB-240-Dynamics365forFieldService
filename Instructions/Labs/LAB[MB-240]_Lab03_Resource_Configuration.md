@@ -1,14 +1,29 @@
 ---
 lab:
-    title: 'Lab 3: Resources (20 minutes)'
+    title: 'Lab 3: Creating resources (20 minutes)'
     module: 'Module 1: Configure Field Service'
 ---
 
-# Practice Lab 3 - Resources
+# Practice Lab 3 - Creating resources
+## Scenario
+Contoso Coffee uses both internal employees as well as external contractors to perform commercial installation and service existing products. Internal resources are dispatched out of central locations. External resources are dispatched from their location. Ou have been asked to configure Dynamics 365 Field Service to support this. You must add the following:
+- Organizational Unit the following locations
+    - Bellevue
+    - Redmond
+    - Tacoma
+
+- Create the following resources:
+    -  Internal resources
+    - External resources 
 
 ## Exercise 1 – Base location
 
-In this exercise you will create the location where resources will start and end their day.
+In this exercise you will create the locations where internal resources will start and end their day.  Each organizational unit must have a Latitude and Longitude associated with it to ensure travel times can be calculated accordingly. 
+
+You will need to add the following Organizational Unit locations:
+- Bellevue
+- Redmond
+- Tacoma
 
 ### Task 1 - Set Time Zone
 
@@ -49,6 +64,13 @@ In this exercise you will create the location where resources will start and end
 1. Click **Save & Close**
 
 ## Exercise 2 – Configure resources
+In this exercise you will define the resources that will perform the onsite work. It is important that any internal resources start and end their day from the Bellevue organizational unit. External contractors will start and end their day from the address associated with their contact record. 
+
+In this exercise, you will be creating:
+- An internal resource associated with your user. 
+- An external resource associated with a Contact record. 
+
+Both resources will be assigned skills and Characteristics which will be used to identify them as qualified resources when scheduling work orders. 
 
 ### Task 1 - Create a Bookable Resource for your user record
 

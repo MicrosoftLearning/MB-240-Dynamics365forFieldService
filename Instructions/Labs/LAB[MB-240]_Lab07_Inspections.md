@@ -5,10 +5,22 @@ lab:
 ---
 
 # Practice Lab 7 - Inspections
+## Scenario
+When Contoso’s technicians are performing preventative maintenance work orders, Contoso wants to ensure that all technicians are following the same inspection process. This Process ensures that nothing is missed.   
+
+This inspection process includes: 
+- Identifying the make and model of the machine are inspecting. 
+- Taking a temperature and pressure reading.
+- Descaling or replacing the brew sensor as needed. 
+- Taking a picture of the controller assembly.
+- Logging the date, they performed the inspection on. 
+- Add any relevant notes. 
+
+The inspection should be associated with an Inspection task on the preventative Maintenance incident type. 
 
 ## Exercise 1 - Create and use an Inspection Template
 
-In this exercise you will be defining an inspection template and adding it to a server type task.
+In this exercise you will be defining an inspection template, adding it to an inspection service type task, and ensuring the task is on the Preventative Maintenance incident type. 
 
 ### Task 1 - Create Inspection Template
 

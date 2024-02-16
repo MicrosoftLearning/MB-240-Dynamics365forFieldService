@@ -8,11 +8,26 @@ lab:
 
 ## Scenario
 
-Worldwide Industries (WWI) provides IT and networking services to their customers. Their services range from phone system and network installations to telephoning systems and security system installations. They are going to be leveraging Dynamics 365 for Field Service for installation and servicing of these systems for their customers. You are the system implementor that has been tasked with configuring the application to support the rollout of the application. You will be adding and configuring some products that can be installed and setting up skills and characteristics that will be used as part of the implementation.
+Contoso Coffee produces high-quality coffee and coffee machines. They sell their products through retail channels including new Contoso retail stores in premium locations, premium food resellers and the Contoso Coffee website. Even though their products are sold through different channels, they have certified technicians that either work directly for Contoso Coffee, or that work for authorized service providers who they use to provide service on machines. 
 
-In this Module 0 lab, you will validate that your classroom tenant is working as expected. You will access your individual credentials, record your “*alias*”, and open the Dynamics 365 model-driven application that we will be using throughout the course.
+Contoso coffee will be leveraging Dynamics 365 for Field Service to help manage machine installations at commercial vendors, as well as for servicing machines for commercial and retail customers. You are the system implementor who has been tasked with configuring the Dynamics 365 Field service to support their rollout of the application. 
 
-**Important notice for instructors:** Please do not make any changes, including adding licenses or changing tenant password. Tenants are fully provisioned with all necessary licenses, environments, and applications to complete the required tenants. Instructors and students should not add any additional functionality outside of the published lab steps. Adding additional functionality will cause the tenant to break and become inactive, and changing tenant password will inhibit the recycling of the tenant for the next class. Thank you for your cooperation.
+You will be the primary person who will be configuring the key elements of Contoso Coffees field service deployment. 
+
+This will include the following:
+
+* Setting up initial system settings configurations. 
+* Defining product and services.
+* Configuring resources that will be assigned to jobs.
+* Configuring the system to deliver and manage work orders. 
+* Setting the schedule board to schedule work orders.
+* Configuring agreements.
+* Setting up customer assets. 
+
+
+In this Module 0 lab, you will validate that your classroom tenant is working as expected. You will access your individual credentials, record your “*alias*,” and open the Dynamics 365 model-driven application that we will be using throughout the course.
+
+**Important notice for instructors:** Please do not make any changes, including adding licenses or changing tenant password. Tenants are fully provisioned with all necessary licenses, environments, and applications to complete the required tenants. Instructors and students should not add any additional functionality outside of the published lab steps. Adding additional functionality will cause the tenant to break and become inactive, and changing the tenant password will inhibit the recycling of the tenant for the next class. Thank you for your cooperation.
 
 **Important Note:** This lab will provide you with an actual Dynamics 365 tenant and licenses for the Power Platform applications you will be using in this course. Please be aware that the Power Platform is evolving all the time. The instructions in this document may be different from what you experience in your actual tenant. It is also possible to experience a delay of several minutes before the virtual machine has network connectivity to begin the labs.
 

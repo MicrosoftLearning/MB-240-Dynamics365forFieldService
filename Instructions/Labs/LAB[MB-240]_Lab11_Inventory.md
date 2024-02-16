@@ -5,10 +5,14 @@ lab:
 ---
 
 # Practice Lab 11 - Inventory
+## Scenario
+Contoso Coffee stores their inventory in warehouses. Once a work order is ready to be delivered, inventory is transferred from a warehouse to the truck that a technician will be driving to deliver the work order. 
+
+You need to transfer the inventory from a physical warehouse to a technician’s truck. 
 
 ## Exercise 1 – Manage inventory
 
-In this exercise you will add inventory to a warehouse and then transfer to a truck.
+In this exercise you will add inventory to a warehouse and then transfer it to a truck.
 
 ### Task 1 – Setup inventory in Warehouse
 

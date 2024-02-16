@@ -5,6 +5,12 @@ lab:
 ---
 
 # Practice Lab 5 - Work order management
+## Scenario
+Contoso Coffee wants to make it as easy as possible for technicians who are working in the field. To accomplish this, they have identified a few areas that can help technicians. The first is by correctly prioritizing work orders. The second is by providing technicians with predefined resolutions that they can leverage when completing work orders. These resolutions will help Contoso better understand how items are being resolved. 
+
+In this lab, you will be: 
+- Defining different priorities that can be assigned to work orders.
+- Defining resolutions. 
 
 ## Exercise 1 – Settings for work orders
 

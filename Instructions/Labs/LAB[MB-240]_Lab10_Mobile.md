@@ -5,10 +5,14 @@ lab:
 ---
 
 # Practice Lab 10 - Field Service mobile app
+## Scenario
+Contoso Coffees’ onsite workers will be using the Dynamics 365 Field Service mobile application to service customers. They need to ensure that they can see items that are scheduled for them but can also use the application to complete their work orders. 
 
-## Exercise 1 – Configure Field Service mobile app for frontline workers
+In this lab, you will be deploying the Field service Mobile application to a mobile device, and then leveraging it to complete work order. 
 
-In this exercise you will configure settings for work orders including priorities and resolutions.
+## Exercise 1 – Deploy Field Service mobile app for frontline workers
+
+In this exercise, you will be deploying the Field Service Mobile application to a mobile device.
 
 ### Task 1 – Configure security and offline profile
 
@@ -57,8 +61,9 @@ In this exercise you will configure settings for work orders including prioritie
 1. Tap **Sign in** and log in with your Dynamics 365 tenant credentials.
 
 1. Verify that you can see the booking you made in Task 2.
-
-### Task 4 – Process the booking
+## Exercise 2 - Complete a work order using the Field Service mobile
+In this exercise, you will be walked through the process of completing a work order using the Dynamics 365 Field Service mobile application. 
+### Task 1 – Process the booking
 
 1. Tap to open the booking.
 
