@@ -6,7 +6,7 @@ As this is a shared environment, some tasks that require a tenant Global Adminis
 
 ## **Bing Maps**
 
-1. Navigate to the Power Platform admin center: <https://admin.powerplatform.microsoft.com/environments>
+1. Navigate to the Power Platform admin center `https://aka.ms/ppac` and select **Environments**.
 
 1. Select the **WWLLABnnn** environment, where nnn is a number. This is the shared Dynamics 365 environment where you will be performing all labs and demos.
 
@@ -20,7 +20,7 @@ As this is a shared environment, some tasks that require a tenant Global Adminis
 
 ## **Security roles**
 
-1. Navigate to the Power Platform admin center: <https://admin.powerplatform.microsoft.com/environments>
+1. Navigate to the Power Platform admin center `https://aka.ms/ppac` and select **Environments**.
 
 1. Select the **WWLLABnnn** environment, where nnn is a number. This is the shared Dynamics 365 environment where you will be performing all labs and demos.
 
@@ -246,7 +246,7 @@ If you see this error when using the Schedule Assistant, you need to install the
 
 1. Expand **Resources** and select **Dynamics 365 apps**.
 
-1. Select the ellipses next to **Dynamics 365 Service Scheduling** and select **Install**.
+1. Select the ellipsis (...) next to **Dynamics 365 Service Scheduling** and select **Install**.
 
 1. Select the **WWLLABnnn** environment, where nnn is a number.
 
