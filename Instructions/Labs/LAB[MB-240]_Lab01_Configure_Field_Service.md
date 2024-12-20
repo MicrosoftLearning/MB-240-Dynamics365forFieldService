@@ -46,13 +46,13 @@ As mentioned previously, Contoso breaks the areas that they service into differe
 
 1. Click **+ New** located on the command bar.
 
-1. Enter **[your prefix ex. mollyc]** + **North** for **Territory Name** and click **Save**. Click **+ New**.
+1. Enter **North** for **Territory Name** and click **Save**. Click **+ New**.
 
-1. Enter **[your prefix ex. mollyc]** + **South** for **Territory Name** and click **Save**. Click **+ New**.
+1. Enter **South** for **Territory Name** and click **Save**. Click **+ New**.
 
-1. Enter **[your prefix ex. mollyc]** + **East** for **Territory Name** and click **Save**. Click **+ New**.
+1. Enter **East** for **Territory Name** and click **Save**. Click **+ New**.
 
-1. Enter **[your prefix ex. mollyc]** + **West** for **Territory Name** and click **Save & Close**.
+1. Enter **West** for **Territory Name** and click **Save & Close**.
 
 1. You will now have four Territories with your prefix.
 
@@ -67,9 +67,9 @@ You will need to add different products and services to the Dynamics 365 Product
 
 1. Click **Add Product**.
 
-1. Enter **[your prefix ex. mollyc]** + **Remote Printer** for **Name**.
+1. Enter **Remote Printer** for **Name**.
 
-1. Enter **[your prefix ex. mollyc]** + **Print-Serv-1234** for **Product ID**.
+1. Enter **Print-Serv-1234** for **Product ID**.
 
 1. Select **Default Unit** for **Unit Group**.
 
@@ -81,8 +81,6 @@ You will need to add different products and services to the Dynamics 365 Product
 
 1. Set **Field Service Product Type** to **Inventory**.
 
-1. Set **Taxable** field to **No**.
-
 1. Click **Save**. (You may see a warning that a default price list has not been set. You can ignore this.)
 
 1. Click **Publish** and click **Confirm** from the popup.
@@ -93,9 +91,9 @@ You will need to add different products and services to the Dynamics 365 Product
 
 1. Click **Add Product**.
 
-1. Enter **[your prefix ex. mollyc]** + **Monthly Printer Maintenance** for **Name**.
+1. Enter **Monthly Printer Maintenance** for **Name**.
 
-1. Enter **[your prefix ex. mollyc]** + **Print-Maint** for **Product ID**.
+1. Enter **Print-Maint** for **Product ID**.
 
 1. Select **Default Unit** for **Unit Group**.
 
@@ -107,8 +105,6 @@ You will need to add different products and services to the Dynamics 365 Product
 
 1. Set **Field Service Product Type** to **Non-Inventory**.
 
-1. Set **Taxable** field to **No**.
-
 1. Click **Save**. (You may see a warning that a default price list has not been set. You can ignore this.)
 
 1. Click **Publish** and click **Confirm** from the popup.
@@ -119,9 +115,9 @@ You will need to add different products and services to the Dynamics 365 Product
 
 1. Click **Add Product**.
 
-1. Enter **[your prefix ex. mollyc]** + **Printer Service Fee** for **Name**.
+1. Enter **Printer Service Fee** for **Name**.
 
-1. Enter **[your prefix ex. mollyc]** + **Printer-Service-Fee** for **Product ID**.
+1. Enter **Printer-Service-Fee** for **Product ID**.
 
 1. Select **Default Unit** for **Unit Group**.
 
@@ -132,8 +128,6 @@ You will need to add different products and services to the Dynamics 365 Product
 1. Select the **Field Service** tab.
 
 1. Set **Field Service Product Type** to **Service**.
-
-1. Set **Taxable** field to **No**.
 
 1. Click **Save**. (You may see a warning that a default price list has not been set. You can ignore this.)
 
@@ -147,7 +141,7 @@ You will need to add different products and services to the Dynamics 365 Product
 
 1. Click **+ New**.
 
-1. Enter **[your prefix ex. mollyc]** +  **Price List** for **Name**.
+1. Enter **Price List** for **Name**.
 
 1. Click **Save**.
 
@@ -155,7 +149,7 @@ You will need to add different products and services to the Dynamics 365 Product
 
 1. Click **+ New Price List Item**.
 
-1. Select the **[your prefix] Remote Printer** product you created in Task 1.
+1. Select the **Remote Printer** product you created in Task 1.
 
 1. Select **Primary Unit** for **Unit**.
 
@@ -169,7 +163,7 @@ You will need to add different products and services to the Dynamics 365 Product
 
 1. Click **+ New Price List Item**.
 
-1. Select the **[your prefix] Monthly Printer Maintenance** product you created in Task 2.
+1. Select the **Monthly Printer Maintenance** product you created in Task 2.
 
 1. Select **Primary Unit** for **Unit**.
 
@@ -183,7 +177,7 @@ You will need to add different products and services to the Dynamics 365 Product
 
 1. Click **+ New Price List Item**.
 
-1. Select the **[your prefix] Printer Service Fee** product you created in Task 3.
+1. Select the **Printer Service Fee** product you created in Task 3.
 
 1. Select **Primary Unit** for **Unit**.
 
@@ -199,12 +193,12 @@ You will need to add different products and services to the Dynamics 365 Product
 
 1. Click **+ New Field Service Price List Item**.
 
-1. Enter **[your prefix ex. mollyc]** + **Printer Service Fee** for **Name**.
+1. Enter **Printer Service Fee** for **Name**.
 
 1. Select **Yes** from the **Flat Fee** drop-down field.
 
-1. Select the **[your prefix] Price List** price list you created in Task 4.
+1. Select the **Price List** price list you created in Task 4.
 
-1. Select the **[your prefix] Printer Service Fee** product you created in Task 3.
+1. Select the **Printer Service Fee** product you created in Task 3.
 
 1. Click **Save & Close**.

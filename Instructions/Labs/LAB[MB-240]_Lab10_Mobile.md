@@ -32,19 +32,19 @@ In this exercise, you will be deploying the Field Service Mobile application to 
 
 1. Click **+ New**.
 
-1. Select the **[your prefix] Relecloud** account you created in an earlier lab for **Service Account**.
+1. Select the **Relecloud** account you created in an earlier lab for **Service Account**.
 
-1. Select the **[your prefix] Service Printer** incident type you created in a previous lab for **Primary Incident Type**.
+1. Select the **Service Printer** incident type you created in a previous lab for **Primary Incident Type**.
 
 1. Select the **Settings** tab.
 
-1. Select the **[your prefix] Normal** priority you created in a previous lab for **Priority**.
+1. Select the **Normal** priority you created in a previous lab for **Priority**.
 
 1. Click **Save**.
 
 1. In the **Dynamics 365 Field Service app**, click the **Service** area in the bottom-left of the sitemap, and in the **Scheduling** group select **Schedule Board**.
 
-1. Select the  **[your prefix] Board** tab.
+1. Select the  **Board** tab.
 
 1. Expand the **Booking Requirements** pane at the bottom of the board.
 

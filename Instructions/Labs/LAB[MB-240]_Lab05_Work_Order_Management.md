@@ -20,19 +20,17 @@ In this exercise you will configure settings for work orders including prioritie
 
 1. In the **Dynamics 365 Field Service app**, click the **Settings** area in the bottom-left of the sitemap, and in the **Work Orders** group select **Priorities**.
 
-1. Click **+ New**.
+1. Open the **Low** record.
 
-1. Enter **[your prefix ex. mollyc]** + **Low** for **Name**.
-
-1. Select **1** from the **Level of Importance** drop-down field.
+1. Enter **1** from the **Priority Value**.
 
 1. Enter **6CC6CC** for **Priority Color**.
 
 1. Click **Save & Close**.
 
-1. Click **+ New**.
+1. Open the **Normal** record.
 
-1. Enter **[your prefix ex. mollyc]** + **Normal** for **Name**.
+1. Enter **4** from the **Priority Value**.
 
 1. Select **4** from the **Level of Importance** drop-down field.
 
@@ -40,21 +38,21 @@ In this exercise you will configure settings for work orders including prioritie
 
 1. Click **Save & Close**.
 
-1. Click **+ New**.
-
-1. Enter **[your prefix ex. mollyc]** + **High** for **Name**.
+1. Open the **High** record.
 
 1. Select **8** from the **Level of Importance** drop-down field.
+
+1. Enter **8** from the **Priority Value**.
 
 1. Enter **FF8E42** for **Priority Color**.
 
 1. Click **Save & Close**
 
-1. Click **+ New**.
-
-1. Enter **[your prefix ex. mollyc]** + **Urgent** for **Name**.
+1. Open the **Urgent** record.
 
 1. Select **10** from the **Level of Importance** drop-down field.
+
+1. Enter **10** from the **Priority Value**.
 
 1. Enter **FF1C33** for **Priority Color**.
 
@@ -66,25 +64,25 @@ In this exercise you will configure settings for work orders including prioritie
 
 1. Click **+ New**.
 
-1. Enter **[your prefix ex. mollyc]** + **Replaced Toner** for **Name**.
+1. Enter **Replaced Toner** for **Name**.
 
 1. Click **Save & Close**
 
 1. Click **+ New**.
 
-1. Enter **[your prefix ex. mollyc]** + **Replaced Printer Drum** for **Name**.
+1. Enter **Replaced Printer Drum** for **Name**.
 
 1. Click **Save & Close**
 
 1. Click **+ New**.
 
-1. Enter **[your prefix ex. mollyc]** + **Inspection complete no issues** for **Name**.
+1. Enter **Inspection complete no issues** for **Name**.
 
 1. Click **Save & Close**
 
 1. Click **+ New**.
 
-1. Enter **[your prefix ex. mollyc]** + **Inspection complete with issues** for **Name**.
+1. Enter **Inspection complete with issues** for **Name**.
 
 1. Click **Save & Close**
 
@@ -98,17 +96,17 @@ In this exercise you will create work orders, schedule the work orders, and comp
 
 1. Click **+ New**.
 
-1. Select the **[your prefix] Relecloud** account you created in a previous lab  for **Service Account**.
+1. Select the **Relecloud** account you created in a previous lab  for **Service Account**.
 
-1. Select the **[your prefix] Service Printer** incident type you created in a previous lab for **Primary Incident Type**.
+1. Select the **Service Printer** incident type you created in a previous lab for **Primary Incident Type**.
 
 1. Select the **Settings** tab.
 
-1. Select the **[your prefix] Normal** priority you created in Exercise 1 for **Priority**.
+1. Select the **Normal** priority you created in Exercise 1 for **Priority**.
 
-1. Select the **[your prefix] North** territory you created in a previous lab **Service Territory**.
+1. Select the **North** territory you created in a previous lab **Service Territory**.
 
-1. Select the **[your prefix] Jane Doe** contact you created in a previous lab  for **Reported By Contact**.
+1. Select the **Jane Doe** contact you created in a previous lab  for **Reported By Contact**.
 
 1. Enter **Today \@ 1:00 PM** for **Time from Promised**.
 
@@ -130,17 +128,17 @@ Field Service provides several items that can be used to assist in scheduling re
 
 1. Click **+ New**.
 
-1. Select the **[your prefix] Relecloud** account you created in a previous lab  for **Service Account**.
+1. Select the **Relecloud** account you created in a previous lab  for **Service Account**.
 
-1. Select the **[your prefix] Inspection** work order type you created in a previous lab for **Work Order Type**.
+1. Select the **Inspection** work order type you created in a previous lab for **Work Order Type**.
 
 1. Select the **Settings** tab.
 
-1. Select the **[your prefix] Low** priority you created in Exercise 1 for **Priority**.
+1. Select the **Low** priority you created in Exercise 1 for **Priority**.
 
-1. Select the **[your prefix] North** territory you created in a previous lab **Service Territory**.
+1. Select the **North** territory you created in a previous lab **Service Territory**.
 
-1. Select the **[your prefix] Jane Doe** contact you created in a previous lab  for **Reported By Contact**.
+1. Select the **Jane Doe** contact you created in a previous lab  for **Reported By Contact**.
 
 1. Enter **10:00 AM** for **Time Window Start**.
 
@@ -152,7 +150,7 @@ Field Service provides several items that can be used to assist in scheduling re
 
 1. Click **+ New Work Order Service Task**.
 
-1. Select the **[your prefix] Inspection** service task type you created in Task 2 for **Task Type**.
+1. Select the **Inspection** service task type you created in Task 2 for **Task Type**.
 
 1. Click **Save and Close**.
 
@@ -160,7 +158,7 @@ Field Service provides several items that can be used to assist in scheduling re
 
 1. Click **+ New Requirement Characteristic**.
 
-1. Select the **[your prefix] Building Security** characteristic you created in a previous lab for **Characteristic**.
+1. Select the **Building Security** characteristic you created in a previous lab for **Characteristic**.
 
 1. Select the Resource Requirement for the work order. This will have the same number as the Work Order for **Resource Requirement**.
 
@@ -186,9 +184,9 @@ Field Service provides several items that can be used to assist in scheduling re
 
 1. Navigate back to the work order.
 
-1. In the Summary tab, edit the booking in the Bookings section and examine its contents.
+1. In the General tab, edit the booking in the Bookings section and examine its contents.
 
-1. In the Bookable Resource Booking form, select the **Scheduling** tab.
+1. In the Bookable Resource Booking form, select the **General** tab.
 
 1. Set the **Actual Arrival Time** to the **Estimated Arrival Time**.
 
@@ -198,7 +196,7 @@ Field Service provides several items that can be used to assist in scheduling re
 
 1. Click **Refresh** in the command bar. Verify that System Status is **In Progress**.
 
-1. In the Summary tab, edit the booking in the Bookings section.
+1. In the General tab, edit the booking in the Bookings section.
 
 1. In the Booking Record Booking form, change the **Booking Status** to **Completed** and **Save & Close**.
 
@@ -208,20 +206,8 @@ Field Service provides several items that can be used to assist in scheduling re
 
 1. In the business process flow, click **Next Stage**. Verify that System Status is **Completed**.
 
-1. Select the **Summary** tab.
+1. Select the **General** tab.
 
-1. Select the **[your prefix] Inspection complete no issues** resolution you created in Exercise 1 for **Primary Resolution**.
+1. Select the **Inspection complete no issues** resolution you created in Exercise 1 for **Primary Resolution**.
 
 1. Click **Save**.
-
-### Task 4 - Create an incident type from a work order
-
-1. Edit the work order you completed in the previous task.
-
-1. Click **Create Incident Type** in the command bar.
-
-1. Enter **[your prefix ex. mollyc]** + **Quick Inspection** for **Name**.
-
-1. Click **Create Incident Type**.
-
-1. Click **Yes** to the prompt, and inspect the new incident type.

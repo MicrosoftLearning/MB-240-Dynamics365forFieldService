@@ -43,7 +43,7 @@ In this task you will create a proficiency model that contains the five differen
 
 1. Click **+ New** located on the command bar.
 
-1. Enter **[your prefix ex. mollyc]** + **Security Level** for **Name**.
+1. Enter **Security Level** for **Name**.
 
 1. Enter **1** for **Min Rating Value**.
 
@@ -55,7 +55,7 @@ In this task you will create a proficiency model that contains the five differen
 
 1. Click **+ New Rating Value**.
 
-1. Enter **[your prefix ex. mollyc]** + **Level 1 Security** for **Name**.
+1. Enter **Level 1 Security** for **Name**.
 
 1. Enter **1** for **Value**.
 
@@ -63,7 +63,7 @@ In this task you will create a proficiency model that contains the five differen
 
 1. Click **+ New Rating Value**.
 
-1. Enter **[your prefix ex. mollyc]** + **Level 2 Security** for **Name**.
+1. Enter **Level 2 Security** for **Name**.
 
 1. Enter **2** for **Value**.
 
@@ -71,7 +71,7 @@ In this task you will create a proficiency model that contains the five differen
 
 1. Click **+ New Rating Value**.
 
-1. Enter **[your prefix ex. mollyc]** + **Level 3 Security** for **Name**.
+1. Enter **Level 3 Security** for **Name**.
 
 1. Enter **3** for **Value**.
 
@@ -79,7 +79,7 @@ In this task you will create a proficiency model that contains the five differen
 
 1. Click **+ New Rating Value**.
 
-1. Enter **[your prefix ex. mollyc]** + **Level 4 Security** for **Name**.
+1. Enter **Level 4 Security** for **Name**.
 
 1. Enter **4** for **Value**.
 
@@ -87,7 +87,7 @@ In this task you will create a proficiency model that contains the five differen
 
 1. Click **+ New Rating Value**.
 
-1. Enter **[your prefix ex. mollyc]** + **Level 5 Security** for **Name**.
+1. Enter **Level 5 Security** for **Name**.
 
 1. Enter **5** for **Value**.
 
@@ -99,7 +99,7 @@ In this task you will create a proficiency model that contains the five differen
 
 1. Click **+ New** located on the command bar.
 
-1. Enter **[your prefix ex. mollyc]** + **Proficiency** for **Name**.
+1. Enter **Proficiency** for **Name**.
 
 1. Enter **1** for **Min Rating Value**.
 
@@ -111,7 +111,7 @@ In this task you will create a proficiency model that contains the five differen
 
 1. Click **+ New Rating Value**.
 
-1. Enter **[your prefix ex. mollyc]** + **Familiar** for **Name**.
+1. Enter **Familiar** for **Name**.
 
 1. Enter **1** for **Value**.
 
@@ -119,7 +119,7 @@ In this task you will create a proficiency model that contains the five differen
 
 1. Click **+ New Rating Value**.
 
-1. Enter **[your prefix ex. mollyc]** + **Proficient** for **Name**.
+1. Enter **Proficient** for **Name**.
 
 1. Enter **2** for **Value**.
 
@@ -127,7 +127,7 @@ In this task you will create a proficiency model that contains the five differen
 
 1. Click **+ New Rating Value**.
 
-1. Enter **[your prefix ex. mollyc]** + **Expert** for **Name**.
+1. Enter **Expert** for **Name**.
 
 1. Enter **3** for **Value**.
 
@@ -145,7 +145,7 @@ In this task you will create a building security skill that will be used in conj
 
 1. Click **+ New**.
 
-1. Enter **[your prefix ex. mollyc]** + **Building Security** for **Name**.
+1. Enter **Building Security** for **Name**.
 
 1. Select **Skill** from the **Characteristic Type** drop-down field.
 
@@ -159,19 +159,9 @@ In this task you will be adding the **CISM:** Certified Information Security Man
 
 1. Click **+ New**.
 
-1. Enter **[your prefix ex. mollyc]** + **CISM** for **Name**.
+1. Enter **CISM** for **Name**.
 
-1. Enter **[your prefix ex. mollyc]** + **Certified Information Security Manager** for **Description**.
-
-1. Select **Certification** from the **Characteristic Type** drop-down field.
-
-1. Click **Save & Close**.
-
-1. Click **+ New**.
-
-1. Enter **[your prefix ex. mollyc]** + **CISSP** for **Name**.
-
-1. Enter **[your prefix ex. mollyc]** + **Certified Information Systems Security Professional** for **Description**.
+1. Enter **Certified Information Security Manager** for **Description**.
 
 1. Select **Certification** from the **Characteristic Type** drop-down field.
 
@@ -179,9 +169,19 @@ In this task you will be adding the **CISM:** Certified Information Security Man
 
 1. Click **+ New**.
 
-1. Enter **[your prefix ex. mollyc]** + **G SEC** for **Name**.
+1. Enter **CISSP** for **Name**.
 
-1. Enter **[your prefix ex. mollyc]** + **GIAC Security Essentials** for **Description**.
+1. Enter **Certified Information Systems Security Professional** for **Description**.
+
+1. Select **Certification** from the **Characteristic Type** drop-down field.
+
+1. Click **Save & Close**.
+
+1. Click **+ New**.
+
+1. Enter **G SEC** for **Name**.
+
+1. Enter **GIAC Security Essentials** for **Description**.
 
 1. Select **Certification** from the **Characteristic Type** drop-down field.
 
@@ -195,7 +195,7 @@ In this task, you will be adding the Installation Specialist, Site Inspector, an
 
 1. Click **+ New**.
 
-1. Enter **[your prefix ex. mollyc]** + **Installation Specialist** for **Name**.
+1. Enter **Installation Specialist** for **Name**.
 
 1. Enter **Installation Specialist** for **Description**.
 
@@ -203,7 +203,7 @@ In this task, you will be adding the Installation Specialist, Site Inspector, an
 
 1. Click **+ New**.
 
-1. Enter **[your prefix ex. mollyc]** + **Site Inspector** for **Name**.
+1. Enter **Site Inspector** for **Name**.
 
 1. Enter **Site Inspector** for **Description**.
 
@@ -211,7 +211,7 @@ In this task, you will be adding the Installation Specialist, Site Inspector, an
 
 1. Click **+ New**.
 
-1. Enter **[your prefix ex. mollyc]** + **Security Analyst** for **Name**.
+1. Enter **Security Analyst** for **Name**.
 
 1. Enter **Security Analyst** for **Description**.
 
