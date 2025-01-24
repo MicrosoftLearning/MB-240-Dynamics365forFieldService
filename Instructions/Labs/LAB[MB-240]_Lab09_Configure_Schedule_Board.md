@@ -30,7 +30,7 @@ Successful configuration will include:
 
 1. Click the **+** icon in the top-left of the schedule board to add a new schedule board tab.
 
-1. Enter **[your prefix ex. mollyc]** + **Board** for **Board Name**.
+1. Enter **Board** for **Board Name**.
 
 1. Select **Everyone** from the **Shared with** drop-down field.
 
@@ -54,7 +54,7 @@ Successful configuration will include:
 
 1. Click **Add**.
 
-1. Select the  **[your prefix] Board** tab.
+1. Select the  **Board** tab.
 
 1. Click on the **Scheduler Settings** gear icon on the Schedule Board.
 

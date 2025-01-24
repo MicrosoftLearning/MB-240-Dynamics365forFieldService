@@ -28,7 +28,7 @@ In this exercise you will be defining an inspection template, adding it to an in
 
 1. Click **+ New**.
 
-1. Enter **[your prefix ex. mollyc]** + **Printer Inspection** for **Name for Inspection**.
+1. Enter **Printer Inspection** for **Name for Inspection**.
 
 1. Click on **TextBox** to add question.
 
@@ -70,7 +70,7 @@ In this exercise you will be defining an inspection template, adding it to an in
 
 1. Select the **Advanced** tab.
 
-1. Select **Multiline** for the **Input type** drop-down.
+1. Select **MultiLine** for the **Input type** drop-down.
 
 1. Select the **Toolbox** tab.
 
@@ -90,27 +90,27 @@ In this exercise you will be defining an inspection template, adding it to an in
 
 1. Click **+ New**.
 
-1. Enter **[your prefix ex. mollyc]** + **Inspect Printer** for **Name**.
+1. Enter **Inspect Printer** for **Name**.
 
-1. Enter **5 Minutes** for **Estimated Duration**.
+1. Enter **15 Minutes** for **Estimated Duration**.
 
 1. Toggle **Has Inspection** to **Yes**.
 
-1. Select the **[your prefix] Printer Inspection** inspection template you created in Task 1 for **Inspection Template**.
+1. Select the **Printer Inspection** inspection template you created in Task 1 for **Inspection Template**.
 
 1. Click **Save**.
 
 1. In the **Dynamics 365 Field Service app**, click the **Settings** area in the bottom-left of the sitemap, and in the **Work Orders** group select **Incident Types**.
 
-1. Edit the **[your prefix] Service Printer** incident type.
+1. Edit the **Service Printer** incident type.
 
 1. Select the **Service Tasks** tab.
 
 1. Click **+ New Incident Type Service Task**.
 
-1. Enter **[your prefix ex. mollyc]** + **Inspect Printer** for **Name**.
+1. Enter **Inspect Printer** for **Name**.
 
-1. Select the **[your prefix] Inspect Printer** service task type you created in Task 2 for **Task Type**.
+1. Select the **Inspect Printer** service task type you created in Task 2 for **Task Type**.
 
 1. Click **Save and Close**.
 
@@ -128,9 +128,9 @@ In this exercise you will be defining an inspection template, adding it to an in
 
 1. Click **+ New**.
 
-1. Select the **[your prefix] Relecloud** account you created in Task 1 for **Service Account**.
+1. Select the **Relecloud** account you created in Task 1 for **Service Account**.
 
-1. Select the **[your prefix] Service Printer** incident type you created in a previous lab for **Primary Incident Type**.
+1. Select the **Service Printer** incident type you created in a previous lab for **Primary Incident Type**.
 
 1. Click **Save**.
 
@@ -138,7 +138,7 @@ In this exercise you will be defining an inspection template, adding it to an in
 
 1. Select the **Service Tasks** tab and verify that the four tasks were added.
 
-1. Open the **[your prefix] Inspect Printer** work order service task.
+1. Open the **Inspect Printer** work order service task.
 
 1. Enter **122333** for **Serial number**.
 

@@ -45,7 +45,7 @@ You will need to add the following Organizational Unit locations:
 
 1. Click **+ New**.
 
-1. Enter **[your prefix ex. mollyc]** + **Org Unit** for **Name**.
+1. Enter **Org Unit** for **Name**.
 
 1. Select the **Scheduling** tab.
 
@@ -59,7 +59,7 @@ You will need to add the following Organizational Unit locations:
 
 1. Click **+ New**.
 
-1. Enter **[your prefix ex. mollyc]** + **Truck** for **Name**.
+1. Enter **Truck** for **Name**.
 
 1. Click **Save & Close**
 
@@ -76,10 +76,6 @@ Both resources will be assigned skills and Characteristics which will be used to
 
 1. In the **Dynamics 365 Field Service app**, click the **Resources** area in the bottom-left of the sitemap, and in the **Resource** group select **Resources**.
 
-1. Click **+ New**.
-
-1. Select **User** from the **Resource Type** drop-down field.
-
 1. Select the user record you are signed in as ex. **mollyc** or **Molly Clark** for the **User**.
 
 1. Select your Time Zone for **Time Zone**.
@@ -90,13 +86,13 @@ Both resources will be assigned skills and Characteristics which will be used to
 
 1. Select **Organizational Unit Address** from the **End Location** drop-down field.
 
-1. Select the **[your prefix] Org Unit** organizational unit you created in Exercise 1 for **Organizational Unit**.
+1. Select the **Org Unit** organizational unit you created in Exercise 1 for **Organizational Unit**.
 
 1. Select the **Field Service** tab
 
 1. Set the **Hourly Rate** field to **175**.
 
-1. Select the **[your prefix] Truck** you created in Exercise 1 for **Warehouse**.
+1. Select the **Truck** you created in Exercise 1 for **Warehouse**.
 
 1. Select **Yes** from the **Time Off Approval Required** drop-down field.
 
@@ -108,25 +104,25 @@ Both resources will be assigned skills and Characteristics which will be used to
 
 1. Click **+ New Bookable Resource Characteristic**.
 
-1. Select the **[your prefix] Building Security** you created in the previous lab for **Characteristic**.
+1. Select the **Building Security** you created in the previous lab for **Characteristic**.
 
-1. Select the **[your prefix] Level 5 Security** you created in the previous lab for **Rating Value**.
-
-1. Click **Save and Close**.
-
-1. Click **+ New Bookable Resource Characteristic**.
-
-1. Select the **[your prefix] CISM** you created in the previous lab for **Characteristic**.
-
-1. Select the **[your prefix] Proficient** you created in the previous lab for **Rating Value**.
+1. Select the **Level 5 Security** you created in the previous lab for **Rating Value**.
 
 1. Click **Save and Close**.
 
 1. Click **+ New Bookable Resource Characteristic**.
 
-1. Select the **[your prefix] CISSP** you created in the previous lab for **Characteristic**.
+1. Select the **CISM** you created in the previous lab for **Characteristic**.
 
-1. Select the **[your prefix] Expert** you created in the previous lab for **Rating Value**.
+1. Select the **Proficient** you created in the previous lab for **Rating Value**.
+
+1. Click **Save and Close**.
+
+1. Click **+ New Bookable Resource Characteristic**.
+
+1. Select the **CISSP** you created in the previous lab for **Characteristic**.
+
+1. Select the **Expert** you created in the previous lab for **Rating Value**.
 
 1. Click **Save and Close**.
 
@@ -136,13 +132,13 @@ Both resources will be assigned skills and Characteristics which will be used to
 
 1. Click **+ New Bookable Resource Category Assn**.
 
-1. Select the **[your prefix] Installation Specialist** you created in the previous lab for **Resource Category**.
+1. Select the **Installation Specialist** you created in the previous lab for **Resource Category**.
 
 1. Click **Save & Close**.
 
 1. Click **+ New Bookable Resource Category Assn**.
 
-1. Select the **[your prefix] Security Analyst** you created in the previous lab for **Resource Category**.
+1. Select the **Security Analyst** you created in the previous lab for **Resource Category**.
 
 1. Click **Save and Close**.
 
@@ -150,7 +146,7 @@ Both resources will be assigned skills and Characteristics which will be used to
 
 1. Click **+ New Resource Territory**.
 
-1. Select the **[your prefix] North** record you created in the previous lab for **Territory**.
+1. Select the **North** record you created in the previous lab for **Territory**.
 
 1. Click **Save & Close**.
 
@@ -180,7 +176,7 @@ Both resources will be assigned skills and Characteristics which will be used to
 
 1. Click **+ New**.
 
-1. Enter **[your prefix ex. mollyc]** + **Standard hours** for **Name**.
+1. Enter **Standard hours** for **Name**.
 
 1. Select your user for **Template resource**.
 

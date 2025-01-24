@@ -23,11 +23,9 @@ In this exercise you will be defining a preventative maintenance agreement that 
 
 1. Click **+ New**.
 
-1. Select the **[your prefix] Relecloud** account you created in a previous lab for **Service Account**.
+1. Select the **Relecloud** account you created in a previous lab for **Service Account**.
 
-1. Select the **[your prefix] Price List** price list created in a previous lab for **Price List**.
-
-1. Select **No** from the **Taxable** drop-down field.
+1. Select the **Price List** price list created in a previous lab for **Price List**.
 
 1. Select the first of the current month for the **Start Date**.
 
@@ -41,15 +39,15 @@ In this exercise you will be defining a preventative maintenance agreement that 
 
 1. In the agreement created in Task 1, click on the ellipsis (...) in the **Booking Setup** section, and select **+ New Agreement Booking Setup**.
 
-1. Enter **[your prefix ex. mollyc]** + **Monthly Printer Service** for **Name**.
+1. Enter **Monthly Printer Service** for **Name**.
 
 1. Select **Yes** for **Auto Generate Work Order**.
 
 1. Select **60** for **Generate Work Order Days in Advance**.
 
-1. Select the **[your prefix] Low** priority you created in a previous lab for **Priority**.
+1. Select the **Low** priority you created in a previous lab for **Priority**.
 
-1. Select the **[your prefix] Service Call** work order type you created in a previous lab for **Work Order Type**.
+1. Select the **Service Call** work order type you created in a previous lab for **Work Order Type**.
 
 1. Select **No** for **Auto Generate Booking**.
 
@@ -67,7 +65,7 @@ In this exercise you will be defining a preventative maintenance agreement that 
 
 1. Select the **Sub Grids** tab and then click on the ellipsis (...) in the **Incidents** section, and select **+ New Agreement Booking Incident**.
 
-1. Select the **[your prefix] Service Printer** incident type you created in a previous lab for **Incident Type**.
+1. Select the **Service Printer** incident type you created in a previous lab for **Incident Type**.
 
 1. Click **Save and Close**.
 
@@ -91,7 +89,7 @@ In this exercise you will be defining a preventative maintenance agreement that 
 
 1. In the agreement created in Task 1, click on the ellipsis (...) in the **Invoice Setup** section, and select **+ New Agreement Invoice Setup**.
 
-1. Enter **[your prefix ex. mollyc]** + **Quarterly Invoice** for **Name**.
+1. Enter **Quarterly Invoice** for **Name**.
 
 1. Click **Save**.
 
@@ -99,7 +97,7 @@ In this exercise you will be defining a preventative maintenance agreement that 
 
 1. Click **+ New Agreement Invoice Product**.
 
-1. Select the **[your prefix] Monthly Printer Maintenance** product you created in a previous lab for **Product**.
+1. Select the **Monthly Printer Maintenance** product you created in a previous lab for **Product**.
 
 1. Select the **Primary Unit** for **Unit**.
 

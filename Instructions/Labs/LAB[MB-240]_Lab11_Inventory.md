@@ -24,7 +24,7 @@ In this exercise you will add inventory to a warehouse and then transfer it to a
 
 1. Click **+ New Product Inventory**.
 
-1. Select the **[your prefix] Remote Printer** product you created in a previous lab for **Product**.
+1. Select the **Remote Printer** product you created in a previous lab for **Product**.
 
 1. Select the **Primary Unit** for **Unit**.
 
@@ -44,7 +44,7 @@ In this exercise you will add inventory to a warehouse and then transfer it to a
 
 1. Click **+ New Inventory Adjustment Product**.
 
-1. Select the **[your prefix] Remote Printer** product you created in a previous lab for **Product**.
+1. Select the **Remote Printer** product you created in a previous lab for **Product**.
 
 1. Select the **Primary Unit** for **Unit**.
 
@@ -62,13 +62,13 @@ In this exercise you will add inventory to a warehouse and then transfer it to a
 
 1. Select **Main** for **Source Warehouse**.
 
-1. Select **[your prefix] Truck** for **Destination Warehouse**.
+1. Select **Truck** for **Destination Warehouse**.
 
 1. Click **Save**.
 
 1. Click **+ New Inventory Adjustment Product**.
 
-1. Select the **[your prefix] Remote Printer** product you created in a previous lab for **Product**.
+1. Select the **Remote Printer** product you created in a previous lab for **Product**.
 
 1. Select the **Primary Unit** for **Unit**.
 

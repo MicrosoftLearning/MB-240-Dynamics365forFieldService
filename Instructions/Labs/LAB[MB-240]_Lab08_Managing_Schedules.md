@@ -17,15 +17,15 @@ Out-of-the-box, Dynamics 365 for Field Service has the work order table enabled 
 
 1. Click **+ New**.
 
-1. Select the **[your prefix] Relecloud** account you created in an earlier lab for **Service Account**.
+1. Select the **Relecloud** account you created in an earlier lab for **Service Account**.
 
-1. Select the **[your prefix] Service Printer** incident type you created in a previous lab for **Primary Incident Type**.
+1. Select the **Service Printer** incident type you created in a previous lab for **Primary Incident Type**.
 
 1. Select the **Settings** tab.
 
-1. Select the **[your prefix] Normal** priority you created in a previous lab for **Priority**.
+1. Select the **Normal** priority you created in a previous lab for **Priority**.
 
-1. Select the **[your prefix] North** territory you created in a previous lab for **Service Territory**.
+1. Select the **North** territory you created in a previous lab for **Service Territory**.
 
 1. Enter **Today \@ 1:00 PM** for **Time from Promised**.
 
@@ -35,15 +35,15 @@ Out-of-the-box, Dynamics 365 for Field Service has the work order table enabled 
 
 1. Click **+ New**.
 
-1. Select the **[your prefix] Relecloud** account you created in an earlier lab for **Service Account**.
+1. Select the **Relecloud** account you created in an earlier lab for **Service Account**.
 
-1. Select the **[your prefix] Quick Inspection** incident type you created in a previous lab for **Primary Incident Type**.
+1. Select the **Service Printer** incident type you created for **Primary Incident Type**.
 
 1. Select the **Settings** tab.
 
-1. Select the **[your prefix] Urgent** priority you created in a previous lab for **Priority**.
+1. Select the **Urgent** priority you created in a previous lab for **Priority**.
 
-1. Select the **[your prefix] North** territory you created in a previous lab for **Service Territory**.
+1. Select the **North** territory you created in a previous lab for **Service Territory**.
 
 1. Click **Save**. Make a note of the Work Order number.
 
@@ -79,7 +79,7 @@ Universal Resource Scheduling provides several items that can be used to assist 
 
 1. Click on the **Filters** icon.
 
-1. Select the **[your prefix] North** territory you created in a previous lab. 
+1. Select the **North** territory you created in a previous lab. 
 
 1. Click **Apply**. Your resource should be listed.
 
