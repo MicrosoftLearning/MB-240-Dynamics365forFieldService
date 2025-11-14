@@ -51,13 +51,7 @@ Out-of-the-box, Dynamics 365 for Field Service has the work order table enabled 
 
 Universal Resource Scheduling provides several items that can be used to assist in scheduling resources for specific items. The two primary components that are used are the Schedule Board and the Schedule Assistant. The Schedule Board provides the ability to manually schedule items, and the assistant offers suggestions on resources based on factors like location, skills, and availability. In this exercise we will examine how you can use the schedule board to schedule items.
 
-### Task 1 – Enable the new Schedule Board
-
-1. In the **Dynamics 365 Field Service app**, click the **Service** area in the bottom-left of the sitemap, and in the **Scheduling** group select **Schedule Board**.
-
-1. In the top-right on the Schedule Board, toggle **New Schedule Board** to **On**.
-
-### Task 2 – Schedule work orders
+### Task 1 – Schedule work orders
 
 1. In the **Dynamics 365 Field Service app**, click the **Service** area in the bottom-left of the sitemap, and in the **Scheduling** group select **Schedule Board**.
 
