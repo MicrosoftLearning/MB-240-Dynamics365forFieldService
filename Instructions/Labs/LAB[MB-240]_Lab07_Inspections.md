@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Lab 7: Inspections (15 minutes)'
-    module: 'Module 2: Manage Work Orders'
+  title: 'Lab 7: Inspections (15 minutes)'
+  module: 'Module 2: Manage Work Orders'
+  description: When Contoso’s technicians are performing preventative maintenance
+    work orders, Contoso wants to ensure that all technicians are following the same
+    inspection process. This Process ensures that nothing is missed.
+  duration: 15 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 7 - Inspections
