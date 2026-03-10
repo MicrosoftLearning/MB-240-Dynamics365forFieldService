@@ -1,7 +1,18 @@
 ---
 lab:
-    title: 'Lab 2: Skills and characteristics (20 minutes)'
-    module: 'Module 1: Configure Field Service'
+  title: 'Lab 2: Skills and characteristics (20 minutes)'
+  module: 'Module 1: Configure Field Service'
+  description: 'Each technician services and installs equipment could have several
+    different skills and roles assigned to them.  These skills and roles are used
+    by Dynamics 365 Field Service to identify resources qualified to qualified resources
+    that goes out to service customers Contoso has identified three primary roles
+    that an onsite technician might have:'
+  duration: 20 minutes
+  level: 100
+  islab: true
+  primarytopics:
+  - Dynamics 365
+  - Field Service
 ---
 
 # Practice Lab 2 - Skills and characteristics
