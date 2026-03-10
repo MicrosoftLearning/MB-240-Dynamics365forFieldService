@@ -1,7 +1,16 @@
 ---
 lab:
-    title: 'Lab 8: Managing schedules (15 minutes)'
-    module: 'Module 3: Schedule and dispatch work orders'
+  title: 'Lab 8: Managing schedules (15 minutes)'
+  module: 'Module 3: Schedule and dispatch work orders'
+  description: Contoso Coffee is going to use Dynamics 365 Field Service to schedule
+    and dispatch resources to complete work orders. In this lab, you will be using
+    Dynamics 365 Field Service to schedule work orders.
+  duration: 15 minutes
+  level: 100
+  islab: true
+  primarytopics:
+  - Dynamics 365
+  - Field Service
 ---
 
 # Practice Lab 8 - Scheduling
