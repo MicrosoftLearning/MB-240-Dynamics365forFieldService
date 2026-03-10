@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Lab 11: Inventory (10 minutes)'
-    module: 'Module 5: Inventory'
+  title: 'Lab 11: Inventory (10 minutes)'
+  module: 'Module 5: Inventory'
+  description: Contoso Coffee stores their inventory in warehouses. Once a work order
+    is ready to be delivered, inventory is transferred from a warehouse to the truck
+    that a technician will be driving to deliver the work order.
+  duration: 10 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 11 - Inventory
