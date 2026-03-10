@@ -1,7 +1,18 @@
 ---
 lab:
-    title: 'Lab 1: Configure Field Service (10 minutes)'
-    module: 'Module 1: Configure Field Service'
+  title: 'Lab 1: Configure Field Service (10 minutes)'
+  module: 'Module 1: Configure Field Service'
+  description: Contoso Coffee produces high-quality coffee and coffee machines. Their
+    products are sold through retail channels including new Contoso retail stores
+    in premium locations, premium food resellers and the Contoso Coffee Web Site.
+    Even though their products are sold through different channels, they have certified
+    technicians that either work directly for Contoso Coffee, or that work for authorized
+    service providers.
+  duration: 10 minutes
+  level: 200
+  islab: true
+  primarytopics:
+  - Field Service
 ---
 
 # Practice Lab 1 - Configure Dynamics 365 Field Service
