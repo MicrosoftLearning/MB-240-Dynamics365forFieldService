@@ -1,7 +1,17 @@
 ---
 lab:
-    title: 'Lab 12: Customer assets (25 minutes)'
-    module: 'Module 6: Customer assets and connected devices'
+  title: 'Lab 12: Customer assets (25 minutes)'
+  module: 'Module 6: Customer assets and connected devices'
+  description: After a Commercial coffee machine is installed at a customer location,
+    Contoso Coffee will keep track of the assets at the customer location. This allows
+    them to track work orders that are associated with the device. You have been tasked
+    with configuring Dynamics 365 Field Service to support the use of Customer Assets.
+  duration: 25 minutes
+  level: 100
+  islab: true
+  primarytopics:
+  - Dynamics 365
+  - Field Service
 ---
 
 # Practice Lab 12 - Customer assets
