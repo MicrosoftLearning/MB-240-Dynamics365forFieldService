@@ -1,7 +1,16 @@
 ---
 lab:
-    title: 'Lab 5: Work order management  (50 minutes)'
-    module: 'Module 2: Manage Work Orders'
+  title: 'Lab 5: Work order management  (50 minutes)'
+  module: 'Module 2: Manage Work Orders'
+  description: Contoso Coffee wants to make it as easy as possible for technicians
+    who are working in the field. To accomplish this, they have identified a few areas
+    that can help technicians. The first is by correctly prioritizing work orders.
+    The second is by providing technicians with predefined resolutions that they can
+    leverage when completing work orders. These resolutions will help Contoso better
+    understand how items are being resolved.
+  duration: 50 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 5 - Work order management
