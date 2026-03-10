@@ -1,7 +1,17 @@
 ---
 lab:
-    title: 'Lab 10: Field Service mobile app (30 minutes)'
-    module: 'Module 4: Field Service mobile app'
+  title: 'Lab 10: Field Service mobile app (30 minutes)'
+  module: 'Module 4: Field Service mobile app'
+  description: Contoso Coffees’ onsite workers will be using the Dynamics 365 Field
+    Service mobile application to service customers. They need to ensure that they
+    can see items that are scheduled for them but can also use the application to
+    complete their work orders.
+  duration: 30 minutes
+  level: 100
+  islab: true
+  primarytopics:
+  - Dynamics 365
+  - Field Service
 ---
 
 # Practice Lab 10 - Field Service mobile app
