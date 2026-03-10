@@ -1,7 +1,16 @@
 ---
 lab:
-    title: 'Lab 4: Incident types (15 minutes)'
-    module: 'Module 2: Manage Work Orders'
+  title: 'Lab 4: Incident types (15 minutes)'
+  module: 'Module 2: Manage Work Orders'
+  description: Many of Contoso Coffees’ work orders are similar in the fact that the
+    products, services, and tasks are all the same. One that they perform often is
+    preventative maintenance on commercial coffee equipment. To improve the amount
+    of time that it takes to enter items into the system, Contoso wants to have templates
+    that can be selected when new work orders are created that will pre-populate information
+    onto a work order.
+  duration: 15 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 4 - Incident types
