@@ -1,7 +1,15 @@
 ---
 lab:
-    title: 'Lab 9: Configure Schedule Boards (10 minutes)'
-    module: 'Module 3: Schedule and dispatch work orders'
+  title: 'Lab 9: Configure Schedule Boards (10 minutes)'
+  module: 'Module 3: Schedule and dispatch work orders'
+  description: Contoso Coffee’s dispatchers are telling you that there are too many
+    resources when trying to schedule items using the schedule board. They feel like
+    it would be easier to schedule resources if the schedule boards were broken down
+    into a series of smaller boards. One way they have identified to simplify scheduling
+    is to have different boards broken down by territory.
+  duration: 10 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 9 - Configure the Schedule Board
