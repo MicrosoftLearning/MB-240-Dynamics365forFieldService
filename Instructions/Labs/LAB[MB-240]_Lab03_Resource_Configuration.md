@@ -1,7 +1,18 @@
 ---
 lab:
-    title: 'Lab 3: Creating resources (20 minutes)'
-    module: 'Module 1: Configure Field Service'
+  title: 'Lab 3: Creating resources (20 minutes)'
+  module: 'Module 1: Configure Field Service'
+  description: 'Contoso Coffee uses both internal employees as well as external contractors
+    to perform commercial installation and service existing products. Internal resources
+    are dispatched out of central locations. External resources are dispatched from
+    their location. Ou have been asked to configure Dynamics 365 Field Service to
+    support this. You must add the following:'
+  duration: 20 minutes
+  level: 100
+  islab: true
+  primarytopics:
+  - Dynamics 365
+  - Field Service
 ---
 
 # Practice Lab 3 - Creating resources
