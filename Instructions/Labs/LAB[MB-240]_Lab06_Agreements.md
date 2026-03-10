@@ -1,7 +1,14 @@
 ---
 lab:
-    title: 'Lab 6: Agreements (20 minutes)'
-    module: 'Module 2: Manage Work Orders'
+  title: 'Lab 6: Agreements (20 minutes)'
+  module: 'Module 2: Manage Work Orders'
+  description: Contoso Coffee provides preventative maintenance contracts on several
+    models of commercial coffee equipment that they sell. When a customer purchase
+    one of these models, Contoso will send out a technician once every three months
+    to provide preventative maintenance on a device.
+  duration: 20 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 6 - Agreements
