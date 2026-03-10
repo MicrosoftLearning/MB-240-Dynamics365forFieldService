@@ -1,7 +1,16 @@
 ---
 lab:
-    title: 'Lab 0: Validate lab environment (5 minutes)'
-    module: 'Module 0: Course introduction'
+  title: 'Lab 0: Validate lab environment (5 minutes)'
+  module: 'Module 0: Course introduction'
+  description: Contoso Coffee produces high-quality coffee and coffee machines. They
+    sell their products through retail channels including new Contoso retail stores
+    in premium locations, premium food resellers and the Contoso Coffee website. Even
+    though their products are sold through different channels, they have certified
+    technicians that either work directly for Contoso Coffee, or that work for authorized
+    service providers who they use to provide service on machines.
+  duration: 5 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab - Validate lab environment
