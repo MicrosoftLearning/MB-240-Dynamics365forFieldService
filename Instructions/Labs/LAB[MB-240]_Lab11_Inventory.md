@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Lab 11: Inventory (10 minutes)'
-    module: 'Module 5: Inventory'
+  title: 'Lab 11: Inventory (10 minutes)'
+  module: 'Module 5: Inventory'
+  description: In this exercise you will add inventory to a warehouse and then transfer it to a truck.
+  duration: 10 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 11 - Inventory
