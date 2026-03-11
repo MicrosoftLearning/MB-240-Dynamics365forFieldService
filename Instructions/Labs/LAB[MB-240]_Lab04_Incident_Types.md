@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Lab 4: Incident types (15 minutes)'
-    module: 'Module 2: Manage Work Orders'
+  title: 'Lab 4: Incident types (15 minutes)'
+  module: 'Module 2: Manage Work Orders'
+  description: Now that you Incident Type is created, In this exercise you will create a work order by using the incident type.
+  duration: 15 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 4 - Incident types
