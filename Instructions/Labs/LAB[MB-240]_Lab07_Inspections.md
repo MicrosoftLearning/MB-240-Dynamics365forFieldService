@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Lab 7: Inspections (15 minutes)'
-    module: 'Module 2: Manage Work Orders'
+  title: 'Lab 7: Inspections (15 minutes)'
+  module: 'Module 2: Manage Work Orders'
+  description: In this exercise you will be defining an inspection template, adding it to an inspection service type task, and ensuring the task is on the Preventative Maintenance incident type.
+  duration: 15 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 7 - Inspections
