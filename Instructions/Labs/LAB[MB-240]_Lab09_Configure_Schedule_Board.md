@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Lab 9: Configure Schedule Boards (10 minutes)'
-    module: 'Module 3: Schedule and dispatch work orders'
+  title: 'Lab 9: Configure Schedule Boards (10 minutes)'
+  module: 'Module 3: Schedule and dispatch work orders'
+  description: In this exercise we will create and configure a schedule board for the WA territory.
+  duration: 10 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 9 - Configure the Schedule Board
