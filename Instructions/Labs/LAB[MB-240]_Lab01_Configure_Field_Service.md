@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Lab 1: Configure Field Service (10 minutes)'
-    module: 'Module 1: Configure Field Service'
+  title: 'Lab 1: Configure Field Service (10 minutes)'
+  module: 'Module 1: Configure Field Service'
+  description: 'Upon successful completion of this lab, you will have successfully configured the following:'
+  duration: 10 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Field Service
 ---
 
 # Practice Lab 1 - Configure Dynamics 365 Field Service

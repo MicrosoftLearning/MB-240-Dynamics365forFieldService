@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Lab 12: Customer assets (25 minutes)'
-    module: 'Module 6: Customer assets and connected devices'
+  title: 'Lab 12: Customer assets (25 minutes)'
+  module: 'Module 6: Customer assets and connected devices'
+  description: In this exercise you will create the assets for a customer.
+  duration: 25 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 12 - Customer assets

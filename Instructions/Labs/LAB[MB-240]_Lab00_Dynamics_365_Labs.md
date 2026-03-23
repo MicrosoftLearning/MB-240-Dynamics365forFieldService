@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Lab 0: Validate lab environment (5 minutes)'
-    module: 'Module 0: Course introduction'
+  title: 'Lab 0: Validate lab environment (5 minutes)'
+  module: 'Module 0: Course introduction'
+  description: You will be the primary person who will be configuring the key elements of Contoso Coffees field service deployment.
+  duration: 5 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Field Service
 ---
 
 # Practice Lab - Validate lab environment

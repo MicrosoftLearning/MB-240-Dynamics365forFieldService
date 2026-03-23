@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Lab 10: Field Service mobile app (30 minutes)'
-    module: 'Module 4: Field Service mobile app'
+  title: 'Lab 10: Field Service mobile app (30 minutes)'
+  module: 'Module 4: Field Service mobile app'
+  description: In this exercise, you will be deploying the Field Service Mobile application to a mobile device.
+  duration: 30 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Field Service
 ---
 
 # Practice Lab 10 - Field Service mobile app

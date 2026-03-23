@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Lab 6: Agreements (20 minutes)'
-    module: 'Module 2: Manage Work Orders'
+  title: 'Lab 6: Agreements (20 minutes)'
+  module: 'Module 2: Manage Work Orders'
+  description: In this exercise you will be defining a preventative maintenance agreement that will generate Work orders quarterly and bill customers every six months.
+  duration: 20 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 6 - Agreements

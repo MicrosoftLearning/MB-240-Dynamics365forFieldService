@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Lab 2: Skills and characteristics (20 minutes)'
-    module: 'Module 1: Configure Field Service'
+  title: 'Lab 2: Skills and characteristics (20 minutes)'
+  module: 'Module 1: Configure Field Service'
+  description: In this task you will create a proficiency model that contains the five different security clearance levels and a proficiency model for skill level.
+  duration: 20 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 2 - Skills and characteristics

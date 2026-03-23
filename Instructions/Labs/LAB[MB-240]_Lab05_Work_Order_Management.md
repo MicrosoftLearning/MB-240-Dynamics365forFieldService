@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Lab 5: Work order management  (50 minutes)'
-    module: 'Module 2: Manage Work Orders'
+  title: 'Lab 5: Work order management  (50 minutes)'
+  module: 'Module 2: Manage Work Orders'
+  description: In this exercise you will configure settings for work orders including priorities and resolutions.
+  duration: 50 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 5 - Work order management

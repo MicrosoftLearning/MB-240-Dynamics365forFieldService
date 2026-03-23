@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Lab 3: Creating resources (20 minutes)'
-    module: 'Module 1: Configure Field Service'
+  title: 'Lab 3: Creating resources (20 minutes)'
+  module: 'Module 1: Configure Field Service'
+  description: In this exercise you will create the locations where internal resources will start and end their day. Each organizational unit must have a Latitude and Longitude associated with it to ensure travel times can be calculated accordingly.
+  duration: 20 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 3 - Creating resources
